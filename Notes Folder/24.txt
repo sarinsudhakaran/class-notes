@@ -1,0 +1,1236 @@
+Speaker 1: Okay.
+Deepk Anchlia:  You know, I'm listening—what is healthcare in NVIDIA?
+Speaker 1:  That's what—
+Deepk Anchlia:  You know, it's, it's—
+Sonam Khandelwal:  I think something—it's a very common corporate thing. So, uh, before MBA I was working at Lamentary Hotels.
+Deepk Anchlia:  Yeah.
+Sonam Khandelwal:  And MD of Lamentary Hotels is Patanjali Keswani—Paatu Keswani—back then he was the person. And, uh, so everybody openly knew that he has affairs with his exec—this EA. And everybody who ideally is him—Paatu's office—so three, four women.
+Sonam Khandelwal:  And they keep changing every one or two or three years, and they get all the privileges, like. So, uh, he had some time with RJ Corp guys where he used to use Ravi Jaipuriya's private jet for flying around the world with these women.
+Sonam Khandelwal:  So it was an openly known fact, but—
+Deepk Anchlia:  Damn.
+Speaker 1:  Yeah. But I mean, like, unsaid thing, but yeah.
+Deepk Anchlia:  Yeah.
+Speaker 1:  It's—it's that the case. But yes, these are people, like, I don't know.
+sohan naik:  So in fact, there is one of the—I wouldn't name the person in the company—a group CHRO of a big, big listed company in India, okay?
+Speaker 1:  Yeah.
+sohan naik:  He had an affair. And this is—this is an unsaid rule. Everybody has an affair at that level with the EAs, okay?
+Speaker 1:  Ah.
+Deepk Anchlia:  Now everybody knows. But here's what happened: the EA complained for this person.
+Speaker 1:  Ah, Asha, that's right.
+Deepk Anchlia:  And, uh, he left the company. But again, he joined a similar domain in the company at the same level.
+Speaker 1:  Hmm.
+Deepk Anchlia:  30% time. Imagine.
+Speaker 1:  Wow.
+sohan naik:  Whereas the MD of that company—even he comes on TV and different shows—knows this thing.
+Speaker 1:  Yeah.
+Deepk Anchlia:  So.
+Speaker 1:  Hmm.
+sohan naik:  I don't think people are really bothered also. I mean, if you look at it from that lens.
+Speaker 1:  A lot of people aren't, right?
+Deepk Anchlia:  It's not an issue, but yeah.
+Speaker 1:  A lot of people aren't. So, but in good product cultures, huh, you'll be fired. It's what—what happened to Binny Bansal, right?
+Speaker 1:  He was fired from Flipkart, right? I mean, he resigned, but towards the end he was almost about to get fired because his affair with one of the, uh, persons reporting to him was caught.
+Speaker 1:  And that's what—what is happening. What happened to, uh, Google?
+Speaker 1:  Sergey Page? He was fired because his affair got caught.
+Speaker 1:  He's almost fired. I would not say he was fired, but he was almost fired.
+Speaker 1:  But with NVIDIA, the—the claims are pretty serious. The thing is, because it's a company which depends a lot on, uh, ethics because considering the size of the company, right?
+Speaker 1:  So first thing is that he was—and by the way, if you have realized this, once that Chinese spy conspiracy was coming up, he was not fired, right? But the moment the first affair came out, right, he resigned, right?
+Speaker 1:  And then the confirmation of second affair, then the third affair, right? Eventually, there is a speculation that he has more than 40 affairs, right?
+Speaker 1:  And how do I know this? Because, uh, there are some people, uh, who are a part of us in some shape, way, or form, right?
+Speaker 1:  They are working at NVIDIA. One of the—one of the persons, uh, who actually came to one of the recent, recent calls as well, right, he mentioned it that there is internal rumor that this dude has possibility of having affair with more than 40 people in the last 5 years, right?
+Speaker 1:  It's a very huge deal because people will now screw him for this. But clearly he's not getting screwed for this, no.
+Deepk Anchlia:  He cannot be. He cannot be. The thing is, uh, because the demand for AI is—was not so much.
+Deepk Anchlia:  Jensen was the first person to create that demand. So you know what he did, and I wrote a post about it, about—about this last night as well, that he has invested some money.
+Deepk Anchlia:  And this is one of the cases. He has invested some money, uh, 105 billion in OpenAI, and then 100 billion for one of the Ohio-based data centers, right?
+Deepk Anchlia:  Now that data center is going to get leased to OpenAI. Eventually, when OpenAI is, you know, is getting funding or leasing the data center, they are going to raise demand for chips.
+Deepk Anchlia:  So eventually the chip demand goes to NVIDIA back, right? In a way, they are circulating money.
+Deepk Anchlia:  It's a circular money, right? So a lot of this has created false demand because this shows that the growth is high, which means investor interest is getting attention, and they're investing and pumping money into this.
+Deepk Anchlia:  That is why they have inflated the numbers. And that is why everybody is saying that AI bubble is going to pop.
+Deepk Anchlia:  This is the reason AI bubble is going to get popped. Now, why Jensen is in the center of this?
+Deepk Anchlia:  Because he has built relationships. A lot of—a lot of this has happened because Jensen—Jensen was a visionary, right?
+Deepk Anchlia:  He was a person on his words. A lot of things happened.
+Deepk Anchlia:  So today, if they remove him, there is no other damn person. That is why Trump himself came and he mentioned that you should reinstate Jensen.
+Deepk Anchlia:  Otherwise, we are screwed. The economy—it would be the largest, the largest economic downturn ever if Jensen is not there.
+Deepk Anchlia:  That is why, even though God knows how many affairs he has, he is still the, uh, he is still asked to be the CEO back. That's one, yes.
+Speaker 1:  Deepak, it's my wedding anniversary now in 3 minutes. I need 10, 15 minutes.
+Deepk Anchlia:  Are, sure, man. Sure. Happy anniversary, dude.
+Speaker 1:  Happy anniversary.
+Deepk Anchlia:  Thank you.
+Speaker 1:  Even—even I remembered just now.
+Deepk Anchlia:  Good that you remembered now.
+Speaker 1:  No, dude. I mean, I mean, I think it was a good point that came up.
+Deepk Anchlia:  It would be scandalous for him discussing affairs on this call and forgetting it.
+Speaker 1:  I'm just imagining it. Suehan's wife is standing there and she is listening. What the hell, dude?
+Speaker 1:  You were talking about affair, then you are saying happy anniversary, baby. What the hell?
+Deepk Anchlia:  No, she only reminded me.
+Speaker 1:  Happy anniversary.
+Deepk Anchlia:  I think she heard it. That's why she reminded.
+Speaker 1:  Yeah.
+Deepk Anchlia:  Don't talk about affairs.
+Speaker 1:  She reminded all one group.
+Deepk Anchlia:  You better don't talk about affairs.
+Speaker 1:  But guys, I'll be—I'll be back in some time, yeah?
+Deepk Anchlia:  Ha, dude. But you also travel a lot. Just FYI.
+Speaker 1:  Stop planting thoughts.
+Deepk Anchlia:  No.
+Speaker 1:  We'll speak offline.
+Deepk Anchlia:  I think that's why Deepak—Suehan was having network issues. Someone was.
+Speaker 1:  Yeah, could be. Could be. That could be the reason.
+Deepk Anchlia:  Rohit, you remember you're in my group only, right?
+Speaker 1:  Yeah.
+Rohit Dwivedi:  Yeah, same group. Even I have a family function tomorrow. I have to, like, we have a marriage in our attorney here.
+Speaker 1:  Okay.
+Deepk Anchlia:  Chalo.
+Speaker 1:  चलो, ठीक है ब्रो। यू एंजॉय, आराम से। कोई दिक्कत नहीं है।
+Deepk Anchlia:  या।
+Speaker 1:  ठीक है। चलो, वी—वी शुड स्टार्ट। 
+Speaker 1: ठीक है। द फर्स्ट ग्रुप, राइट, थिंक अबाउट व्हाट हैज़ फंडामेंटली चेंज इन अर्बन लिविंग। दैट इज़ द फर्स्ट पॉइंटर, राइट?
+Speaker 1:  अह, सेकंड पॉइंटर कुड बी, अह, हाउ डज़ रेसिडेंशियल डेंसिटी हैज़ चेंज इकोनॉमिक सो फार? 
+Speaker 1: ठीक है। अह, हाउ इज़ मनी फ्लोइंग विद इन दीज़ अपार्टमेंट्स, दीज़ फ्लैट्स, स्टैंड अलोनस, एक्सट्रा?
+Speaker 1:  व्हाट एक्चुअली हैज़ बिकेम पॉसिबल आफ्टर अ लॉट ऑफ पीपल स्टार्टेड कमिंग टुगेदर एंड लिविंग इनटू गेटेड सोसाइटीज़? इकोनॉमिकली इज़ द वर्ड।
+Speaker 1:  एंड नेक्स्ट क्वेश्चन इज़—एंड चलो, दिस इज़ द लास्ट क्वेश्चन फॉर योर टीम। अह, इज़ दिस—डज़ दिस एक्चुअली मेक सेंस टू एक्सप्लोर दिस इकोसिस्टम एज़ ऑफ़ नाउ?
+Speaker 1:  राइट? सो दीज़ आर लाइक, आई थिंक, फाइव और सिक्स क्वेश्चन्स फॉर योर, अह, ग्रुप वन। 
+Speaker 1: ठीक है? आई होप यू हैव रिटर्न इट डाउन। 
+Speaker 1: ठीक है? शैल आई मूव फॉरवर्ड?
+Speaker 1:  सो, ग्रुप वन इज़ गोइंग टू अंडरस्टैंड मोर ऑफ़ एन इकोनॉमिक शिफ्ट। 
+Speaker 1: ठीक है? अह, लेट्स कम टू ग्रुप नंबर टू। ग्रुप नंबर टू विल बी फोकस्ड टुवर्ड्स मोर ऑफ़ ह्यूमन लेवल, बिहेवियरल लेवल शिफ्ट।
+Speaker 1:  राइट? नाउ, द फर्स्ट क्वेश्चन फॉर यू कैन बी, कैन यू थिंक और कैन यू गेट सम डेटा अराउंड हाउ हैज़ अपार्टमेंट लिविंग चेंज्ड और चेंजिंग द ह्यूमन बिहेवियर? 
+Speaker 1: ठीक है? नेक्स्ट कुड बी, अह, व्हाट काइंड ऑफ न्यूअर हैबिट्स, अह, रिलेशनशिप्स, अह, कंस्ट्रेंट्स, डिपेंडेंसीज़, एक्सट्रा, एक्सट्रा हैव एमर्ज्ड सो फार? चलो, रोहित। 
+Speaker 1: ठीक है? अह, नेक्स्ट कुड बी, व्हाट आर पीपल डूइंग डिफरेंटली हियर एज़ कंपेयर टू समबडी लिविंग इन एन इंडिपेंडेंट हाउस? 
+Speaker 1: ठीक है? नेक्स्ट वुड बी, लेट्स से, आल्सो लुक फॉर सम डेटा अराउंड ट्रस्ट, अह, प्राइवेसी, बिलॉन्गिंगनेस, अह, मे बी कन्वीनियंस, एंड हाउ हैज़ इट चेंज्ड ओवर द इयर्स विथ अपार्टमेंट्स?
+Deepk Anchlia:  हेलो।
+Speaker 1:  ठीक है। ठीक है? लिख लिया? 
+Speaker 1: ठीक है। नेक्स्ट, थिंक ऑफ व्हाट बिहेवियर्स कैन एमर्ज विद इन नेक्स्ट 5 इयर्स इन अपार्टमेंट्स, ऑफ कोर्स।
+Deepk Anchlia:  यस, यू कैन कीप इट।
+Speaker 1:  ठीक है? आई थिंक दीज़ आर लाइक 5-6 क्वेश्चन्स। यू विल हैव टू सर्च।
+Speaker 1:  अह, लेट्स कम टू ग्रुप थ्री। ग्रुप थ्री, देयर आर नो पैन ऑन मोर ऑफ़ अ सिस्टम्स पर्सपेक्टिव।
+Deepk Anchlia:  इफ ऑल द पैन्स आर, व्हाट? यू सेड 35 रेट ऑफ, बट इट्स ऑलवेज अ मिस्टेक।
+Speaker 1:  विल बी लुकिंग एट मोर ऑफ़ अ स्ट्रक्चरल शिफ्ट। ठीक है? अह, आई होप यू हैव रिटन डाउन द फर्स्ट टू क्वेश्चन्स।
+Speaker 1:  अह, सॉरी, द फर्स्ट टू ग्रुप्स। अपने क्वेश्चन्स यू हैव रिटन इट, रिटन इट डाउन, है ना? 
+Speaker 1: ठीक है? अह, यू शुड बी लुकिंग फॉर व्हाट सॉर्ट ऑफ, और लेट्स से, व्हाई अपार्टमेंट सिस्टम, और लेट्स से, व्हाट मेक्स एन अपार्टमेंट इकोसिस्टम अ सिस्टम।
+Deepk Anchlia:  दीपक, आई लॉस्ट योर वॉइस फॉर अ मिनट।
+Speaker 1:  ओके। कैन यू हेयर मी नाउ?
+Deepk Anchlia:  या, आफ्टर द स्ट्रक्चरल शिफ्ट।
+Speaker 1:  या। सो, यू शुड बी फर्स्ट लुकिंग फॉर व्हाट मेक्स एन अपार्टमेंट इकोसिस्टम अ सिस्टम। 
+Speaker 1: ठीक है?
+Speaker 1:  नेक्स्ट कुड बी, व्हाट इंफ्रा इज़ एक्चुअली शेयरड अमंग दी हाउसहोल्ड्स। 
+Speaker 1: ठीक है? अह, नेक्स्ट कुड बी, व्हाट सॉर्ट ऑफ डिपेंडेंसीज़ एक्सिस्ट अमंग दी पार्टिसिपेंट्स। द वर्ड इज़ पार्टिसिपेंट्स।
+Speaker 1:  अह, नेक्स्ट कुड बी, हु कंट्रोल, अह, एक्सेस, अह, डिसीजन मेकिंग, रिसोर्सेज फॉर दिस, एंड मोर।
+Speaker 1:  एंड नेक्स्ट एंड लास्ट वुड बी, व्हाट एक्चुअली हैज़ बिकेम कलेक्टिवली पॉसिबल, व्हिच वाज़ इंपॉसिबल इंडिविजुअली।
+Speaker 1:  राइट? सो, आई थिंक दीज़ आर गुड इनफ क्वेश्चन्स।
+Speaker 1:  इट विल गिव यू एंड टू एंड पर्सपेक्टिव। 
+Speaker 1: ठीक है? एंड यू शुड आल्सो, यू नो, नोट इट डाउन दैट नेक्स्ट टाइम व्हेन यू आर सॉल्विंग योरसेल्फ, यू आर आल्सो आस्किंग दीज़ सॉर्ट ऑफ क्वेश्चन्स। एंड ऑफ कोर्स, दिस जस्ट इज़ स्टार्टिंग पॉइंट।
+Speaker 1:  इट्स नॉट अ सीलिंग। नॉट द सेम क्वेश्चन्स यू विल हैव टू आस्क।
+Speaker 1:  यू माइट हैव मोर क्वेश्चन्स नेक्स्ट टाइम। 
+Speaker 1: ठीक है? सो, व्हाट यू कैन डू इज़, अह, व्हाट्स द टाइम राइट नाउ? इट्स 12:05।
+Speaker 1:  वी विल, एंड एव्री ग्रुप हैज़, व्हाट, थ्री पीपल? एंड एव्री ग्रुप आल्सो हैज़ फाइव टू सिक्स क्वेश्चन्स ऑन एवरेज।
+Speaker 1:  राइट? सो, अह, डिवाइड क्वेश्चन्स अमंग योरसेल्फ।
+Speaker 1:  राइट? वन पर्सन माइट हैव वन और टू क्वेश्चन्स, और इवन इफ यू फील लाइक यू हैव मोर क्वेश्चन्स इन दिस, इट्स ओके।
+Speaker 1:  सो, इंडिविजुअली, यू आर सॉल्विंग वन और टू क्वेश्चन्स। राइट?
+Speaker 1:  एंड इन अ ग्रुप सेटिंग। 
+Speaker 1: ठीक है? यू विल हैव 25 मिनट्स फॉर दिस। 25 मिनट्स फॉर टू क्वेश्चन्स ईच पर्सन इन अ ग्रुप। 
+Speaker 1: ठीक है? यू कैन डिसाइड व्हाट सॉर्ट ऑफ क्वेश्चन्स यू वांट टू टेक। सो, जस्ट गो एंड जॉइन दी ग्रुप्स।
+Speaker 1:  आई एम सेविंग दिस, एंड आई एम क्रिएटिंग अ टाइमर। एंड द ब्रेकआउट रूम, कीपिंग इट टू 25 मिनट्स। 
+Speaker 1: ठीक है? डन।
+Speaker 1:  सारिन एंड रोहित, यू कैन जॉइन दी कॉल्स।
+Deepk Anchlia:  सर।
+Speaker 1:  ठीक है, सर।
+Sarin Sudhakaran:  हे गाइस।
+Sarin Sudhakaran:  सो, वी वर टोल्ड टू लुक एट इकोनॉमिक शिफ्ट, राइट?
+Speaker 1:  या, या। सो, वी हैव लाइक, अह, वन इकोनॉमिक इंपैक्ट, एज कनेक्टिव पॉसिबिलिटीज़, इकोसिस्टम रेलेवेंस, बिल्डिंग ग्रोथ एंड जियोग्राफी।
+Speaker 1:  वी हैव अराउंड फाइव पॉइंट्स, राइट?
+Sarin Sudhakaran:  फाइव पॉइंट्स। कैन यू रिपीट दैट? सॉरी, आई एम लाइक गोइंग टू सम ऑफिशियल।
+Anil Vignesh:  या, या। सो, आई मीन, व्हाट आई हैव इज़, बेसिकली, आई हैव दिस एमए ऑन। सो, आई विल जस्ट पेस्ट व्हाट इट हैज़ कैप्चर्ड।
+Sarin Sudhakaran:  ओके।
+Speaker 1:  वन सेकंड।
+Sarin Sudhakaran:  ओह, यस। थैंक गॉड, आई हैड द व्हिस्पर फ्लो ऑन। लेट मी सी इफ आई कैन।
+Deepk Anchlia:  I think I had written the questions. Want to confirm? These are the questions, right, that we need to discuss?
+Speaker 1:  Yeah, I just—yeah, I just pasted what mine has captured.
+Speaker 1:  This is what you guys also wrote down, and this is what I have.
+Speaker 1:  Uh, how do you guys want to split this?
+Sarin Sudhakaran:  Hmm.
+Deepk Anchlia:  These are some of the questions, right, he was telling us to discuss.
+Speaker 1:  Yeah.
+Rohit Dwivedi:  Fundamental change in urban living. How does residential density has changed the economy so far? How is money flowing in these apartments?
+Rohit Dwivedi:  What actually has become possible after people started living in this society? Does it actually make any sense to explore this ecosystem?
+Rohit Dwivedi:  Can we start with the first point, fundamental change in urban living?
+Anil Vignesh:  Yeah. So, do you want all of us to, like, go into the same question and discuss that, or do you want to split them, each question to somebody, and then come back and collate it?
+Deepk Anchlia:  Hmm. I think if let's discuss this, I mean—
+Anil Vignesh:  For that discussion, I think we are supposed to find some details using our AI agents, right? That's what I have understood.
+Anil Vignesh:  Do some research, right?
+Deepk Anchlia:  Yeah. Sarin, what's your thought? We should divide these questions, or?
+Sarin Sudhakaran:  Yeah. Uh, yes. Sorry, I'm like switching between two chats, guys.
+Sarin Sudhakaran:  Sorry. So, yeah, we can do the division of task, or maybe, um, discuss also one-one each, right?
+Sarin Sudhakaran:  Fundamental change. Can we—
+Anil Vignesh:  So, Sarin, do you want—do you want, uh, me and Rohit to take two off each, and you can take one, because I think you have some other stuff in your head right now?
+Deepk Anchlia:  Yeah.
+Speaker 1:  We can do two and—
+Sarin Sudhakaran:  Um, yeah, guys, if you—if you want to, if it's okay, because I am just, uh, going through office politics here, so.
+Speaker 1:  Yeah, yeah. That's—that's fine.
+Sarin Sudhakaran:  Yeah.
+Deepk Anchlia:  Okay, you take the—
+Speaker 1:  I'll take the last one.
+Deepk Anchlia:  Last one, yeah. Okay. Uh, first two—
+Sarin Sudhakaran:  Yeah, but, uh, which ecosystem are we talking about?
+Deepk Anchlia:  We have apartment ecosystem, I think.
+Speaker 1:  Yeah, yeah.
+Rohit Dwivedi:  Okay. So, I mean, if you want, first you can take the first two. I'll take the third and fourth, and last one.
+Speaker 1:  Yeah, yeah. Sure, sure, sure. We can do that.
+Deepk Anchlia:  Okay, let's then do it separately. Yeah. Let's connect after 15 minutes then.
+Deepk Anchlia:  Okay?
+Speaker 1:  Yeah, yeah. Sure.
+Sarin Sudhakaran:  Uh, but what—sorry, guys, what ecosystem? Does this actually make sense to explore these ecosystem? What are the—these ecosystem here?
+Deepk Anchlia:  Apartment.
+Sarin Sudhakaran:  Okay. Apartments, right?
+Deepk Anchlia:  Yeah.
+Sarin Sudhakaran:  But, yeah, like, you said, right, it could be apartment villas or chawls, anything it could be, right?
+Deepk Anchlia:  Hmm, yeah.
+Sarin Sudhakaran:  Or anything, is it?
+Deepk Anchlia:  Yeah.
+Sarin Sudhakaran:  Okay, fine. I'll take it.
+Deepk Anchlia:  Okay. Uh, yeah, let's connect in 15 minutes then.
+Anil Vignesh:  I lost a lot of things in between. I had very bad network. So, uh, so basically, we're still on the—so this is like a secondary research part, right?
+Deepk Anchlia:  Hmm, yeah.
+Speaker 1:  What? Okay, okay.
+Sarin Sudhakaran:  Yeah, it's 6:40. Yeah, for me it is 6:45. I'll connect in 7.
+Speaker 1:  Okay.
+Sarin Sudhakaran:  Yeah.
+Sarin Sudhakaran:  Should I open my phone now?
+Sarin Sudhakaran:  That was a question.
+Deepk Anchlia:  I've seen questions posted here. Very weird questions. You know, एक बार मेरे से क्या बोला गया कि इस बाल्टी में से कलर निकालना।
+Deepk Anchlia:  मैं सोच रहा हूँ, कौन सी बाल्टी? You know what they were saying?
+Speaker 1:  Paint.
+Deepk Anchlia:  Yes! डॉक पे वो जो बाल्टी, बाल्टी से कलर निकाल के डालो। सॉरी, इस पे शीट्स थे।
+Deepk Anchlia:  कि बाल्टी से कलर निकाल के लगा दो। It's weird, man.
+Deepk Anchlia:  हाँ bro, अभिनव, yes.
+Speaker 1:  A similar experience, like on Friday I was traveling from Kochi to Pune. So there was this Air India, this 737 MAX Boeing. So I was on the fifth seat.
+Speaker 1:  So what happens is, in the new plane, on the right row, you don't have a seat number one. It starts from two, second row.
+Deepk Anchlia:  अच्छा।
+Abhinav Dwivedi - ABD:  So one uncle, so he mistakenly sat on row number three, because his seat was third, right? So there was a shift, like he thought, like, it is starting from two, so at least I count by row, so it should be the third one. Then the attendant came, they said, "No sir, we have to shift in front, it is not the correct row."
+Abhinav Dwivedi - ABD:  Then he said, like, "Why there is no row, first row? On the left-hand side there is the first row.
+Abhinav Dwivedi - ABD:  Why it is not written right?" So he said, like, "It is a plane, like the Boeing has designed."
+Abhinav Dwivedi - ABD:  So he said, "No, I have traveled in Boeing planes. It was always there."
+Abhinav Dwivedi - ABD:  So you call your senior. So he called, they said, "Okay, we'll call some ground staff."
+Abhinav Dwivedi - ABD:  So they came. Then he said, "No, why it is not there?
+Abhinav Dwivedi - ABD:  You have to check with them. I lodge a complaint for this."
+Abhinav Dwivedi - ABD:  So he said, "Sir, it is coming from the company." Like, "We don't, we haven't prescribed that for a sheet should be not there."
+Abhinav Dwivedi - ABD:  So he said, "No, it is inconvenience. I lodge a formal complaint."
+Abhinav Dwivedi - ABD:  He said, "Okay sir, you can."
+Deepk Anchlia:  What the hell, dude. सब कुछ भी करते हैं यार, कुछ तो। It's so random.
+Speaker 1:  But it's fun to see all these things.
+Deepk Anchlia:  Yeah, absolutely.
+Deepk Anchlia:  This is the only part that I miss about Wispr. It was so random.
+Deepk Anchlia:  Damn random. कुछ नहीं चल रहा है।
+Speaker 1:  It is Wispr, right? Wispr.
+Deepk Anchlia:  Wispr. Bajaj Holdings.
+Speaker 1:  Exactly.
+Deepk Anchlia:  ठीक है। By the way, did you guys got your data? Or you want more time?
+Deepk Anchlia:  And I know for the group one, you would want some more time, right? What about the rest of the groups, two and three?
+Speaker 1:  We got some data, but not in form of any Excel or some extra links, like which we have explored.
+Deepk Anchlia:  Got it. ठीक है, links नहीं होंगे सबके, right? You would need to have proper data-data.
+Deepk Anchlia:  Because what will happen is, I will also again give you more 25 minutes. Towards the end of this, every group will get one minute.
+Deepk Anchlia:  In that one minute, you will have to explain your five questions. And just one minute you will get, right?
+Deepk Anchlia:  All three of you can explain it. And I would say, create a repo in a way that it becomes seamless.
+Deepk Anchlia:  It's like elevator pitch. 
+Deepk Anchlia: ठीक है? So you will now get more 25 minutes. So I'm just creating the room again.
+Deepk Anchlia:  This is a fit platform, dude. How do you create it again?
+Deepk Anchlia:  Got it. 
+Deepk Anchlia: ठीक है, done. Let me put some timer. And I think we are missing some people, right?
+Speaker 1:  Yeah. I think two of them are out there, right?
+Deepk Anchlia:  For sure.
+Deepk Anchlia:  Bro, what's happening? I can't hear anything.
+Deepk Anchlia:  My headphones are off. Can you just type what's happening?
+Rohit Dwivedi:  And tomorrow, yeah, tomorrow we have a family function. Like one of my cousins is getting married here. So yeah, मुझे थोड़ा सा अभी आधे घंटे में फिर ऑफलाइन होना है क्योंकि कल थोड़ा सा।
+Deepk Anchlia:  No worries, यार. ठीक है, let's do one thing. And I also wanted to talk about this in the larger group context.
+Deepk Anchlia:  कि अगर हम, if you can move our call from 9:15 to a little early, if it is possible for everyone. So that you because see, I usually have calls from 10:30, right?
+Deepk Anchlia:  So I keep on jumping to different different calls. मैं यहाँ पर भी देख रहा हूँ, right?
+Deepk Anchlia:  Or I'm also talking to you. Of course, I have taken a leave for one week.
+Deepk Anchlia:  है ना? But it I would want to spend more and more time with you folks too.
+Deepk Anchlia:  अगर हम उसको थोड़ा सा जल्दी कर सकते हैं ना, that would be awesome for you and for the group as well.
+Speaker 1:  Yeah, like for my side, like I'm not sure, like from Sarin perspective or Himanshi because.
+Deepk Anchlia:  Yeah, everybody is perspective.
+Speaker 1:  They are in a different time zone, but for me, I'm facing some difficulty in order to stretch beyond 12 midnight.
+Deepk Anchlia:  I understand, man. I understand. देखो, रोहित भाई, बहुत simple चीज़ है।
+Deepk Anchlia:  I will push my best. अगर हुआ तो well and good.
+Deepk Anchlia:  अगर नहीं हुआ तो I would request you, it is only 9 months. Because see, I get it, यार.
+Deepk Anchlia:  I was at your, your place only, few years back. Generally, I was there, right?
+Deepk Anchlia:  And I know it is very hard. I know when it is new, it takes a lot of your energy, especially if you are, if you have a kid, if you have a spouse, if you are working, if a lot of things are dependent on you.
+Deepk Anchlia:  It's a lot of stress on you. I get it, right?
+Deepk Anchlia:  But towards the end, I also know, and with data, I can tell you, if you do it now, right, things will definitely change. 100%.
+Deepk Anchlia:  And there was.
+Speaker 1:  What do you want?
+Sarin Sudhakaran:  It's not working, I think.
+Speaker 1:  What is not working?
+Sarin Sudhakaran:  This payment method is not supported.
+Deepk Anchlia:  Exactly. उसमें exactly होगा क्या? है ना?
+Deepk Anchlia:  And he said कि ठीक है यार, it's fine. मेरे पास dependency है, mom is not there, dad के साथ रहना है, wife के साथ divorce हो रहा है मेरा, right?
+Deepk Anchlia:  और भी घर का लफड़ा चल रहा है। तो he was in a lot of shit, right?
+Deepk Anchlia:  And I said कि ठीक है यार, I'm there with you, I will help you as much as I can. But you can drop.
+Deepk Anchlia:  But the K-bet is very simple. The K-bet is कि यार, उसके बाद जो भी call पे होता है ना, you might not be able to grasp it the next day you are coming.
+Deepk Anchlia:  इतना आपको समझ आना चाहिए। पता है आपको क्या हुआ 3 हफ्ते बाद?
+Deepk Anchlia:  He actually gave me a in return, जहाँ पर श्रवण को भी tag कर रहा था कि यार, ये मेरा case है, मैं नहीं आ सकता। And he said, ठीक है यार, we are with you ना, तुम हमारे family का ही part हो।
+Deepk Anchlia:  3 महीने बाद he came back.
+Sarin Sudhakaran:  That's your phone.
+Deepk Anchlia:  You know why he came back? Because the same people he was spending time with, वो अपने compute में आगे चले गए। And then he started realizing कि यार, ये मेरे साथ ही लोग आए थे।
+Deepk Anchlia:  We were sitting in the same room, we were a part of the same group. And of course, हर किसी की life में, देखो, किसी को अपनी life में ज्यादा leeway मिलता है, किसी को कम मिलता है, right?
+Deepk Anchlia:  उनके life में शायद उनको कम मिला था। और problem चल रही है उनकी life में।
+Deepk Anchlia:  वो मैं जानता हूँ, मानता हूँ, वो चीज़ को मैं, right? But when he realized it ना, he came back, and he was the first person who started saying, "Still 5 AM in the morning, 6 AM in the morning."
+Deepk Anchlia:  And I was the person who used to tell him, "Don't do this. I don't want कि आपकी health खराब हो।"
+Deepk Anchlia:  Right? उतना extreme में हम नहीं जाएंगे, but I will try and create balance.
+Sarin Sudhakaran:  Did you get any notification?
+Deepk Anchlia:  No, I didn't. So I totally get it, यार, I am with you. Don't worry.
+Speaker 1:  Yeah, Anil was having issue, he messaged me on WhatsApp.
+Deepk Anchlia:  Yeah.
+Speaker 1:  Yeah, I think, yeah, there is a mess going on in my office, to be honest.
+Deepk Anchlia:  Okay.
+Speaker 1:  Parallel मेरा chat चल रहा है। So I am not like too much focused here, but yeah, I think I did like one part of the question. It said like, and this is from 2011 census data, so I don't know how relevant it is.
+Speaker 1:  So it says like 28% people have migrated from rural to urban areas, roughly about 11 crores.
+Speaker 1:  So 40% of Indians are currently in cities.
+Deepk Anchlia:  आपको एक guesstimate ही मारना पड़ेगा, यार। It's an old data, right? You might have to put some guesstimate.
+Deepk Anchlia:  मतलब देखो, ये data तो ले लो, I would say. है ना?
+Deepk Anchlia:  Keep this data. But put some sort of guesstimate जो थोड़ा सा help करेगा आपको इसमें।
+Deepk Anchlia:  मैं आपको एक चीज़ बोलूँ? Think beyond the conventional lines.
+Deepk Anchlia:  What I mean by that is, there is, and you know, I should not be sharing this with you, but since, you know, only three of us are here, there is a migration which is happening from village to cities, but there is also a migration which is happening from cities to village. And those are like emerging economies.
+Deepk Anchlia:  Right? Why only you are thinking for one way?
+Deepk Anchlia:  Why not another way around? Like there is this old age, old age place for people.
+Deepk Anchlia:  It's a society near Bombay. I forgot the name, you can search for it, right?
+Deepk Anchlia:  A lot of people who cross their retirement, they are buying houses there, right? And they are like, you know, it's like you are going to a hostel.
+Deepk Anchlia:  It's that sort of feeling, but coward hostel, of course, right? तो वो भी तो emerge कर रहा है।
+Deepk Anchlia:  If you are just solving it for, you know, societies, that is one way of looking at it. There is a very good mental model.
+Deepk Anchlia:  It's called second order effect.
+Deepk Anchlia:  Think from second order.
+Deepk Anchlia:  पर ठीक है, चलो, आप लोग आराम से अभी data gather करो। 
+Deepk Anchlia: ठीक है? Let me jump to some other groups. Let's see कि वो क्या कर रहे हैं।
+Deepk Anchlia:  लेकिन my suggestion would be, think data ले लो, but think beyond conventional lines. That will help. 
+Deepk Anchlia: ठीक है?
+Speaker 1:  Thanks, दीपक।
+Deepk Anchlia:  So no worries, my brother.
+Speaker 1:  Rohit, do you have that questions listed? Can you re-paste it left?
+Deepk Anchlia:  Yeah, yeah, I'll paste it again.
+Speaker 1:  But how are you managing your work and this call? I mean, quietly speaking.
+Sarin Sudhakaran:  If I share my screen, you will know. I have two monitors, one laptop screen. One Teams is going on.
+Sarin Sudhakaran:  There is politics going on there.
+Rohit Dwivedi:  Actually, I was telling Deepak that, see, because in my family, I have two kids and spouse, it is getting difficult for me to stretch beyond 12. I understand that these things can take time, but the problem is that my office starts at 7:30 in the morning. Like I have to log in.
+Deepk Anchlia:  You have to sleep for.
+Speaker 1:  Yeah.
+Deepk Anchlia:  Yeah.
+Rohit Dwivedi:  I understand these things can provide a lot of information from product perspective, but I have my health to check if my health is okay. And what happened that last month, I had, I met with a small injury on my left knee.
+Deepk Anchlia:  Okay.
+Speaker 1:  Like for me, it was very difficult to walk last month. Like I was still going through medication.
+Deepk Anchlia:  Okay.
+Speaker 1:  That's why I told him that I won't be able to make it after 12. I was planning to drop after 12, but I thought, let's do this thing. I just pasted these questions again.
+Deepk Anchlia:  Yeah.
+Rohit Dwivedi:  And Anil has, yeah, Anil has done a tremendous job.
+Rohit Dwivedi:  I'll give him, I'll paste his document as well. Like he has.
+Deepk Anchlia:  Okay. Claude not MD.
+Speaker 1:  Whatever he has done, he has done like a lot of data.
+Deepk Anchlia:  Yeah, I also put it in Claude, but I only asked my last question.
+Speaker 1:  But yeah, but for me, I'm not getting enough data from Claude. That's the thing.
+Deepk Anchlia:  Yeah, there is that deep research feature, Rohit. Like on Plus, deep research probably takes a lot of token, but.
+Speaker 1:  Hey, hey, guys. Really sorry. I think I'm in a place where the net is very bad.
+Sarin Sudhakaran:  Yeah, no worries, man.
+Sarin Sudhakaran:  So I think the questions, if we go through, it's, how does residential density has changed economic so how many, how is money flowing in these apartment? What actually has, let me, ask Claude that, how many, what actually has become possible after people started living in the society?
+Sarin Sudhakaran:  Does this actually make sense to explore these ecosystems?
+Sarin Sudhakaran:  Yeah.
+Sarin Sudhakaran:  So I think I have answers from Claude, Rohit.
+Sarin Sudhakaran:  This is the answer.
+Sarin Sudhakaran:  The fundamental change in living. What you're like, how people in India metros used to live, how they live now.
+Sarin Sudhakaran:  Two household size shrink since 2011.
+Sarin Sudhakaran:  But I think that's a good point, right? Like why do we have to think from a standpoint where we have to only think from city to village.
+Sarin Sudhakaran:  Village to city is not a thing, right? Yeah, Anil, probably we are seeing you now.
+Deepk Anchlia:  Hello?
+Speaker 1:  Can I share my screen?
+Deepk Anchlia:  Yeah, go ahead.
+Speaker 1:  Claude, share with you. Here's my screen as well.
+Deepk Anchlia:  Yep.
+Speaker 1:  Bangalore population 1.33 crore. Average urban household size 3.6. Households 37 lakh.
+Speaker 1:  Share renting 45%. Renting households 16.6 lakh.
+Speaker 1:  Average monthly rent 18,000. Size of money flow Bangalore 36,000 crore.
+Speaker 1:  Oh my god. Deposit logged in 24,000 crore.
+Speaker 1:  New tenancy 7 lakh. Brokerage 5,000.
+Speaker 1:  More okay. Annual rent pool Bangalore 36,000 crore, 20,000 crore, 50,000 crore.
+Speaker 1:  Software for PG and co-living owners.
+Speaker 1:  What your product could earn. Rental money pool is used about 600 crore.
+Speaker 1:  About of people moving from urban to local.
+Speaker 1:  Yeah, we can see.
+Speaker 1:  We can see you currently.
+Speaker 1:  Stop sharing.
+Speaker 1:  Devan, I have got some separate set of data.
+Deepk Anchlia:  Sorry.
+Speaker 1:  Using Claude only.
+Deepk Anchlia:  Huh.
+Speaker 1:  So I'll share my screen.
+Deepk Anchlia:  Yeah, yeah, go for it.
+Rohit Dwivedi:  I'm sharing my screen. Let me know once it is visible. Like with respect to the movement of money, like it has, it has a lot of things.
+Rohit Dwivedi:  Like, like money is moving from tenants to owners, then owners to tenants, like from rental security deposit that they take.
+Rohit Dwivedi:  Now support staff, like in case of mortgages, property tax etc., all these things it is covering. And like from last 5, 6 years, it has like extracted based on various links, surveys, and reports.
+Rohit Dwivedi:  These are some of the volumes it is showing.
+Deepk Anchlia:  Okay.
+Speaker 1:  I'm hoping this, these are based on reports, so should be correct only.
+Deepk Anchlia:  Yeah.
+Speaker 1:  And other points, like what are all the things has happened because of has happening. So obviously apartment culture is creating a jobs for low-skilled people as well, like security guard, domestic work. And it has, like from safety concern, amenities, like see, like it has used links.
+Speaker 1:  I've used Claude only.
+Deepk Anchlia:  Yeah.
+Speaker 1:  And so there are some data that I see is there.
+Deepk Anchlia:  Can you share that data?
+Speaker 1:  Yeah, yeah, I'll be sharing this.
+Deepk Anchlia:  No, share it in this chat. I'll just ask Claude if it can create short summary.
+Speaker 1:  Yeah.
+Speaker 1:  So what time until you work, Sarin? Like you are currently working as well, right?
+Deepk Anchlia:  I'm actually, my actual work time is at 9 to 5. But yeah, like I work for a US company, so.
+Speaker 1:  But you are in Ireland, right?
+Deepk Anchlia:  Yeah, I'm in Ireland working for a US company, yeah.
+Speaker 1:  Okay, okay, okay.
+Deepk Anchlia:  Yeah. There is a product role open in Fiserv. If you check in Dublin, look for a Fiserv.
+Speaker 1:  Actually I am trying, Sarin, but here, like Fiserv has changed a lot. It was a good organization. Right now they are just doing a layoff.
+Speaker 1:  And.
+Deepk Anchlia:  Is it?
+Speaker 1:  Yeah. So it's, it's in a actually bad, it is going through a very bad phase. Like bad phase, like every organization, they because of AI, they are doing this.
+Speaker 1:  That's why. So almost like Gurgaon office, they closed last month.
+Speaker 1:  We had an office in Gurgaon. We had Gurgaon, we had an office in Noida.
+Speaker 1:  We had, we had, we I'm like we have office in Mumbai, Pune, Chennai, Bangalore. So Gurgaon office is totally closed.
+Speaker 1:  And not sure like what, what life.
+Deepk Anchlia:  No, so why are they, let me share, I think this created a slide.
+Speaker 1:  I think, I think we have to turn, return to the main part.
+Deepk Anchlia:  Okay.
+Speaker 1:  It's because of AI, like AI using the, you know, right, what's happening in the, they are following the same thing.
+Deepk Anchlia:  Okay.
+Speaker 1:  Whether they.
+Deepk Anchlia:  Yeah, we're back.
+Deepk Anchlia:  The breakout room kind of sucks in Google as compared to Zoom.
+Deepk Anchlia:  Coming back, going out, it's so difficult. I don't know Anil if he joined, but yeah, Anil was trying from a long time.
+Speaker 1:  Neon is still running.
+Sarin Sudhakaran:  Keerthi, just one question. Where do you want me to put response to that last question?
+Sarin Sudhakaran:  Sorry, I was talking on mute. And you can put here, I have generated a summary without.
+Sarin Sudhakaran:  I'll just drop it here in chat itself.
+Speaker 1:  I don't know, I think only you will be able to filter out questions on Excel sheet.
+Deepk Anchlia:  Okay, is it, can you, can you drop the filter? Is it allowing you?
+Sarin Sudhakaran:  No, it is not.
+Speaker 1:  Try request for an export.
+Deepk Anchlia:  Yeah, I'll just, yeah, I'll just give you the added access. It should work then. Yeah, can you check now?
+Speaker 1:  Yeah.
+Speaker 1:  Guys, sorry, but I will be dropping in next 15, 20 minutes.
+Deepk Anchlia:  No worries.
+Speaker 1:  Shubhra, are you able to change anything on the filters?
+Sarin Sudhakaran:  Ha, yes, I can.
+Sarin Sudhakaran:  Try refreshing the page once. I think you'll be able to do it.
+Speaker 1:  Correct, yes.
+Deepk Anchlia:  Did you guys come up with any data or are we waiting for anyone?
+Deepk Anchlia:  Anyone need discussion to be continued?
+Speaker 1:  We just did a nice.
+Deepk Anchlia:  You have to sign up.
+Speaker 1:  Hi, there's nothing. Hey, this is still like.
+Deepk Anchlia:  School assignment, college assignment.
+Speaker 1:  Yeah.
+Deepk Anchlia:  Shubhra, because I've pasted one more link in that sheet, can you click on that please? Row number 37.
+Speaker 1:  Yeah, I saw that.
+Sarin Sudhakaran:  Yeah.
+Deepk Anchlia:  This has some additional data.
+Speaker 1:  Will we be able to present so much of data in 60 seconds?
+Deepk Anchlia:  Yo.
+Speaker 1:  Yo, yo. Yeah, you, you can still talk, you know. I was just listening to all of you and the group goes to a silent mode and it feels like that whether my internet is down or something has happened.
+Speaker 1:  Like, yeah, keep, keep on talking, man. At least it, it feels like my internet is okay. 
+Speaker 1: ठीक है यार, तो I'm assuming you have your own, you already have your data ready with you.
+Speaker 1:  Now, it's already 1:09. This is going to be the last thing of today.
+Speaker 1:  We are just going to spend next more 15 minutes. 
+Speaker 1: ठीक है, and then we'll go back to sleep. ठीक है. We did three things right now.
+Speaker 1:  The first thing was, the first group was focused towards economics of things, which is value and incentive side. Right?
+Speaker 1:  The second group was more focused towards behavior side of the things. And the last group was more focused towards infra side of the things, which is systems. 
+Speaker 1: ठीक है. So if you combine all these three, you get an intersection of opportunity. 
+Speaker 1: ठीक है. Now what I really want here is that for the next 10 minutes, every group will get at least one, one, one and a half minutes. 
+Speaker 1: ठीक है. Just present your pointers. Right?
+Speaker 1:  I am not going to be participating into this. Right?
+Speaker 1:  You have a larger group. You have to present your pointers to them.
+Speaker 1:  Larger group might have their questions, but every group in total will only get total five minutes. So one, one and a half minutes of presentation, the rest three and a half minutes of your total overall time.
+Speaker 1:  है ना. Someone, somebody from you, anyone, I mean from, from this group can maintain the timer.
+Speaker 1:  I just have three questions towards the end. And let me tell you those questions.
+Speaker 1:  My first question is, what has fundamentally changed? 
+Speaker 1: ठीक है. This is what I'm going to ask. Second is, why does this change matter?
+Speaker 1:  And the third one is, why is this ecosystem worth investigating? And I'm not asking about any personas or anything like that.
+Speaker 1:  I'm just purely asking on the questions and the answers that you got for it. 
+Speaker 1: ठीक है. Are we clear? हम्म.
+Deepk Anchlia:  ठीक है. चलो. Your time starts.
+Deepk Anchlia:  You can decide which team wants to go first, who amongst you would want to present first, whatever it is. Right?
+Deepk Anchlia:  As a group, you will have to decide that. As a group, you will have to decide on your questions, on your moderation, everything.
+Deepk Anchlia:  I give it up to you now. Now I'll go on mute.
+Speaker 1:  Any volunteers?
+Deepk Anchlia:  Shivpriya Vikas see the sheet. There's a tab that will help you.
+Sarin Sudhakaran:  Do we want to present first? Sohan and Sonam, you need to wind up soon, right?
+Speaker 1:  Let's go, let's go.
+Sarin Sudhakaran:  I really don't know what to present, but let's see.
+Speaker 1:  We'll figure it out.
+Sarin Sudhakaran:  Give me a second.
+Speaker 9:  Keerthi, you picked the pointers ना I shared on WhatsApp?
+Sarin Sudhakaran:  No, no, no.
+Speaker 9:  Okay, okay, no worries. I'll just add it with what we have. Yeah.
+Sarin Sudhakaran:  Let me share my screen. Sonam and Sohan, you can add or stop me wherever.
+Speaker 1:  Tools.
+Sarin Sudhakaran:  It is.
+Sarin Sudhakaran:  Let me know when my screen comes up.
+Speaker 1:  It's up, it's up.
+Sarin Sudhakaran:  All good. So basically our team's task was mainly to analyze the structural shift as part of the case study. Basically we were trying to understand from an infra perspective what was the structural shift, like what basically makes, you know, the apartment system.
+Sarin Sudhakaran:  How does it, you know, function? What are the, you know, components shared between the participants?
+Sarin Sudhakaran:  What are the dependencies? And what is maybe like the collective, you know, value that we can get out of it, basically, which was not possible earlier in the individual, you know, households that we had.
+Sarin Sudhakaran:  So basically we collected some data around all this and from like some trusted sources as per AI. So basically from shared infrastructure perspective, like we all know, we are sharing multiple things.
+Sarin Sudhakaran:  If you see a society perspective, right, it could basically be from a land or structure perspective, like lifts, lobbies, the common areas, the basement, etc. And when it comes to this perspective, it's the waste treatment or, you know, the water perspective, like we do have Cauvery water, bore water, etc.
+Sarin Sudhakaran:  Right? And then if it comes to the amenities, it could be the gym, the clubhouse, you know, the walk area, park, etc.
+Sarin Sudhakaran:  And also we share some common people, which is basically the support staff, right, like our security guards, housekeeping, all those. And there is also a lot of, you know, flow of like money happening between the different parties, right, like the maintenance or things like that.
+Sarin Sudhakaran:  And again, from a governance perspective, we are getting the support of the association to, you know, monitor all this, which was not earlier available as part of like individual households, right? We have to do everything on our own.
+Sarin Sudhakaran:  And we do have all the digital medias now to share everything, manage everything, payments, whatever it is. So when we see this, like from these are like some of the things that what we can share among the societies.
+Sarin Sudhakaran:  So basically when we come and explore more on what we can build out of this, what are the possibilities that we see out of this, we could maybe think about like we are basically having a big bunch of people together, big infra together, right? So some collective possibilities that we can think, which might not be possible in the single households, will be maybe shared energy.
+Sarin Sudhakaran:  Like maybe if a solar system is installed, it can be shared among all the households, right? Maybe a shared water things, which we already have, like the Cauvery water or the bore water, or even if like water maybe suddenly stops, we bring the tanker, water tankers, right?
+Sarin Sudhakaran:  It's just basically like shared among everyone. Same way waste management or even spending power.
+Sarin Sudhakaran:  We can think about, you know, households coming together and maybe, you know, minimizing or getting incentives from that collective spending power.
+Sarin Sudhakaran:  Yep. So but this all, I think, relies or requires a lot of, you know, management and someone who should be behind it, you know, coordinating everything, organizing everything.
+Sarin Sudhakaran:  So if any, anything goes wrong, it becomes like a failure as well, right? So we need to bring everything together and then make it basically into something, an opportunity that we can see out of it and bring, you know, value out of this.
+Sarin Sudhakaran:  Anything more to add, Sohan or Sonam?
+Speaker 9:  So just one point over here is that behind all of this, there is a huge amount of money which is changing hands in between because managing of these societies, everything. While on paper the control lies with the residents' association, but in practice there are a lot of data points and legal cases that have been cited where this is not really happening and there is a leakage of the money flow in between. So all the residents are paying huge amount of maintenance fees, but that, that money is
+Speaker 9:  not being 100% utilized in favor of the residents or allocated in the way the residents would want. So that forms a big opportunity where this can be leveraged or which can be explored more. Just to put the number, there has been a running case of around 63 lakh rupees of funds which have been missing from one particular builder society in Gurgaon.
+Speaker 9:  So that's the sum of money that we look at in this case.
+Speaker 1:  Yeah. Adding on to Sohan's point, right, from a future projection standpoint, since this the money statistics what Sohan mentioned is the as is, which is the present. But from a future projection standpoint also, if you see, Keerthi, if you can scroll up, Mumbai's urban region only 90% of the old plots are being redeveloped.
+Speaker 1:  And there was a question from Deepak, why this ecosystem is to be negotiated or looked at. The answer lies here, I believe, wherein there are, as a developing nation, there would be more and more older plots getting converted into urban ecosystem and there would be more opportunities coming in place.
+Sarin Sudhakaran:  Yep, I think that was pretty much what we had to share. So we have collected some data evidence for all these points and we have, you know, collated the summary and shared it across. So that's pretty much it.
+Speaker 1:  And Sarin, would you like to present the summary?
+Speaker 9:  Just before moving on to the next group, are there any questions or any points we as a group together want to maybe dwell upon or discuss?
+Deepk Anchlia:  I probably have a question, but let me see if I got it from the notes.
+Deepk Anchlia:  Yeah, so Deepak had asked three questions that we need to answer, right? What has fundamentally changed?
+Deepk Anchlia:  Why does this change matter? Why is this ecosystem worth investing?
+Deepk Anchlia:  Is there any answer from your, like, can you answer any of these questions from what you have done?
+Speaker 1:  I think Sarin I answered the last one.
+Deepk Anchlia:  Okay.
+Speaker 1:  That was back to data. Maybe I would repeat if that's okay.
+Deepk Anchlia:  Yeah, yeah, please go ahead.
+Speaker 1:  So the first prima facie, ruler areas are becoming semi-urbanized or making, or they are becoming urban ecosystem, right? That's one. Second is, from a money perspective or a money opportunity, Sonam gave a start of around 60 lakh rupees, wherein there are different hands of, hands of in, in a workflow or in a sub-workflow.
+Speaker 1:  That money is still out there, which can be utilized from a product, which can be productized, right? And from a future projection, since India, and we are looking at India as a state here, since India is a developing economy, there are many tier three cities who would become tier two and tier two would become tier one.
+Speaker 1:  So we can categorize tier one and tier two from an urban landscape, wherein the opportunities would lie, you know. This is answering to the third question, which is why this ecosystem is worth or to, has to be negotiated.
+Deepk Anchlia:  Because of the money part, right?
+Speaker 1:  Yeah. Money plus the huge developments as a developing nation. And there was a start for Mumbai itself.
+Speaker 1:  We call Mumbai a developed city, but still there is 19% of old plots getting converted into urban ecosystem.
+Speaker 9:  So I want to add two more stats which answer to what, what fundamentally, not fundamentally changed, but why exactly it matters. Quantifying this a little bit more that by the data, there were 16 million households who were residing in such kind of communities by 2021, which is expected to double up by 2031. So within the next decade, this number is going to double up.
+Speaker 9:  And secondly, these particular households, so while they account for 32% of the population in top 50 cities, they are, they account for 45% of the total consumer spending. So this is a concentrated population with a higher spending power, which is going to again double, double up in the next decade or so.
+Speaker 9:  So that is why it becomes a very important cohort from an economic lens.
+Deepk Anchlia:  I can probably start sharing and. Second, I think most of the analysis is by Claude, so data is matching. You asked like the 60 crore number, that is matching.
+Deepk Anchlia:  You said 2031. So I think most, most of the data is matching because we are doing the same.
+Speaker 9:  If Claude gives false responses, it is equal, equal for all.
+Deepk Anchlia:  Yeah, so I think probably we, we had the, we had few questions around what fundamentally changed. So these are the places where people are moving into. I think they're moving into stacked houses, mega societies, gated societies.
+Deepk Anchlia:  And I think villas are a niche. So that is a 2%.
+Deepk Anchlia:  Most of the nuclear families there, there are like multiple helpers who come in and clean, quick delivery, WhatsApp groups. So this is from what has changed from, from rural to urban, right?
+Deepk Anchlia:  That question probably is there. And thanks to Athar, probably we didn't get time to, sorry, Deepak, he told us that we should have, we should look back also, like people moving from urban to rural, which we haven't done research on.
+Deepk Anchlia:  But yeah, that, that was another good point, which we could consider that's an opportunity. And probably not this slide.
+Deepk Anchlia:  I think, yeah, then the next question was how money shifts. Yeah, people are moving from more private to pooled societies.
+Deepk Anchlia:  There is shared flats, from an open society to gated society. There is dark stores which are available.
+Deepk Anchlia:  There are laborers now with getting shared across apartments. And there is collective buying.
+Deepk Anchlia:  I think all of these points we had discussed. And again, coming to the last point, why this ecosystem, we because of the money.
+Deepk Anchlia:  So based on the research, it says 900 billion by 2031 and 32 million households affected. And I think this was the part which, which really like gave a shock, right?
+Deepk Anchlia:  So 36,000 crores in annual rent paid and 24,000 crores in deposit, which is locked, right? So, so not telling that we need to run for these places, but the amount of money is huge.
+Deepk Anchlia:  Even 1% of this with the revenue is a big number. So yeah, so the, these are the reason why we should go into this ecosystem.
+Deepk Anchlia:  I think I probably have a slight bias once Deepak came in and told that we should also look back, right, saying that how people are migrating from urban to rural. Since I don't have enough data, I don't want to like go in and say that we would want to explore that market.
+Deepk Anchlia:  But with this, I know that money is there. It's a good place to invest in.
+Speaker 1:  Yeah, these numbers are itself like justifying why these are worth exploring opportunities.
+Deepk Anchlia:  Any question? Any question, guys? Thanks to Claude.
+Sarin Sudhakaran:  I had a question, like how did you like check the sources, like which sources data are you referring to, like how much.
+Deepk Anchlia:  Yeah, so.
+Sarin Sudhakaran:  Yeah.
+Deepk Anchlia:  Yeah, the data which I had was from 2011. Yeah, so 2011 census data was there. And then.
+Speaker 1:  And this money movement is for the from last fixed year, 2021 to 2025.
+Deepk Anchlia:  Yeah, it's a guesstimate, like we just extrapolated.
+Speaker 1:  Yeah, and covering mainly Bengaluru, Chennai, Kochi, these cities. And hoping this Claude has given, like I saw those links, so I'm hoping that the simple sets are worth, like we can trust this data because it is not something that it has created on its own.
+Sarin Sudhakaran:  It's the reference to the like data published by.
+Speaker 1:  Yes.
+Sarin Sudhakaran:  Like various agencies or it's only the like.
+Speaker 1:  Various things.
+Sarin Sudhakaran:  News articles or.
+Speaker 1:  News articles and.
+Sarin Sudhakaran:  Journals.
+Speaker 1:  Okay.
+Sarin Sudhakaran:  Yeah, journals.
+Speaker 9:  One question I have, whenever, when we see the data, right, did we get a chance or time to compare the data from two sources? Is there any difference or no? So it's the same.
+Speaker 9:  Did that, did any of the team have done it? If there is a data from two sources.
+Speaker 1:  So Sarin, the deck, is the source written at the bottom?
+Deepk Anchlia:  Yes.
+Speaker 1:  Yeah? So is there a comparison there?
+Deepk Anchlia:  No.
+Speaker 1:  I think that's what Shiva is asking.
+Deepk Anchlia:  No, I don't think there is a comparison.
+Speaker 1:  Okay.
+Deepk Anchlia:  Just a second. Yeah, so can we go back to Deepak's question, right? I think probably we are answering just the first part, right, the economic part.
+Deepk Anchlia:  What has fundamentally changed? I think this probably we are discussing from yesterday, right?
+Deepk Anchlia:  People are moving for various reasons, socioeconomic, security, those kind of things. Why does this change matter?
+Deepk Anchlia:  Any takes on this?
+Speaker 1:  So Sarin.
+Deepk Anchlia:  Deepak, please participate. Everyone, please participate. One thing I have to call it out, that your participation has a lot of credits.
+Deepk Anchlia:  Participation would mean, देखो, there are two types of participation: passive participation and active participation. You guys are participating, I know.
+Deepk Anchlia:  But it's a passive participation, right? Passive participation में you are learning only 20%.
+Deepk Anchlia:  Active participation means asking things. At least somebody, if, if Sarin is speaking here, right?
+Deepk Anchlia:  Yeah, it, it generally feels weird when somebody is speaking and, you know, nobody is talking to him, right? You have to stimulate your minds.
+Deepk Anchlia:  Ask him tough questions. Ask him politely, of course, right?
+Deepk Anchlia:  But ask him tough questions. Be there on his spot, right?
+Deepk Anchlia:  Let people ask you tough questions. And that is where you will grow.
+Deepk Anchlia:  And of course, there is humongous amount of credits for this. And these are the same credits which will help you avail retreat, which will help you avail post cohort, which will help you avail referrals and all.
+Deepk Anchlia:  Same damn thing. 
+Deepk Anchlia: ठीक है? So please participate.
+Sarin Sudhakaran:  Yeah, KT, can we write answer like what has fundamentally changed? Probably we, we know that answer. Second one, I probably need some help.
+Speaker 1:  So why this change matters? I have some data. I'm not very much backed.
+Speaker 1:  But this matters because there's a huge migration. So what I got is migration feeding a large informal city.
+Speaker 1:  So basically, from an informal sector or a city, it's becoming more formalized, right? That's why this change matters.
+Speaker 1:  Now, what will happen with that is we would move to a more, you know, developed sort of a ecosystem. I think that's why this, this matters, as for me.
+Speaker 1:  If anybody has-.
+Sarin Sudhakaran:  I think.
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  I have a, I have a question.
+Speaker 1:  Go ahead.
+Sarin Sudhakaran:  Do you mind if I share my screen?
+Speaker 1:  Yeah, yeah.
+Sarin Sudhakaran:  So I, I think I'll share my screen. Let me know once it is visible. So I, I was just using the same data to understand.
+Sarin Sudhakaran:  I'll share my screen. Sorry.
+Sarin Sudhakaran:  So, so these are some of the, like how this change has affected the economy or like how it has created a jobs.
+Sarin Sudhakaran:  So like these are the Niti Ayogi reports. So even for the low-skilled workers, this apartment system is creating a job, and they have given this data.
+Sarin Sudhakaran:  In terms of housing.com survey, the safety and security, they did some surveys. Like I was checking the link and like how exactly the confidence has increased for amenities and leisure.
+Sarin Sudhakaran:  People are ready to pay. So all these things are basically, if, if we trust the data which is given, and I believe these generals and these links are basically are trusted sources.
+Sarin Sudhakaran:  So we can see like that there are some positive changes, or I would say like in terms of money movement, all these things are getting affected. So I think that is the second question we, we were talking.
+Sarin Sudhakaran:  So these are like one of these points or these, this, this points are something worth checking as an answer to what we were trying to find.
+Speaker 9:  Can you, can you either zoom up the screen because exactly we can, I, like I can only read the numbers, but what exactly are these numbers relating to? I did not understand.
+Speaker 1:  Okay, so, so for example, when in an apartment, even for the job, for the people who are low skills, they are getting a job, right? For example, maids are coming, security guards are working. Okay, housekeeping staffs are there, support staffs.
+Speaker 1:  Like when what we were discussing during the start of our call tonight. So that is the.
+Speaker 9:  This is the number of people, estimated number of people.
+Speaker 1:  Okay, estimated number of people. And this is a Niti Ayogi report, government's data. I'm not saying a full proof data, but it is a good number which we can see.
+Speaker 1:  Like 89 lakh people are basically getting a jobs because of apartments. So they have given the numbers of gig workers, 77 lakh in 2020-2021, projected with 2.35 crore by 2029-2030.
+Sarin Sudhakaran:  This is across states or particular states?
+Speaker 1:  So this is a Niti Ayogi. So this is across India. This is across India.
+Sarin Sudhakaran:  Across 30 states.
+Speaker 1:  Yeah, this is states. Now, in terms of money, like how exactly new businesses are coming up because of this system. So from KRH, they have like for quick commerce, order in financially at 2025 for rupees 30,000 crores.
+Speaker 1:  And 3,072, I think this is also in machine clones only for the dark store. So these are some huge numbers what we can see.
+Speaker 1:  So this system is moving the money and the movement of money is making some economic opportunities for various fields or people, I would say.
+Speaker 1:  Anyone else have anything to share?
+Speaker 9:  I'm the last.
+Sarin Sudhakaran:  So Rohit, like apart from the like money movement between the apartments, so is there any start from like the money, like has it been mishandled or anything sort of that negative arising out of this more money flowing?
+Speaker 1:  That, that I didn't check. Like I was just trying to check the sample data with Claude. Okay, but if we go deep, obviously maybe we can find that, that kind of data as well.
+Sarin Sudhakaran:  Because that would like not be the same case like in the case of individual houses when they were having, right?
+Speaker 1:  Obviously.
+Sarin Sudhakaran:  In apartments, you have multiple people in one.
+Speaker 1:  These are, these are the like the sample set, high-level data, which is, which the, the Claude is talking about. But if we go deep, if we dig deeper, obviously we may find some of the answer that you are asking. Because this is just a money, like this is a Niti Ayogi report.
+Speaker 1:  But I'm not saying that this is an accurate, but obviously 89 lakh crore is a huge amount of money. Like in the, the slide which was Sarin sharing, you saw the amount which was there as a safety deposit.
+Speaker 1:  I'm not sure like what, how exactly someone would have calculated, but obviously every tenants submits a certain amount of money to owner, right? And that must be a huge part.
+Speaker 1:  Other than paying rent, he is also paying the deposit. And deposit stays with the owner.
+Speaker 1:  Owner submits that money to the bank. Eventually bank.
+Sarin Sudhakaran:  Does it, does it talks about that deposit or it's with the housing society?
+Speaker 1:  What, what Sarin, no, it was for the owner deposits, rent deposit, which was more than I think 24,000 crore.
+Sarin Sudhakaran:  It says 1.26 lakhs crore and then security deposit on the left-hand side on the money flows. So does it, that it specifically says around like with owners or with banks?
+Speaker 1:  So obviously.
+Sarin Sudhakaran:  RWAs.
+Speaker 1:  No, so this was, that was for owners. This was for owners. So this is basically I have summarized it, but the earlier data that I was checking, I'm checking.
+Sarin Sudhakaran:  Because that is hard to justify because the owners' data is confidential.
+Speaker 1:  Yeah, so these are based on these links. I'm not saying that we can trust 100% of this because it has done some US dollars, like it is taking some, some of this thing as well. And then I was checking like Maharashtra, like stamp duty, property tax, everything is being taken care.
+Speaker 1:  Like see, these are.
+Sarin Sudhakaran:  Is there any filter on the data that shows anywhere in the security deposit or something?
+Speaker 1:  Okay.
+Sarin Sudhakaran:  On.
+Speaker 9:  There is a row number eight, rental security deposit.
+Speaker 1:  So this is going to.
+Speaker 9:  Six major metros.
+Speaker 1:  So this is some sort of study, rent and pay study. Okay, this is, this is from the business today.
+Sarin Sudhakaran:  Stop. Can you just put that stock of deposit, that flow back when ten to tenants and lease rent.
+Speaker 1:  Tenants.
+Sarin Sudhakaran:  Okay. So this is specific to the owner and tenants.
+Speaker 1:  They have given for Maharashtra I guess and for Bangalore.
+Sarin Sudhakaran:  Are there any start that show like it is more economical or to stay in apartments than the individual households because of like, let's say the security and other stuff where you have to deposit and sometime it does not comes back also?
+Speaker 1:  No, no, that I didn't. We would have to go deep. We may have to dig deeper in order to find that detail.
+Sarin Sudhakaran:  So no negative, no negative at all. Positive.
+Speaker 1:  I just know like this data doesn't mention anything negative. It just tells us the movement of money, how the money is moving from one end to another. That may be between the tenant and owners or maybe between the owners or tenant with, with the support staff, maybe with the government taxes, what we are paying mortgages because people are taking loans most of the time.
+Speaker 1:  So money is moving to the banks as well as part of interest and payouts, right? So I think it is covering all those stuff.
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  Okay. Thank you.
+Speaker 9:  I, I just have a hypothesis and I'm thinking out loud. With all the discussions that we have done and the data points also we have seen, can we build this hypothesis of what has fundamentally changed is because people have migrated from a more rural individual living to urban living for economic, economic opportunities. Over a period of time, they have economically grown to a certain level and they have risen, their aspirations have increased and hence convenience has become one very important factor in their or, or, or important
+Speaker 9:  decision-making factor in whatever they choose. And hence to enable that convenience, there is a high movement of money or high spending in different directions, which is all related or largely related to the apartment ecosystem, which includes paying up a premium to buy flats in these or apartments in these gated societies. Paying up a premium to get household helps or convenience for food delivery, quick commerce delivery, all of this.
+Speaker 9:  So can we say that fundamentally it is people's need for more convenience and comfort in life, which is driving this economy?
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  That is group two, I think.
+Speaker 1:  These questions are for group two, is it?
+Sarin Sudhakaran:  Yeah, I think the behavior.
+Speaker 1:  I think Sonam had mentioned this earlier, time versus value. So what you're talking about factors of time and there is a value addition to it.
+Speaker 9:  Yeah, I agree with what you said, Sonam. I mean, I think from what analysis that we did right now, I think it's all aligned to like faster, you know, access to things, you know, better lifestyle, you know, shared resources with maybe less expenses. All those is something everything related to like convenience itself, right?
+Speaker 9:  And as Sohan said, yeah, it's like with lesser time we are getting more value out of it.
+Speaker 1:  Shall we move ahead?
+Speaker 9:  I think one more team has to present, right? Or did we complete everything?
+Sarin Sudhakaran:  We have, we have group two present.
+Speaker 9:  Okay, yeah.
+Sarin Sudhakaran:  Okay, I'll share from group two.
+Sarin Sudhakaran:  Okay, can everyone see my screen?
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  Okay, from group two we have Shiv Priya, me, and Vikasz. So I'll just go to the basic question that we had been presented with. So the primary questions for us were human and behavioral shift.
+Sarin Sudhakaran:  So the first one was how has apartment living changed the human behavior? Second one, what kind of newer habits, relationships, constraint, dependency that have been emerging so far?
+Sarin Sudhakaran:  The third one, how the people in apartments differ from those living in the individual houses in terms of trust, privacy, belongingness, convenience? And the last one is what behaviors can emerge in next five years?
+Sarin Sudhakaran:  Okay, so we used Claude for driving our data and primarily we restricted the Claude prompt to use last five years data. So we have the data from 2021 to present and the sources we used mostly the trusted sources, excluding any news articles or any other public, like the web, web publications, primarily like which are credible and they hold a particular like a trusted data, primarily government or any other research papers or any other journals.
+Sarin Sudhakaran:  So these were the sources of data that we have used and we built our prompt around these four questions asking the numbers for them. So I'll just start around this.
+Sarin Sudhakaran:  So okay, so the first question, how the apartment living has changed in the.
+Sarin Sudhakaran:  Indians. Okay, so if we go around that, so what we'll be covering is what has changed from my side.
+Sarin Sudhakaran:  Shiv Priya will cover the new dependencies and Vikas will cover the trust and the future. So coming to the first part, what has changed?
+Sarin Sudhakaran:  So how, so in the new urban world, so the apartments have scaled the living now. The spending of the users have increased.
+Sarin Sudhakaran:  The doorstep habits have increased now. And if we go more deeper into this, how it has imp is, so now around there are 16 million households which are living in the gated communities across top India 50 cities.
+Sarin Sudhakaran:  So the source of this is red here, which has data from 2021. Next we have around 32% of the households in these cities, but they have the 45% spending capability in those cities.
+Sarin Sudhakaran:  And coming to the behavior change, so now 90 to 95% of the gated communities, they shop online against that of 40 to 40% of non-gated households. Now there's a 5X higher penetration of the premium items in terms of quick commerce or any other articles such as the iPhones, which are more dominant in the gated communities in the urban cities.
+Sarin Sudhakaran:  Going into more deeper of this, how it comes to the behavior change. Now there are more than 7 billion entries which have been reported by MyGate, which includes around 550 million food deliveries.
+Sarin Sudhakaran:  So that changes that a behavior has shift from moving from, let's say, to new restaurants, trying new restaurants, trying new cuisines, and ordering the food. There are around 1,000 typical entries that occur on a day in a 400 flat complex.
+Sarin Sudhakaran:  So this data is printed by the MyGate. There are around 27.2 billion million Blinkit monthly transactions users from the gated communities, which are ordering from around 2,243 dark stores in Q4 26.
+Sarin Sudhakaran:  And Swiggy also reported around 27 million users with Instamart reporting 114 million users for order in the last quarter. So all these behavior shift shows that there's more reliance on the newer age technologies and the new platforms by the users.
+Sarin Sudhakaran:  So going more deeper into this, how do we go to these questions? So let's say we talk about the new habits, relationships.
+Sarin Sudhakaran:  Okay, let me just.
+Speaker 9:  There is a news discount, like really great discount now because of Black Friday, you know.
+Sarin Sudhakaran:  Okay, so primarily what I spoke about in slide, I'll just cover them over the questions here. So the first pattern is, let's say, online shopping. So there are far more online platform.
+Sarin Sudhakaran:  Shiv Priya or Vikas, can you please stop using the filter, please, for sometime?
+Speaker 9:  Yeah.
+Deepk Anchlia:  So I'll just cover some point related to the new dependency. So one of the main dependencies.
+Sarin Sudhakaran:  Shiv Priya, Shiv Priya, I've just not finished. Can you just stop using the filter?
+Deepk Anchlia:  Oh, sorry. Sorry about that. Yeah, you can carry on.
+Speaker 9:  Just checking it out.
+Sarin Sudhakaran:  Okay, so coming to the online shopping. So now most of the gated communities, they shop online rather than the non-gated communities using the traditional shops. And there's an increase in premium consumption.
+Sarin Sudhakaran:  So as I said, the brands like iPhone and which are available into a quick amount of time, they're being ordered. The doorstep economy, the gig work for the delivery rider, service worker, they have been growing rapidly in the gated communities.
+Sarin Sudhakaran:  And the economy wise, if you see, there are starts which show the share of gig workers earning below 15,000 per month is now around 40%. So it has steadily increased.
+Sarin Sudhakaran:  The housing types, mostly the flats within the apartments. And now the apartment, this has the gate of the logistic hub.
+Sarin Sudhakaran:  So there are multiple entries which are happening on MyGate for vendors, for the typically the maids and everyone. So it's a sense of security as well within the people and the daily active transactions of the quick commerce.
+Sarin Sudhakaran:  So these are the starts which are the key figures in the column A which you see and data for 2021 and the last five years data has been taken or what has the parameter taken that is and the major sources are MyGate, the statistical office, the red cedar statistical consulting, and the category of them are either research firms or the government firms and the platform data from the apps. So Shiv Priya, back to you.
+Sarin Sudhakaran:  Presentation. Thank you.
+Speaker 1:  Yeah, you are sexy only in Maya.
+Deepk Anchlia:  Sorry, can you come again?
+Sarin Sudhakaran:  You can present your point.
+Deepk Anchlia:  Yeah, I just summarize the point.
+Sarin Sudhakaran:  Want to share screen, please?
+Speaker 9:  They keep calling him sexy too. He has confidence, you know. He goes out with such confidence that people are looking at him.
+Deepk Anchlia:  The new dependencies that we have seen, the apartment living, like dependence, there is a huge dependence on the domestic health. Also.
+Sarin Sudhakaran:  Seriously.
+Deepk Anchlia:  Created jobs for all those people. Like we, the people in the apartment heavily depend on these housekeepers and cooks and cleaners for their day-to-day activities. And then comes the delivery and home services like food, groceries, repairs, maintenance, all those things.
+Speaker 9:  Is it working? I can get to him.
+Deepk Anchlia:  And with this, we can see like people who are, there's a huge shift in the human behavior. Like Sonam said, like people prefer convenience over spending a lot of time on doing activity. So with this, there is a huge market, like a revenue market that can open up for all these recurring activities that people in the apartment do on a day-to-day basis.
+Deepk Anchlia:  Not only for the apartment, even for the maintaining the apartment, there are a lot of services and services required. So that actually creates a new revenue opportunity.
+Deepk Anchlia:  That's what we can also look into as a point, yeah.
+Speaker 9:  Vikas, if you have anything else, you can add it to your lesson.
+Speaker 1:  Yeah, so coming on the last part, it was all about trust, belongingness, and privacy. So when it comes to trust, previously trust was within the community in rural areas, but now the trust has shifted drastically into the platforms where platforms, from platforms we get to know whether we should leave a person in certain markets.
+Speaker 9:  What you're talking to me I'm 100%.
+Speaker 1:  This whole thing came into, these guys came into from rural households to urban households because of privacy.
+Speaker 1:  But then.
+Speaker 9:  Yeah, but you're not going to get right now.
+Speaker 1:  This whole data of them is in the platform and for these to be maintained, it is the RWA's responsibility to make sure that this resident data, visitor data is not screwed up. And one more thing, one more observation which we found was a lot of people who are in these gated communities, about 57% of them report loneliness. And this loneliness is often chosen by themselves because they value their privacy.
+Speaker 1:  Now the thing is that there is a lot of density, but there is no value generated yet. So there is this whole living near each other, we should start trying to make them make sure that they live with each other.
+Speaker 1:  I think if time permits, I can just.
+Speaker 9:  They have some screen right now.
+Speaker 1:  Okay.
+Speaker 9:  Maybe somebody, like people will know, like I don't know what to say.
+Speaker 1:  Certain things are not to be asked there. We should go through it like we have each and everything, like regarding trust, privacy, or if it is regarding loneliness or connection, elderly isolations. These are all the themes through which we went through.
+Speaker 1:  And so last question for us was like what was, what is the behavior which will happen? Say in the next five years.
+Speaker 1:  So community platform penetration in gated communities can rise. Gated communities will drive a large share of India's online retail.
+Speaker 1:  Gated communities is community itself will grow and hyperlocal commerce is something which will grow. Gig workers, I think we've already seen it, but still this is growing by a huge extent.
+Speaker 1:  Aging is something one more problem because maybe by the end of 2050, we'll be having all people, most of the people aged more than 60 plus.
+Speaker 9:  If he's not on WhatsApp, he expects a call.
+Speaker 1:  That kind of behavior we are expected to see. Consumption, urbanization, so these kind of things are what is there in the plate for the next five years. I think that.
+Speaker 9:  SMS, I don't get double ticks on WhatsApp.
+Sarin Sudhakaran:  Yes, you had a question. My question is on the aging. What kind of behavior are we seeing 5, 10 years down the line?
+Speaker 1:  No, people initially started.
+Speaker 9:  I checked this generated AI.
+Speaker 1:  But then this privacy started getting them into loneliness. So then you being in a nuclear family, maybe this might be just one or two people later on. When you are 60 plus, say when this whole thing is around 2050, we are seeing like population, a lot of population is around 60 plus.
+Speaker 1:  So this 60 plus population will start to feel that loneliness much higher rate.
+Speaker 1:  Do you want to see any data sources for this specific? In agency, government reports.
+Sarin Sudhakaran:  So I wanted to understand the base for this. Because what we are talking about future, but then there should be some traction. That people are already started feeling lonely.
+Sarin Sudhakaran:  Maybe in a municipal format, but yes, they are feeling lonely. So that I was a little confused.
+Speaker 9:  So cool, so cool, so cool.
+Speaker 1:  That is there, like that is expected to grow with the age.
+Speaker 9:  Are you happy with the form? You haven't put it in your hand.
+Sarin Sudhakaran:  I just transferred it.
+Speaker 9:  I just got it today.
+Sarin Sudhakaran:  Interrupting, but have we seen any data point that is correlating loneliness and aging in the specific ecosystem?
+Speaker 1:  Yeah, that is what this report. It's not like the original Indian aging report 2022.
+Sarin Sudhakaran:  That's what it is.
+Speaker 1:  I think that has that source of UNFPA and IPS that says the aging report.
+Sarin Sudhakaran:  You need like it's so far.
+Speaker 1:  From that.
+Sarin Sudhakaran:  It's generated AI.
+Speaker 1:  Family, if I put art to like Vikas point, like what future might be like in case of aging, what.
+Sarin Sudhakaran:  No, I was setting it up.
+Speaker 1:  You might see that trend is like most of the old people, right, they are relying on most of the, let's say, the security guards or let's say some new agencies who are coming up with some additional help for the aging people within the societies, like taking them for a morning walk or an evening walk or any sort of like the new quick commerce areas may like come which may offer extra like facilities for the like let's say some mode for like old age where they can just
+Speaker 1:  deliver those specific stuff which they require like medicines or those sort of things for their convenience. Like that could be a trend which could come after five years.
+Speaker 9:  You just must not look at.
+Speaker 1:  Like I can see like that could be.
+Sarin Sudhakaran:  It could be a market with money, but there is no. Yeah, there is just money, but there is no cure for their loneliness.
+Speaker 9:  No, no.
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  I mean, so the average age of India is currently 35, 38.
+Speaker 9:  I'm starving and.
+Sarin Sudhakaran:  Five years, I think that is a very minimum period. Maybe 20 years, 25 years down the line.
+Speaker 9:  Yes, I know.
+Sarin Sudhakaran:  We're always talking about the additional facilities.
+Speaker 9:  That's right.
+Sarin Sudhakaran:  Because more and more population will be in their 60s. So that opportunity lies maybe after 25 years. That's what I feel.
+Sarin Sudhakaran:  Talking about loneliness.
+Speaker 1:  Even 10% of that is a huge number for you to track out.
+Speaker 9:  You have to.
+Speaker 1:  So Vikas if my understanding is correct, you are talking about safety land, right? As the people are growing old, they would like to have the safe some sort of financial security as well. They would like to think about those things.
+Sarin Sudhakaran:  Because I think we would have, yeah, Vikas please.
+Speaker 1:  Yeah, it is not just about financial security. Social security which means a lot of things, parents and health and all other stuff.
+Speaker 9:  Because all my fat goes in my stomach. It is called a stress factor. It is not your fat factor.
+Speaker 9:  It is called cottage.
+Sarin Sudhakaran:  So it would be more of a support point of like convenience that could be like playing a major role for old aging.
+Speaker 9:  My boobs stay the same.
+Sarin Sudhakaran:  My boobs stay the same.
+Speaker 9:  My bum stays the same. Just my waist.
+Sarin Sudhakaran:  Financially, I think everyone plans retire or they would have. That's what I assume.
+Speaker 9:  Anyways, I just want to lose weight.
+Sarin Sudhakaran:  In a society living in an apartment. So definitely they require more support on their aging front.
+Speaker 9:  I will go if I eat.
+Sarin Sudhakaran:  That could be a new like opportunity that could come.
+Speaker 9:  I want biryani.
+Speaker 1:  Do you see any difference?
+Sarin Sudhakaran:  Oh, look, can you go there?
+Speaker 9:  I just started.
+Sarin Sudhakaran:  I think already like within my space or nearby apartments, what I have seen is like a few people like after age of 70, like if they are suffering from dementia or Alzheimer's, so they usually have like if they have a family residing with them, they have additional support like from staffing agencies which come for like handling their daily work, like taking them to the washrooms or for a daily walk and then planning their medicines and everything. So it has already started. So with the time, it would
+Sarin Sudhakaran:  definitely create a new segment and will anyways grow because all those people need to be specialized one from the healthcare industry. Like you cannot rely on, let's say, a maid or someone who are doing your regular stuff.
+Speaker 9:  Yeah, you need skilled labor for that.
+Sarin Sudhakaran:  Yeah.
+Speaker 9:  Also, one more, one final question is, Abhinav, you presented gated versus non-gated. The non-gated was 45%, I think, in the earliest time. So is there any behavioral change when it comes to gated versus non-gated?
+Speaker 9:  Any insights there?
+Sarin Sudhakaran:  Yeah, there are quite a lot of them. Like one of the behavior change which we like saw in the data was like people are becoming, you can say, more privacy driven.
+Speaker 9:  In gated.
+Sarin Sudhakaran:  In gated. Like a study showed that from my gate, like they launch a list of vendor services and people like tend to order more of special services, let's say, for buddy decorations or let's say Bangalore where they have the boost facility, but they don't want it to be disclosed because in gated you already have a notification that comes like whosoever has checked in, what purpose they have checked in for. So they are more concerned about their privacy.
+Sarin Sudhakaran:  And there's a change in behavior when they move from individual to like apartment in terms of the, you can say, empathy. Like there have been cases where like a few of the apartments, they do not want the maids or the support staff to be using lifts for the general like movement.
+Sarin Sudhakaran:  They want that they should be going through the stairs or any other routes like rather than using the regular lift which the other rest of the people are using. So you can say a security complex or that sort of also has been seen.
+Speaker 1:  Got it. Thank you. Thank you, guys.
+Sarin Sudhakaran:  Okay.
+Sarin Sudhakaran:  Any more questions, please?
+Speaker 1:  No, no, thanks. Thanks for this. I think we have all the questions answered, Deepak.
+Speaker 1:  Guys, do you want to add anything to the questions? What has fundamentally changed?
+Speaker 1:  Why this matter? Why should we look at this opportunity?
+Speaker 1:  Like I've added my answers in the chat. If you want to add, feel free to change it.
+Sarin Sudhakaran:  No, I don't have anything.
+Speaker 1:  ठीक है, makes sense. So can anyone of you explain, and I'm asking it as a group, ठीक है, what has fundamentally changed?
+Sarin Sudhakaran:  The behavior?
+Speaker 1:  What does that mean?
+Sarin Sudhakaran:  So by behavior, it is like you can say example of superiority complex like moving from individual to a gated with the different mindset of people around you.
+Speaker 1:  Okay, I would say that is one small thing. But overall, fundamentally क्या change हुआ है?
+Sarin Sudhakaran:  I mean, people have started moving for like social status, economic reasons, security, convenience, less time to more value. So this is what people have started to move from like rural to urban or in the last few years. So that number suggests that, right?
+Sarin Sudhakaran:  Like we have numbers to justify that people are moving for these reasons.
+Speaker 1:  Got it. But थोड़ा सा zoom out करो. Zoom it out a little bit.
+Sarin Sudhakaran:  So I think it's more of an aspirational experience that people are looking for. And with that, all the elements what we have discussed so far, that's like a byproduct over the years. And it might have few connotations like a nuclear family, double income family, more private companies coming in after the FDI Act of 1991, which actually got the boom from 2008 onwards, and which we are looking right now in the last few years that people are getting those kind of jobs.
+Sarin Sudhakaran:  So I think overall, on a surface level, these are the reasons I feel.
+Speaker 1:  Got it. Got it. Makes sense.
+Speaker 1:  But what are your dimensions of comparison?
+Sarin Sudhakaran:  So what's a dimension?
+Speaker 1:  Dimension of comparison.
+Sarin Sudhakaran:  Can you give an example? मतलब क्या रहता है ये?
+Speaker 1:  Basically, मैं ये पूछ रहा हूं। चलो, एक बार अभिनव पे आते हैं, फिर मैं explain करता हूं।
+Sarin Sudhakaran:  ठीक है। So few more I would act at like lifestyle, okay, convenience, which has changed from individual to apartment.
+Speaker 1:  Convenience is one of them. Lifestyle is very individual, right? 
+Speaker 1: ठीक है। तो अब सोहन वाले question पे वापस आते हैं एक बार।
+Speaker 1:  The question is, what has fundamentally changed? इस question का मतलब है that there is a point A and then there is a point B and then we are actually looking for a difference, right?
+Speaker 1:  Then that also means that there has to be some sort of pointers on which we can look for difference. Like for example, one of the pointers can be resources.
+Speaker 1:  When you were living in, let's say, individual households, the resources were individually utilized. When you are living in a society, the resources are partially pooled or potentially pooled, right?
+Speaker 1:  So there is a fundamental change, you can say. Right?
+Speaker 1:  For example, if you are just sharing water, if you are living, earlier what used to happen, either you had like two or three floor buildings or either individual houses, right? Your consumption of water was either divided into three or two, right?
+Speaker 1:  Or just divided into your family, which is one only. But when you are living in a society which has, let's say, 20 floors, every floor has five apartments, which means 100 houses, so that water is getting shared into 100 houses.
+Speaker 1:  Hypothetically, you can imagine that, right? So always remember when there is a change, the ask is comparison.
+Speaker 1:  So you will have some fundamental dimensions. What I mean by dimensions is, let's say, demand.
+Speaker 1:  Demand is one of the dimensions. What does it mean?
+Speaker 1:  When you are living in independent households, then geographically you were fragmented, right? Is it not?
+Speaker 1:  When you started living in societies, it became concentrated. So it has changed.
+Speaker 1:  Same goes for infra. Infra in individual houses, it is individually owned, right?
+Speaker 1:  For example, if you were living in individual house, उस time पे लाइट जाती थी, right? You would have a generator or an inverter, right?
+Speaker 1:  Whereas a society will also have this, but this is partially shared. The same huge generator will be charging a lot of houses, right?
+Speaker 1:  So that means there is a fundamental difference now.
+Speaker 9:  My rules.
+Sarin Sudhakaran:  Same goes for consumption. It was first independent. Now it is potentially coordinated.
+Speaker 9:  It doesn't want to take flight, it's expensive.
+Sarin Sudhakaran:  Right? Even trust.
+Speaker 9:  Train or bus she's saying.
+Sarin Sudhakaran:  Earlier you used to trust your personal relationships.
+Speaker 9:  Because it's expensive.
+Sarin Sudhakaran:  Now there is a community-based dependency.
+Speaker 1:  Probably paid like 1000, 2000 only the flight.
+Speaker 9:  It's 5000.
+Sarin Sudhakaran:  Is it not?
+Speaker 1:  5000 is not.
+Sarin Sudhakaran:  That is why you would have spokesperson from community.
+Speaker 9:  We are talking about it's a lot bubble.
+Sarin Sudhakaran:  And that spokesperson is representing himself. Same goes for labor. Or let's say house-to-house distribution.
+Speaker 1:  Let her take care of accommodation.
+Sarin Sudhakaran:  Right. Or governance. Even this can be a part of this, right?
+Sarin Sudhakaran:  So in a nutshell.
+Speaker 9:  All of these pointers say that it has fundamentally changed. And I think all of us agrees to this. If you have a counterpoint here, you can maybe put an, you know, we can go deeper into it.
+Speaker 9:  Nain, you don't have it? No, no.
+Speaker 9:  Is any nice train?
+Speaker 1:  Not enough.
+Sarin Sudhakaran:  Isn't the like shared resources?
+Speaker 1:  That's part of a convenience.
+Sarin Sudhakaran:  Earlier people had individual houses, then they had to like put it. If it was like a shared housing that time.
+Speaker 1:  250 से मोनार दो घंटा है बस। But it's all tricky.
+Sarin Sudhakaran:  Let's say earlier people were living in individual houses. Why they could not use a shared like infra? Because there was no capital or there were no people who had the same mindset, right?
+Speaker 1:  Correct.
+Sarin Sudhakaran:  But now in apartments, you have the same infra and the similar mindset, right? So that's why now it is booming.
+Speaker 1:  I would not say that they are similar mindset, but I would say just because they are geographically concentrated and it makes more sense that the resources are pooled. That is why it has changed. But you are right, it has actually changed.
+Sarin Sudhakaran:  Why I'm saying mindset is like earlier, let's say you have three neighbors, okay?
+Speaker 1:  Yeah.
+Sarin Sudhakaran:  Now you three of them pool money and then say, okay, we'll put some massible pump for water. And you have a fight, right? So ultimately, like it is like we'll stop the water or that goes.
+Sarin Sudhakaran:  But in apartments and all, it is not that discussion that goes because you have a shared one, but that has authority, like everyone has authority on it.
+Speaker 1:  True. Yes. And that has also changed.
+Speaker 1:  Earlier there was no governance. Now it has a governance.
+Speaker 1:  That means there is a fundamental shift, right? So your point is valid, right?
+Speaker 1:  Ha, Keerthi, yes.
+Speaker 9:  Yes, Deepak. So when we think about like what has fundamentally changed, even like the lifestyle has changed, right? Like how we used to live in like independent houses versus how we are.
+Speaker 1:  Right. That is true. But I would not call it lifestyle because lifestyle as a word seems more like user dependent, right?
+Speaker 1:  Whereas I would just call it, let's say, living condition. Or living condition itself is not a very right word.
+Speaker 1:  The right word here would be, let's say, identity. I think identity is a right word.
+Speaker 1:  Earlier it was individual household as an identity, right? Currently it is household plus community membership.
+Speaker 1:  Let's assume that, right? So the identity itself has changed, right?
+Speaker 1:  And the prime, even if we go into user level, it's like, you know, you see somebody living in an independent household versus you see that same person living in a society which has 1000 people living. You would see their behavior is a little different.
+Speaker 1:  They will behave in a certain way.
+Speaker 9:  Correct. Like if you see when we were living in individual houses, we from a like the quick commerce perspective, we never used to like order or things like that, right? Even the frequency, if you see in gated societies, we have it readily available.
+Speaker 9:  That's why even the frequency of spending has increased, right? That's why I was thinking like lifestyle, you know.
+Speaker 1:  Correct. Absolutely right. Right.
+Speaker 1:  So ha, Abhinav, yes.
+Sarin Sudhakaran:  Instead of lifestyle, I was saying like there is one more parameter, like the purchasing power. Like earlier it was not much right with the increase in the immigration to the new cities, new job options, and the new companies coming, right? So people have no more purchasing power.
+Sarin Sudhakaran:  So that has fundamentally changed, right? How you used to live previously and now.
+Speaker 1:  Yeah, I would not consider that because let's say अगर same society was there in a small village, would this change? It changed because you changed the city and it gave you a new opportunity. However, if the fundamental difference you are comparing is independent household versus living in an apartment in a society, right, you would not consider lifestyle as a big factor.
+Speaker 1:  I'll give you an example. Let's say for a student who was living in her small town and then she came to an apartment, right?
+Speaker 1:  For her, you would not see a big shift in her lifestyle.
+Speaker 1:  You would see different things are changing, of course, right? But is the society itself leading to that change?
+Speaker 1:  I would say highly unlikely. It's the city, the requirement, because city would require you to have more money to spend on your living.
+Speaker 1:  The cost of living is high. The cost of eating is high.
+Speaker 1:  The cost of transportation is high, right? So that lifestyle change is not because of society.
+Speaker 1:  It can be. I'm not saying it cannot be.
+Speaker 1:  I'm saying but primarily and fundamentally, the changes are more on, and you can write it down because you might have to mention it in your discovery talk. So what did we actually figure out?
+Speaker 1:  We figured out that yes, there is a fundamental shift, right? We are no longer single economic unit.
+Speaker 1:  A residential community itself is emerging as economic unit. Write it down, right?
+Speaker 1:  And how do we prove this? Very simple.
+Speaker 1:  That we compared and we gathered data on two things. 
+Speaker 1: ठीक है? And you know, it would be better if Google can introduce a feature if somebody is speaking, it can just transcribe it. It would be super super awesome, isn't it? 
+Speaker 1: ठीक है? So if you are seeing that, then we have to see different dimensions. What can be our dimensions?
+Speaker 1:  Demand is one dimension. I know, I hope someone of anyone from you is writing, right?
+Speaker 1:  Demand is one dimension. Infra is second.
+Speaker 1:  Consumption is third. It could be labor.
+Speaker 1:  It could be trust. It could be governance.
+Speaker 1:  And then what we talked about, it could be information, right? Earlier it was fragmented.
+Speaker 1:  Now it is shared through community networks, groups, and all, right? Identity, right, we talked about it.
+Speaker 1:  Resources, we talked about it, right? So all these dimensions, if we have compared people living in independent houses now to large apartment societies or apartment societies, it has changed.
+Speaker 1:  So what has fundamentally changed? Now we have a sense, right?
+Speaker 1:  Are you all with me?
+Sarin Sudhakaran:  Yep.
+Speaker 1:  Yes.
+Sarin Sudhakaran:  ठीक है.
+Speaker 1:  ठीक है? I'm assuming everyone is on the same page right now. Now, I have my second question, and I think it was, why does.
+Sarin Sudhakaran:  It does this matter.
+Speaker 1:  This change matter, right? Something like that.
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  Yes. Can anyone of you answer that? Why does this change matter?
+Speaker 1:  Because see, now you have a better clarity on the first pointer itself, right? Now you can actually think.
+Speaker 1:  And you can actually also give me some numbers here if you have it, right? So yes, why does this change matter?
+Sarin Sudhakaran:  Like as a country, I think it matters from a flow of money, right? Like.
+Speaker 1:  That is true.
+Sarin Sudhakaran:  It brings in jobs. It brings in, yeah, like there's a lot of GST, tax, all that. So that is true.
+Sarin Sudhakaran:  That is true. That is one aspect of it.
+Sarin Sudhakaran:  So it brings jobs. It makes flow of money.
+Sarin Sudhakaran:  What else did we make a note of?
+Speaker 1:  I think we need to go a little deeper.
+Sarin Sudhakaran:  32% of households are spending. 45% of the spending is there. So.
+Speaker 9:  Why it matters is also that this is already a very big cohort in terms of the value and the volume, which is also growing. So.
+Speaker 1:  Okay. Fair. Fair enough.
+Speaker 1:  However, look from this, from a very first principle-like point of view, what do you mean by change, first of all?
+Sarin Sudhakaran:  Like if you compare it to previous generation, the change is from a growth perspective, right? We want to grow as a country. Like everyone wants to grow.
+Sarin Sudhakaran:  There is probably metrics around that, GDP that. So I think probably growth is one such factor where.
+Speaker 1:  Correct. Economics. Basically, you are saying economics, right?
+Speaker 1:  Which is a valid point, yes. The first one is economics matter, right?
+Speaker 1:  What are like two, three other stuff? Think about it.
+Speaker 1:  It's very closely connected to the same five-layer analysis we talked that day.
+Sarin Sudhakaran:  Social circle?
+Speaker 1:  Correct. Social circle. लेकिन बोलोगे कैसे?
+Speaker 1:  मतलब social circle का what is the underlying factor which is connecting social circles?
+Speaker 9:  The identity?
+Sarin Sudhakaran:  Cohesive?
+Speaker 1:  Yes. Go deeper, go deeper. Identity को भी क्या चीज़ connect करती है?
+Speaker 1:  Which is common in every human?
+Sarin Sudhakaran:  Human psychology.
+Speaker 1:  Correct. Second change is psychological change, right? Now, what is the third change?
+Speaker 1:  See, if you see all the three groups.
+Sarin Sudhakaran:  Needs.
+Speaker 1:  Yes. Needs में भी थोड़ा और deep जाओ. All the three groups were divided in the same manner.
+Speaker 1:  The first group was focusing on economics.
+Sarin Sudhakaran:  Desire.
+Speaker 1:  Group was focusing on psychology, human behavior. What was the third group focusing on?
+Sarin Sudhakaran:  Egoistical.
+Speaker 9:  Infra ecosystem.
+Speaker 1:  Yes. Infra को और क्या बोलते हैं?
+Speaker 9:  Development.
+Sarin Sudhakaran:  Desires.
+Speaker 1:  नहीं, not development. Infra क्या करता है?
+Speaker 9:  Society?
+Speaker 1:  नहीं, नहीं. What does infra do?
+Sarin Sudhakaran:  Comfort.
+Speaker 1:  If you have, let's say, if you have a finance app, if you have a management app, if you have fitness app, right, all these are connected. What is it doing?
+Speaker 9:  Convenience.
+Speaker 1:  Convenience. और क्या बोलते हैं convenience को?
+Speaker 9:  Time versus value, value addition. Accessibility.
+Speaker 1:  Go. Think about it. Like if there are 10 fragmented things, right, and you are connecting everything together so that you can have a seamless experience, what has it done?
+Speaker 1:  It has reduced your coordination cost.
+Speaker 1:  Is it not? It's coordinating, right?
+Speaker 1:  So why does this change matter? Very simple.
+Speaker 1:  Because physical proximity actually changes the underlying economics. That was the first group.
+Speaker 1:  The human psychology, second group, and infra, which is coordination cost of everyday life. It does it, right?
+Speaker 1:  All of you are with me here?
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  ठीक है? Now, let's actually go to first principles. And again, someone write it because this is going to be helpful to you, right?
+Speaker 1:  What does it really mean? ये जो तीनों चीज़ें I have spoken about, क्या मतलब है इसका?
+Speaker 1:  Simply means, the first I can think of is, let's say, density. If you can serve more customers within a smaller area, it reduces cost.
+Speaker 1:  That is why you would see all these Zeptos, Swiggies, Blinkits, all these places, they have dark store very close to your house.
+Sarin Sudhakaran:  2 kilometer, I think.
+Speaker 1:  Yes. Max 2 kilometers. It's called economics of density.
+Speaker 1:  You can serve more customers within a smaller area, and it actually reduces cost, right? Second is scale.
+Speaker 1:  If you see aggregated demand, it can actually increase purchasing power. Which Abhinav was talking कि जब वो divide हुआ, but वो उल्टा भी तो सही है.
+Speaker 1:  It's actually increasing your purchasing power, is it not? You would have never spent for a lift if you're living in an independent house, right?
+Speaker 1:  Even if you are paying, let's say, 5000 rupees extra just for the lift every month, you are doing it because that's the cost of amenities. So it's called economics of scale. 
+Speaker 1: ठीक है? Next would be, let's say, transaction cost. हां, Abhinav, yes.
+Sarin Sudhakaran:  Just a like thought. Like even today when parents visit, they say like, "Why are you paying 5000 rupees in maintenance every month?" Like, "We spend 5000 for whole year with all the taxes and everything you are paying per month."
+Speaker 1:  Yeah, dude. You know, it happened with me too. So I was talking to my mom a few days back, and I was telling her, "And so my maintenance is very high.
+Speaker 1:  It's almost 25 to 35 thousand every month," right? So I told her, and she scolded me for that.
+Speaker 1:  That what the hell is this? This is the actual rent of a house in Delhi, this and that.
+Speaker 1:  And I was like, "Okay."
+Sarin Sudhakaran:  And that is also one like concerning area for old age people. Like how would they survive in the metro cities? Because the maintenance is too high.
+Sarin Sudhakaran:  So at a point, if they have no incomes, then how would they pay the future maintenances?
+Speaker 1:  That is there, man. But if I think I was talking to Sarin, and it was group number one. I think you were also there, right, Abhinav?
+Speaker 1:  Or नहीं, रोहित was there. रोहित was there, शायद.
+Sarin Sudhakaran:  रोहित was there.
+Speaker 1:  है ना? So we were talking about this. So there is this new villa residency near Bombay or maybe Lonavala, right?
+Speaker 1:  And it is for old people, and it's built exactly like how you see IITs, right? You have all the amenities.
+Speaker 1:  But again, it is only for people who can afford that much in their 60s or 65s. So your point is actually valid.
+Speaker 1:  That if we go towards that section where they have to afford it again, it's going to be very, very hard, right? But yes, few things are coming, and it's an emerging area.
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  The opportunities are there, right? So yes. 
+Speaker 1: ठीक है. Where was I? I think I was at.
+Sarin Sudhakaran:  Not here.
+Speaker 1:  We talked about economics of scale. What was next? I think I spoke about.
+Sarin Sudhakaran:  Density scale.
+Speaker 1:  Transactions. Yes. There is cost of transactions, right?
+Speaker 1:  What I mean by that is that you will find, you will evaluate, you will also assess some services that could actually become cheaper. What does that mean?
+Speaker 1:  Let's say a shared maintenance will always be cheaper as compared to maintenance for a specific house.
+Speaker 1:  Let's say, अगर कोई first floor पे रहता है, and if he says कि, "Yeah, why should I pay for the lift?" Right?
+Speaker 1:  So that logically it makes sense. Why would he?
+Speaker 1:  Right? But in a societal manner, it doesn't.
+Speaker 1:  And that's a transactional cost. That if you're living in a society, you might have to still bear that cost.
+Sarin Sudhakaran:  Which company is this?
+Speaker 1:  Right? It's like if the water is pumping from ground floor to the top floor, and the person living in the ground floor would say, "Why should I pay extra money for this?"
+Sarin Sudhakaran:  Just take a scale in.
+Speaker 1:  है ना? Which makes sense.
+Speaker 9:  Maybe.
+Speaker 1:  Right? But that's a cost you have to incur, right? Next is social proof.
+Speaker 1:  You can see your neighbors' experience and can influence your decision and your purchasing power. Is it not happening?
+Speaker 1:  It happens every day. There are so many jokes about it that your neighbor got a car, you now also want to get a car, right?
+Speaker 1:  See, every joke, it comes from a valid observation.
+Sarin Sudhakaran:  FOMO.
+Speaker 1:  Yes, FOMO. It's doing that, right? Even network effects, I would say.
+Speaker 1:  How many of you watched the network effect?
+Sarin Sudhakaran:  Pardon, please? Devak?
+Speaker 1:  Network effect.
+Sarin Sudhakaran:  Network.
+Speaker 1:  It's a very, you know, it's a very in always in term in consumer apps.
+Speaker 9:  Yes.
+Speaker 9:  What is it?
+Speaker 1:  Network effect.
+Sarin Sudhakaran:  Network effects.
+Sarin Sudhakaran:  I've heard of it. I'm not able to explain it this point of time.
+Speaker 1:  In short, let me explain you with a relevant example.
+Speaker 1:  Certain services, let's assume, they become valuable, and I would say more valuable, as community participation increases.
+Speaker 1:  You got the point. Certain services, it actually becomes more valuable in your society if the community participation actually increases.
+Speaker 1:  For example, gym.
+Speaker 1:  Right? For if I have to, you know, simplify this, on a social platform like Instagram, if a friend of yours share a reel to you, then also it's bringing a new customer for them.
+Speaker 1:  It's sort of network effect, I would say, right? But ठीक है.
+Speaker 1:  It's already, it's already a little late. 
+Speaker 1: ढाई बज चुका है. So I will not go into details of it because it's a very dense topic to explain, right? So maybe around next week, we will sit together and we will think about it.
+Speaker 1:  So see, these are like few things. I can also think of more things like resource utilization or asymmetry of information or information asymmetry, right?
+Speaker 1:  Behavioral economics. Social norms itself is changing because peer behavior can influence individual decisions.
+Speaker 1:  For example, if there are different families from different religions, right? And I have experienced this when I was in Pune.
+Speaker 1:  Pune में, you would see during Ganesh Chaturthi, there's a lot of bandh baja वाले.
+Sarin Sudhakaran:  Dhol tasha.
+Speaker 1:  Dhol tasha. Yes, they do this. And you would see people from every religion participating there, right?
+Speaker 1:  The same thing is happening here. So what does, why does this change matter?
+Speaker 1:  I think it definitely matters because physical proximity is actually an evident way to say that, you know, it is changing your economics. It is influencing your individual economics, right?
+Speaker 1:  It is influencing your human psychology, and it is also influencing coordination cost of everyday life, which is infra.
+Speaker 1:  है ना? और इसका सबसे अच्छा example है collective actions.
+Speaker 1:  You know, shared actions, they actually create great opportunities, but they can actually also create conflicts. That also happens in societies, right?
+Speaker 1:  So we have a clear picture that fundamentally things have changed, and we have dimension. And I hope you have already written it, right?
+Speaker 1:  Because एक बार मेरे दिमाग से निकल गया, वो बार-बार नहीं आएगा. So I hope that is there.
+Speaker 1:  Second question was, I think, why does this change actually matter, right? We also checked deeper into it that it definitely matters because physical proximity has actually changed a lot of things, right?
+Speaker 1:  Now, let's come to the third question. And what's the third question?
+Speaker 1:  Can you, can you like repeat it? It was something on ecosystem.
+Speaker 1:  Is it investing, worth investing or not?
+Sarin Sudhakaran:  Why is this ecosystem worth investing?
+Speaker 1:  Makes sense, yes. So why is this eco- you, you tell me now. Why is this ecosystem worth investing now?
+Sarin Sudhakaran:  Because it's growing.
+Speaker 1:  Got it. ठीक है. And we have proof of that, that this is growing.
+Speaker 1:  But what is, what is, see, देखो, growth, numbers, all these things, क्या है ये? We talked about it day before yesterday.
+Speaker 1:  What are these?
+Speaker 1:  Observations. The first level, event layer, right?
+Speaker 1:  What is the fundamental layer?
+Speaker 1:  Collectiveness.
+Sarin Sudhakaran:  Collectiveness.
+Speaker 1:  Yes. Because infra has become collective, right? The first two points itself is proving that.
+Speaker 1:  However, the first two points are also proving that a lot of behavior, consumption, even commerce, it still remains individual.
+Speaker 1:  Is it not? You have collective experiences, but still a lot of things are still individual.
+Speaker 1:  Like you will have to pay individual rent. You will not pay a collective rent.
+Speaker 1:  You will have to pay individual maintenance. You will have to pay for individual house helps, electricity, water, right?
+Speaker 1:  So a lot of, even maybe gym membership for some people, right? So a lot of things are still individual.
+Speaker 1:  But yes, the infra overall is more collective in nature. 
+Speaker 1: ठीक है? Are we together here?
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  And this is where the mismatches.
+Speaker 1:  If you see, there is a mismatch because on one hand, things are collective. On the other hand, things are individual.
+Speaker 1:  And that is where your most and any great operator would focus on, would spend more time there.
+Speaker 1:  You know why? Because this is where you would see anywhere, ये लिख लो कहीं पे, anywhere you see a mismatch, it's the greatest opportunity or the most compelling opportunity to do discovery.
+Speaker 1:  This is, this is true for everything that you do in life, right? And same thing is happening here, right?
+Speaker 1:  For example, let's say people are living together, but they are consuming independently, which means there is uncaptured economic value or collective economic value.
+Speaker 1:  That would be a better word. And this is what we can investigate.
+Speaker 1:  Write it down. This is, this is what we are taking out from discovery right now.
+Speaker 1:  And this is the opportunity, strategic opportunity which we were talking about. So our first layer is kind of solved right now.
+Speaker 1:  This is the first thing we can look for, that there is uncaptured collective economic value, right? What could be the second?
+Speaker 1:  Think about it. And I think in my mind, I can see at least 10 right now, right?
+Speaker 1:  But why don't you give me some?
+Sarin Sudhakaran:  Like satisfaction of ego is, I think, one point. Like satisfaction of self, right? When I live, that's something probably not very, very much looked into.
+Speaker 1:  That is right, Sarin. And I think you are hitting a very right point, I would say. Just zoom in a little.
+Speaker 1:  See, focus on only two things right now. First is that you know that societies are behaving collectively, right?
+Speaker 1:  But you also know that societies are also behaving individually, right? So what is the actual difference?
+Speaker 1:  Where are you behaving collectively? For example, in a lot of economic areas, right?
+Speaker 1:  Or your consumption. Somewhere you are consuming collectively, somewhere you are consuming independently.
+Speaker 1:  So there is a possibility that you can consume collectively, है ना? There is a, it's like hostel, है ना?
+Speaker 1:  You live in a hostel, you pay X amount of money, food, cleaning, everything is taken care of, right? Whereas if you live in an apartment, you just pay for the apartment.
+Speaker 1:  Rest you have to see. So there is a gap, which means there is an opportunity to, it's like uncaptured collective economic value, है ना?
+Speaker 1:  Now, what can be the next one?
+Speaker 1:  And next one is very interesting one. Shall I share?
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  Have you, have you noticed this? That people actually are living closer than they used to live in an independent household, but they are very socially disconnected.
+Sarin Sudhakaran:  Yeah.
+Speaker 1:  है ना? So their, their means, that means that there is unmet psychological and social needs, right?
+Speaker 1:  Also, I have seen this a lot of times. And this is the third point.
+Speaker 1:  Write it down. That a lot of helps workers, right?
+Speaker 1:  This, they actually serve multiple households, but they quite operate independently.
+Speaker 1:  Like I remember in my previous society, my house help was different as compared to somebody or my neighbor's house help, right? And we were, and that lady actually came to my house asking, "How much do you pay her?"
+Speaker 1:  Right? Which means there is disconnectedness.
+Speaker 1:  And it also means that labor productivity and livelihood opportunities can also emerge from here because there is a gap.
+Speaker 9:  Okay, Google.
+Speaker 1:  Is it not?
+Sarin Sudhakaran:  Gap like how, like you mean to say, like if someone is working in your home and another home, so there's a pay parity, then you would like to like synchronize that, is it?
+Speaker 1:  One of the pointers, I would say.
+Speaker 9:  Tell me about software.
+Speaker 1:  Right? But there, if you go deeper, there are, there and there would be a lot of pointers.
+Speaker 1:  What I'm saying is just, and that is where I am refraining myself from going very, very deep here because I would want you guys to, you know, do and read a little bit more about it because towards the end, I know you will get more clarity. But focus on this fact that if the house help itself is fragmented, right?
+Speaker 1:  For example, the same house help can be, or the same company who hires different workers can deploy these workers in a society, right? Which is very rare right now.
+Speaker 1:  The opposite is true, that a lot of fragmented individual people who would come to your society and ask for work. So there is an opportunity there.
+Speaker 1:  The opportunity itself is creating some sort of, let's say, company or product around this help ecosystem.
+Speaker 1:  See, opportunity is very much visible, is it not?
+Sarin Sudhakaran:  Yeah, I think.
+Speaker 1:  You guys did, you all point समझ आया?
+Sarin Sudhakaran:  Yes. But house help is already solved by Snapit, like, like they have almost.
+Speaker 1:  Kind of, kind of. But that is also individual because you are not ordering for the society. You are ordering for your own house.
+Sarin Sudhakaran:  For a, for a own house, yeah.
+Speaker 1:  Yes. I'm talking about collectiveness here.
+Sarin Sudhakaran:  Collectively, yeah.
+Speaker 1:  Yes, collectiveness here, right?
+Sarin Sudhakaran:  So what are, what are we solving, Deepak? Like, are we solving between?
+Speaker 1:  Yeah, just finding gaps right now.
+Sarin Sudhakaran:  Yeah, like finding gaps between group and like individual, is it?
+Speaker 1:  Correct, yes.
+Sarin Sudhakaran:  Okay.
+Speaker 1:  See, we did very simple stuff. We first analyzed that is there any fundamental change? Change between what?
+Speaker 1:  Independent households and large societies. Because that is what has been happening.
+Speaker 1:  Migration happened from individual households to societies, right? There were some dimensions.
+Speaker 1:  Then we figured out, oh yes, there is a change, right? Then we asked, why does this change matter?
+Speaker 1:  And then we analyzed, oh okay, when you have physical proximity, right, you would see changes in economics, psychology, coordination cost for the good, for the bad, right? Then we thought, ठीक है, let's go a little deep and let's see all these gaps or all these, let's say, economic value, psychological value, coordination value.
+Sarin Sudhakaran:  What is it?
+Speaker 1:  Is it actually direct or is there any gap? How do you see the gap? Same.
+Speaker 1:  Look for individual perspective, look for collective perspective, right? Because society is collective and individual is individual, right?
+Speaker 1:  And then we found out that yes, there are few things where individual is paying differently, society is paying differently, which means there is opportunity gap, right?
+Speaker 1:  Next could be demand is kind of concentrated, but I think fulfillment is still very much fragmented, right? हाँ, बेटा, yes.
+Sarin Sudhakaran:  So for that, still a little back, the society and the individual one. So the help one which you were saying, so is it like कि, let's say you have someone coming for housekeeping to your home and they are not working for society or they are working for society and not coming to home? Like those sort of cases?
+Speaker 1:  Kind of, kind of.
+Sarin Sudhakaran:  Because usually what I have seen is like the housekeeping staff and all who works for society, like common areas and every place. So they are from agencies, like they are specialized agencies who give the housekeeping staff.
+Speaker 1:  Yes, yes, that happens.
+Sarin Sudhakaran:  Right? But for the individual houses, it's always like based on the word of mouth, publicity, or the previous experiences, how they have been working, right?
+Speaker 1:  Correct, yes. You are right. I have also seen this.
+Speaker 1:  It also happens in my society. And I think that's a fundamental gap because all these people who are cleaning societies and who are taking care of societies, they are employees of society or the association, right?
+Speaker 1:  Whereas if you are living in or if you have different house helps, they are employees of those houses, है ना? So that means there is opportunity.
+Sarin Sudhakaran:  Opportunity for?
+Speaker 1:  Opportunity for, let's say, you can actually create some sort of agency which actually serves house helps to one single society. You can manage those house helps. You can actually directly complain there, right?
+Speaker 1:  A sort of things can be managed. Of course, I don't want to go to solution space because that is where it becomes highly clear.
+Speaker 1:  But I hope इससे थोड़ा सा clarity ज्यादा आ गया होगा.
+Sarin Sudhakaran:  Yeah, understood.
+Speaker 1:  Right? हाँ, कीर्ति, yes.
+Speaker 9:  So Deepak, there can be like opportunities around the shared infra part as well.
+Speaker 1:  100%.
+Speaker 9:  Yeah, because one thing, I mean, I know this is like a solution, but recently a couple of people like mentioned to me that they are shifting basically to a bigger apartment just because they cannot do work from home, space constraints and things like that. So that time I was thinking maybe a sort of a WeWork setup in the society, right? Like maybe a couple of cubicles where we can do work from home, something like that.
+Speaker 9:  I mean, I'm not saying it as a solution, but yeah, that is an option, right?
+Sarin Sudhakaran:  New builders, like they have started focusing, like in Pune, like they are doing in Kharadi and Kalani Nagar, so all the new societies. Now in the community hall, they have a separate setup for a AC place where they have the setup of all the work from home.
+Speaker 9:  Oh, nice, nice, nice.
+Sarin Sudhakaran:  Yeah. A prominent builder, like Deepak might have heard of, like Gira, right? You see all the Gira societies in Kharadi.
+Sarin Sudhakaran:  So now they have started.
+Speaker 1:  I used to live in Gira only, उससे पहले, when I was going, ना? So they have it. They have it.
+Speaker 1:  Even Brahma also have it, right?
+Sarin Sudhakaran:  It's fine.
+Speaker 1:  हाँ, कीर्ति, think from, see, as an operator, only think from two perspectives. First is either a product perspective or a system perspective. And you should always think from a perspective which is scalable. 
+Speaker 1: ठीक है? So if you are, let's say, solving a problem, let's say, for example, the same problem that there are water tanks and you would want to measure the water of the water tanks because you would want to reduce the wastage because per reduction in wastage would lead to a water consumption, saving of water, whatever it is called, right? B, the cost overall would be less, right?
+Speaker 1:  So you would build an app and some sort of product which measures it, that when it is 80% full, when it is 90% full, right? When to stop it because.
+
+The housing-society case study objective is set as finding "potential for unrealized collective value". Everyone must interview 10 to 15 ecosystem stakeholders on Thursday and submit individual notes.
+
+
+
+Gaps Identified in Residential Societies
+
+Shared spaces serve differing interests (Abhinav's point, transcribed as "interest defer"), creating governance and coordination problems but also collective-interest opportunities.
+
+Example: a builder's lawn ends up used by kids as a football ground
+
+Information exists in societies but stays fragmented: residents miss events, power cuts or water issues unless prompted repeatedly.
+
+Businesses can reach concentrated demand but lack community-level distribution inside societies, a chance to create new markets.
+
+Households act as individual economic units while housing becomes more concentrated, pointing to a potential collective economy.
+
+
+
+Core Hypothesis and Approach
+
+Core hypothesis: investigate the gap between what collective infra makes possible and what individual behavior currently captures.
+
+Value can be economic, psychological, systems or other; this closes the first, most abstract phase of the case study.
+
+Method: start vaguely and explore every angle, but converge on a one-line objective before going deep.
+
+Deepk Anchlia's side insight: Indian apartment societies are becoming microeconomies, yet systems for consumption, information, relationships and resource access have not evolved.
+
+
+
+Stakeholder Research Plan
+
+Ecosystem identified so far: individual house owners, tenants, guards and other actors in the society.
+
+Next session will finalize interview questions and the ecosystem map before Thursday's interviews.
+
+
+
+Learning Habits
+
+Feeling overwhelmed is expected and signals learning; this is described as the easiest case study, and challenge will continue through week 9.
+
+Suggested: make notes, ask Claude (Opus) for visual diagrams and explainers, and post videos of notes on YouTube, since this contextual judgement is not available from AI.
+
+
+
+Next Steps
+
+(Speaker 3) Go through the last three topics discussed again tomorrow
+
+(Deepk Anchlia) Share reels in the group starting tomorrow
+
+(Everyone) Interview at least 10 to 15 people individually on Thursday, document and submit notes to Deepk Anchlia
+
+(Everyone) Spend 30 minutes revising the previous session before each call and maintain personal notes
+
+(Everyone) Share written notes in the group and post content daily to keep it engaging
+
+
+
+Decisions Made
+
+Case study objective: identify the potential for unrealized collective value in residential societiesI 
