@@ -1,0 +1,8 @@
+{
+  "name": "class-notes",
+  "private": true,
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  },
+  "type": "module"
+}

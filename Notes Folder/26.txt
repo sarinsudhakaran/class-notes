@@ -1,0 +1,88 @@
+### Field Research Recap
+
+- Group conducted ~23 interviews across Tier 1 cities (Gurgaon, Pune, Bangalore)
+- Stakeholders covered: security guards, maids, cooks, car cleaners, dog walkers, gig workers, residents, small vendors
+- Methods varied: in-person, phone, WhatsApp, overheard lunch conversations (Sonam used WhisperFlow)
+- Anil’s experience in Trishul: turned away by supervisor, told to get head office permission first
+
+### Key Field Findings
+
+- Gig workers commonly hold double shifts or multiple jobs to supplement low wages (~₹15-20k/month)
+  - Security guards forced to stand throughout shifts; residents object to them sitting
+  - Workers lack basic amenities: water, rest space, shelter from extreme weather
+- Female domestic workers face financial control issues
+  - Wages often go into husband’s account; women have limited direct access
+  - One maid’s gold savings (via Tanishq scheme) were sold by her husband
+- Security shift handovers create a ~30-minute window with no guards at the gate
+- Small vendors (women-run home enterprises) face intense competition and repeat-visit fatigue in societies
+- Residents largely transactional with neighbors; social ties form mainly through kids or long-term residency
+
+### Primary vs. Secondary Research Synthesis
+
+- Combined 21 primary interviews with Reddit, Google Maps, and news scraping
+- Common themes across both:
+  - Gate friction for delivery and service workers
+  - Worker insecurity and poor conditions
+  - Committee workload and trust deficit
+  - Maintenance and water repair costs (large, lumpy, disputed)
+- Reddit-only themes (not in interviews): rules on guests, pets, tenant access
+- Interview-only themes (not online): worker welfare, neighbor isolation
+  - Workers don’t post on Reddit; residents who complain online skew young and conflict-prone
+
+### Deepak’s Analytical Framework
+
+- Structured Claude prompt for unbiased analysis:
+  - Act as independent research analyst
+  - Extract evidence-backed stakeholder motivations, unmet needs, workarounds, conflicts, incentive misalignments
+  - Distinguish evidence from interpretation; quantify recurrence
+  - Actively challenge confirmation bias, sampling bias, overrepresentation of vocal stakeholders
+  - “Absence of evidence is not evidence of absence”
+- Used Claude Sonnet (Opus 5.5 recommended for better output with strict guardrails)
+- Output: structured evidence table with counterintuitive insights and research gaps
+
+### Opportunity Space Scoring
+
+Group voted on 4 dimensions: Reach, User Impact, Frequency, Economic Value
+
+- Gate as shared checkpoint for repeat visitors: high reach, high frequency, low economic value
+  - Pre-approval and ID-based entry already partially solved by MyGate
+- Accountability gap (complaints move to WhatsApp, not acted on in apps): moderate across all dimensions
+- Society running costs (water, repairs, unpaid arrears): high reach and user impact, low frequency
+- Worker welfare and site conditions: high reach and user impact, low economic value
+  - Deepak’s challenge: demand-supply imbalance means no clear business ROI for vendors or societies
+- Internal labor market for household help (one-way ratings, churn): high across all dimensions, including economic value
+
+### Opportunity Spaces Identified
+
+- Hyperlocal distribution: dark store within large society for groceries and essentials
+- Mobility / carpooling: middle layer for residents commuting to same office hubs
+  - Caveat: Uber Pool failed in India; off-app drift once people know each other
+- Childcare and elderly care: subscription-based collective care within society
+- Household management: managed services model (co-working analogy: pay per seat, third party handles everything)
+- Specialized service marketplace: STP/WTP operators, fire safety, pool maintenance
+- Sustainability: solar, rainwater harvesting, energy efficiency via shared infra
+- **Shareability marketplace** (highest votes): platform for residents to share/rent items and services within society
+  - Equipments and gadgets (cameras, PS5, baby gear)
+  - Cars and parking spaces
+  - Food dishes (home-cooked, on-demand)
+  - Coaches, mentors, tutors, babysitters, sports trainers
+  - Jobs and referrals (e.g. office nearby, walk-to-work leads)
+  - Hobby groups and workshops
+
+### Deepak’s Key Guidance
+
+- Don’t jump to solutions: still in observatory phase, problem statement not yet clear
+- Zoom out, not in: avoid locking onto a persona or solution prematurely
+- Systems thinking: every node is connected; solving for one stakeholder creates friction for another
+  - Example: better security = harder visitor access; larger society = more amenities but more walking
+- Worker exploitation persists because everyone benefits from the status quo
+  - Vendors save on labor costs; residents get cheap services; workers’ cost of raising voice is too high
+- Root cause of gate friction is distrust, not technology; same person writing in a register vs. an app
+- Distrust question left open: information asymmetry or conflict of interest?
+- AI guardrails: always keep raw data word-for-word; AI loses context and hallucinates when paraphrasing user conversations
+
+### Next Steps
+
+- **Fill shareability homework sheet before tomorrow's session**
+- **Consolidate all primary transcripts, notes, and secondary data into one folder**
+- **Finalize 1-2 shareability segments and write problem statements (Friday session)**

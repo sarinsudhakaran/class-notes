@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discovery Interview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#f4f2ff; --card:#ffffff; --text:#1e1b3a; --muted:#6b6890; --line:#e4e0fa; --soft:#f1effe;
+    --shadow:0 12px 32px -14px rgba(91,63,211,.35);
+    --grad:linear-gradient(135deg,#7c3aed 0%,#db2777 50%,#f97316 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body {
+    margin:0; font:17px/1.6 "Plus Jakarta Sans", system-ui, sans-serif; color:var(--text); background:var(--bg);
+    background-image:radial-gradient(circle at 10% 0%, rgba(124,58,237,.18), transparent 40%),
+                     radial-gradient(circle at 90% 10%, rgba(249,115,22,.14), transparent 40%);
+    background-attachment:fixed; min-height:100dvh;
+  }
+  .wrap { max-width:640px; margin:0 auto; padding:16px 16px calc(100px + env(safe-area-inset-bottom)); }
+  .top { display:flex; align-items:center; gap:12px; padding:8px 0 14px; }
+  .brand { font-size:1.1rem; font-weight:800; margin:0; background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .step { margin-left:auto; color:var(--muted); font-size:.85rem; font-weight:600; }
+  .bar { height:8px; background:var(--line); border-radius:99px; overflow:hidden; margin-bottom:18px; }
+  .bar div { height:100%; background:var(--grad); border-radius:99px; transition:width .35s; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:22px; padding:22px 20px; box-shadow:var(--shadow); }
+  .eyebrow { font-size:.72rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#db2777; }
+  h2 { margin:8px 0 14px; font-size:1.3rem; line-height:1.35; font-weight:800; }
+  textarea, input {
+    width:100%; font:inherit; color:inherit; background:var(--soft); border:1px solid var(--line);
+    border-radius:14px; padding:12px 14px; resize:vertical;
+  }
+  textarea { min-height:150px; }
+  textarea:focus, input:focus { outline:2px solid #7c3aed; outline-offset:1px; }
+  label { display:block; font-weight:700; font-size:.85rem; margin:14px 0 6px; }
+  details { margin-top:14px; background:var(--soft); border-radius:14px; padding:10px 14px; }
+  summary { cursor:pointer; font-weight:700; font-size:.85rem; color:var(--muted); }
+  details p { margin:8px 0 2px; font-size:.92rem; color:var(--muted); }
+  .answer { color:var(--muted); font-size:.92rem; white-space:pre-wrap; }
+  .nav {
+    position:fixed; left:0; right:0; bottom:0; padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+    background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:blur(12px); border-top:1px solid var(--line);
+  }
+  .nav .inner { display:flex; gap:10px; max-width:640px; margin:0 auto; }
+  .btn {
+    flex:1; display:inline-flex; align-items:center; justify-content:center; gap:6px; padding:14px 16px; border-radius:14px;
+    border:0; cursor:pointer; font:700 1rem inherit; font-family:inherit; color:#fff; background:var(--grad);
+    box-shadow:0 6px 16px -6px rgba(219,39,119,.6);
+  }
+  .btn.ghost { background:var(--card); color:var(--text); border:1px solid var(--line); box-shadow:none; flex:0 0 40%; }
+  .btn:disabled { opacity:.5; }
+  .done { text-align:center; padding:40px 10px; }
+  .done b { display:block; font-size:3rem; margin-bottom:10px; }
+  .err { color:#db2777; font-weight:700; font-size:.9rem; margin-top:12px; }
+  .saved { color:var(--muted); font-size:.78rem; text-align:center; margin-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><h1 class="brand">Discovery Interview</h1><span class="step" id="step"></span></div>
+  <div class="bar"><div id="prog"></div></div>
+  <div id="view"></div>
+  <div class="saved" id="saved"></div>
+</div>
+<div class="nav"><div class="inner" id="nav"></div></div>
+
+<script>
+const QUESTIONS = [
+  { purpose:"Warm-up", q:"Walk me through a normal day for you here, start to finish.", listen:"Routines, touchpoints, where time goes" },
+  { purpose:"Context", q:"How long have you been here, and how did you end up here?", listen:"Why they chose or landed this place; alternatives considered" },
+  { purpose:"Ecosystem", q:"Who do you deal with most in a day? Who is hardest to deal with, and why?", listen:"Dependencies, conflict points, power dynamics" },
+  { purpose:"Information flow", q:"How do you find out about things here — rules, changes, notices? Tell me about the last time something important reached you late or not at all.", listen:"Channels (WhatsApp, guard, notice board, app), gaps" },
+  { purpose:"Pain (anchored)", q:"Tell me about the last time something went wrong here. What happened, and what did you do?", listen:"Specific incident, who they turned to, how it resolved" },
+  { purpose:"Frequency", q:"What is the most irritating part of your day here? How often does it happen?", listen:"Recurring vs one-off; intensity" },
+  { purpose:"Friction", q:"What takes longer than it should? Walk me through the last time.", listen:"Steps, waiting, hand-offs" },
+  { purpose:"Current solution", q:"When you need something done — get in, fix something, pay, complain — what do you actually do? Which person, which app?", listen:"Existing tools and workarounds, and how well they work" },
+  { purpose:"Failed fixes", q:"What have you tried to fix or get around that did not work?", listen:"Evidence the pain is real enough to act on" },
+  { purpose:"Cost", q:"What do you spend time or money on here that feels like a waste?", listen:"Willingness to pay, without asking about it" },
+  { purpose:"Aspiration", q:"If you could change one thing about how this place runs, what would it be — and what has stopped that from changing?", listen:"Priority pain plus blockers (committee, cost, apathy)" },
+  { purpose:"Snowball", q:"Who else should I talk to about this?", listen:"Next interviews" }
+];
+
+const DRAFT = "discovery-draft";
+const state = { participant:"", role:"", site:"", answers:{} };
+try { Object.assign(state, JSON.parse(localStorage.getItem(DRAFT) || "{}")); } catch (e) {}
+let i = -1;            // -1 = intro, 0..11 = questions, 12 = review
+let sending = false, error = "";
+
+const save = () => { try { localStorage.setItem(DRAFT, JSON.stringify(state)); } catch (e) {} };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const answered = () => Object.values(state.answers).filter(v => v && v.trim()).length;
+
+function render() {
+  const total = QUESTIONS.length;
+  const view = document.getElementById("view"), nav = document.getElementById("nav");
+  document.getElementById("step").textContent = i < 0 ? "Start" : i >= total ? "Review" : (i + 1) + " / " + total;
+  document.getElementById("prog").style.width = ((i + 1) / (total + 1)) * 100 + "%";
+  document.getElementById("saved").textContent =
+    answered() ? "Draft kept on this phone · " + answered() + " of " + total + " answered" : "";
+
+  if (i < 0) {
+    view.innerHTML = '<div class="card">' +
+      '<div class="eyebrow">Before you start</div>' +
+      '<h2>Who are you talking to?</h2>' +
+      '<label for="p">Name (or a nickname)</label><input id="p" value="' + esc(state.participant) + '" placeholder="e.g. Resident, Flat 302">' +
+      '<label for="r">Role / relationship to this place</label><input id="r" value="' + esc(state.role) + '" placeholder="e.g. Owner, tenant, guard, committee">' +
+      '<label for="s">Place / society</label><input id="s" value="' + esc(state.site) + '" placeholder="e.g. Green Meadows, Tower B">' +
+      '<details><summary>How to run this</summary><p>Twelve questions, one per screen. Ask it out loud and type what they actually say — their words, not your summary. Use the “listen for” hint to probe with “tell me more” rather than asking a new question.</p></details>' +
+      '</div>';
+    [["p","participant"],["r","role"],["s","site"]].forEach(function (pair) {
+      document.getElementById(pair[0]).oninput = e => { state[pair[1]] = e.target.value; save(); };
+    });
+    nav.innerHTML = '<button class="btn" id="next">Start interview →</button>';
+  } else if (i < total) {
+    const Q = QUESTIONS[i];
+    view.innerHTML = '<div class="card">' +
+      '<div class="eyebrow">' + esc(Q.purpose) + '</div>' +
+      '<h2>' + esc(Q.q) + '</h2>' +
+      '<textarea id="a" placeholder="Type what they said…">' + esc(state.answers[i + 1] || "") + '</textarea>' +
+      '<details><summary>Listen for</summary><p>' + esc(Q.listen) + '</p></details>' +
+      '</div>';
+    document.getElementById("a").oninput = e => { state.answers[i + 1] = e.target.value; save(); };
+    nav.innerHTML = '<button class="btn ghost" id="back">← Back</button>' +
+      '<button class="btn" id="next">' + (i === total - 1 ? "Review →" : "Next →") + '</button>';
+  } else {
+    view.innerHTML = '<div class="card">' +
+      '<div class="eyebrow">Review</div>' +
+      '<h2>' + esc(state.participant || "This interview") + " — " + answered() + " of " + total + ' answered</h2>' +
+      QUESTIONS.map((Q, n) => '<label>' + (n + 1) + ". " + esc(Q.purpose) + '</label><div class="answer">' +
+        esc(state.answers[n + 1] || "— blank —") + '</div>').join("") +
+      (error ? '<div class="err">' + esc(error) + '</div>' : "") +
+      '</div>';
+    nav.innerHTML = '<button class="btn ghost" id="back">← Back</button>' +
+      '<button class="btn" id="next"' + (sending ? " disabled" : "") + '>' + (sending ? "Saving…" : "Submit ✓") + '</button>';
+  }
+
+  const back = document.getElementById("back"), next = document.getElementById("next");
+  if (back) back.onclick = () => { i--; render(); };
+  if (next) next.onclick = () => { if (i >= total) submit(); else { i++; render(); } };
+  window.scrollTo(0, 0);
+}
+
+async function submit() {
+  if (!answered()) { error = "Nothing to submit yet."; return render(); }
+  sending = true; error = ""; render();
+  try {
+    const r = await fetch("/api/discovery", {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(state)
+    });
+    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || "HTTP " + r.status);
+    try { localStorage.removeItem(DRAFT); } catch (e) {}
+    document.getElementById("view").innerHTML =
+      '<div class="card done"><b>✓</b><h2>Saved</h2><p style="color:var(--muted)">Response stored. Thank them, then start the next one.</p></div>';
+    document.getElementById("nav").innerHTML = '<button class="btn" onclick="location.reload()">New interview</button>';
+    document.getElementById("prog").style.width = "100%";
+    document.getElementById("step").textContent = "Done";
+    document.getElementById("saved").textContent = "";
+  } catch (e) {
+    error = "Could not save: " + e.message + ". Your draft is kept on this phone — try again.";
+  } finally {
+    sending = false;
+    if (error) render();
+  }
+}
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+# Case Study Overview
+
+- Focus: India’s growing apartment ecosystem as a complex economic and social system
+- Goal: Discover unmet needs and emerging opportunities, not improve existing apps (MyGate, NoBrokerhood, etc.)
+- Framing: Understand the ecosystem from first principles before deciding what to build
+
+# Stakeholder Mapping
+
+- Key actor groups identified:
+  - Residents: renters, homeowners, landlords, bachelors, families, dog owners
+  - Workers: security guards (some on 24-hour shifts), maids, cooks, drivers
+  - Delivery partners: Zepto, Blinkit, Swiggy, etc.
+  - Local business owners: kirana shops disrupted by quick commerce
+  - Society management and admin
+- Security guards highlighted as underserved: exposed to all weather, unpaid for informal duties (e.g., delivering orders after 11 PM)
+
+# Problem Space Discussion
+
+- Isolation in large societies: most residents know fewer than 5-7 neighbors despite living in 1,000+ family complexes
+- Behavioral shift: delivery coordination has smoothed, but other friction points remain hidden
+- Security asymmetry (Vikas): strict entry controls for visitors, but internal theft/loss goes unresolved
+- Existing apps (MyGate, NoBrokerhood) cover most resident-facing problems; unmet needs lie deeper
+- Sohan: focus on improving sub-workflows within existing behaviors, not creating new categories
+- Sonam: distributed procurement across a society could be aggregated into collective purchasing
+
+# First Principles Thinking
+
+- Core lesson: always dissect problem statements word by word before jumping to solutions
+- 5-layer analysis framework (Deepak):
+  1. Events: what is observable
+  2. Patterns: what trends emerge over time
+  3. Behavioral psychology: what behaviors arise from those patterns
+  4. Human psychology / neuroscience: ego, desire, attention
+  5. Consciousness: the root driver of all human movement
+- “Why” is the deepest layer; “what” and “how” follow from it
+- BA vs. PM distinction: BA drills into given requirements; PM challenges them; PM finds the gap independently
+
+# Product Thinking: 7 Sins Framework
+
+- Every great consumer product maps to one or more of the 7 sins: pride, greed, lust, envy, gluttony, wrath, sloth
+- Instagram uses all 7; Duolingo invests heavily in psychologists to exploit the attention loop
+- Discovery feed exists to trigger human curiosity, the 5th-layer driver
+- FOMO is a form of lust: desire for something you fear missing, amplified by social comparison
+- Funnel design (not UI): how a product moves users from one interaction to the next, keeping them scrolling
+
+# Mental Models Introduced
+
+- First principles: break any concept into absolute basic truths, layer by layer, until you can rebuild it
+  - Apple tree example: same tree, different soil/climate, different outcome; led to hydroponics
+- Chesterton’s Fence: never remove or change a friction until you understand why it exists
+  - Example: late-night delivery ban protects high-net-worth residents; removing it introduces new risk
+- Detective mindset: observe every actor’s perspective without bias or verdict; surface all aspects of the system
+
+# Discovery Process and Funnel
+
+- Reverse pyramid / funnel approach:
+  - Start wide (abstract case study) and cut down iteratively to one specific problem
+  - One user type → eliminate to one core problem → one primary solution
+- Secondary research first: scope cities, building types, average rents, society sizes
+  - Tier 1 cities (Pune, Hyderabad, Gurgaon, Mumbai) have mature apartment behavior
+  - Tier 2 cities have emerging behavior; different signals, harder to access primary data
+- Primary research only after scoping: talk to 10-12 people each across the group to reach ~100 interviews
+- Questionnaire to be built together on the call; Google Forms discouraged, open conversations preferred
+
+# Session Structure and Team Roles
+
+- Weekly format: new case study each week, rotating focus (discovery, design, prototype, analytics)
+- “Builders of the Week”: two rotating leaders per week
+  - Leader 1: owns the discovery doc
+  - Leader 2: leads the group presentation
+  - Sarin volunteered as first discovery doc leader
+- Leader responsibilities: keep team energy high, ensure doc completeness, lead without authority
+- Teams of 3 assigned to research sub-questions (motivation, scope, constraints) from the case study
+
+# Next Steps
+
+- **Align on common definitions before next session**
+- **Prepare individually by reading case study keywords**
+- **Finalize definitions doc and add secondary research pointers (Osho, Abhinav)**
+- **Teams to research motivation, scope, and constraints sub-questions**
