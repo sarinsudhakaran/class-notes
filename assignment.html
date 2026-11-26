@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shareability Assignment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#f4f2ff; --card:#ffffff; --text:#1e1b3a; --muted:#6b6890; --line:#e4e0fa; --soft:#f1effe;
+    --shadow:0 12px 32px -14px rgba(91,63,211,.35);
+    --grad:linear-gradient(135deg,#7c3aed 0%,#db2777 50%,#f97316 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  }
+  :root[data-theme="dark"] { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font:16px/1.65 "Plus Jakarta Sans", system-ui, sans-serif; color:var(--text); background:var(--bg);
+    background-image:radial-gradient(circle at 10% 0%, rgba(124,58,237,.18), transparent 40%),
+                     radial-gradient(circle at 90% 10%, rgba(249,115,22,.14), transparent 40%),
+                     radial-gradient(circle at 50% 100%, rgba(219,39,119,.12), transparent 45%);
+    background-attachment:fixed; min-height:100vh;
+  }
+  .wrap { max-width:960px; margin:0 auto; padding:24px 16px 64px; }
+  .hero { background:var(--grad); color:#fff; border-radius:24px; padding:28px 32px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+  .hero::after { content:""; position:absolute; right:-60px; top:-60px; width:220px; height:220px; border-radius:50%; background:rgba(255,255,255,.12); }
+  .hero .eyebrow { font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; opacity:.85; }
+  .hero h1 { margin:4px 0 10px; font-size:clamp(1.5rem,4vw,2.1rem); line-height:1.2; font-weight:800; }
+  .hero p { margin:0; opacity:.92; max-width:62ch; position:relative; z-index:1; }
+  .btn {
+    display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.35); cursor:pointer;
+    font:600 .85rem "Plus Jakarta Sans", system-ui, sans-serif; text-decoration:none; color:#fff; background:rgba(255,255,255,.2); margin-top:16px; position:relative; z-index:1;
+  }
+  .btn:hover { background:rgba(255,255,255,.3); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:26px 30px; margin-top:20px; box-shadow:var(--shadow); }
+  h2 { font-size:1.25rem; margin:0 0 14px; }
+  h2::before { content:""; display:inline-block; width:6px; height:1em; border-radius:3px; background:var(--grad); margin-right:10px; vertical-align:-2px; }
+  h3 { font-size:1.08rem; margin:0; }
+  .lede { color:var(--muted); margin:-6px 0 18px; }
+  .q { border-left:3px solid var(--line); padding:2px 0 2px 16px; margin:0 0 16px; }
+  .q:last-child { margin-bottom:0; }
+  .q b { display:block; }
+  .q span { color:var(--muted); font-size:.95rem; }
+  .head { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-bottom:4px; }
+  .num { width:28px; height:28px; flex:none; border-radius:9px; display:grid; place-items:center; color:#fff; font-size:.8rem; font-weight:700; background:var(--grad); }
+  .chip { font-size:.72rem; font-weight:700; padding:3px 10px; border-radius:99px; background:var(--soft); color:var(--muted); border:1px solid var(--line); }
+  .chip.owner { background:var(--grad); color:#fff; border-color:transparent; }
+  .rows { margin:14px 0 0; display:grid; gap:0; }
+  .row { display:grid; grid-template-columns:150px 1fr; gap:16px; padding:11px 0; border-top:1px solid var(--line); }
+  .row dt { font-weight:700; font-size:.78rem; letter-spacing:.03em; text-transform:uppercase; color:var(--muted); }
+  .row dd { margin:0; }
+  .row dd p { margin:0 0 8px; }
+  .row dd p:last-child { margin:0; }
+  .read { margin-top:14px; padding:12px 16px; border-radius:12px; background:color-mix(in srgb, #7c3aed 10%, transparent); border-left:4px solid #7c3aed; font-size:.95rem; }
+  ul { margin:0 0 12px; padding-left:20px; }
+  ul:last-child { margin-bottom:0; }
+  li { margin-bottom:6px; }
+  table { border-collapse:collapse; width:100%; font-size:.9rem; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--soft); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); }
+  .back { display:inline-block; margin-top:22px; color:var(--muted); text-decoration:none; font-weight:600; font-size:.9rem; }
+  .back:hover { color:var(--text); }
+  @media (max-width:700px) {
+    .hero, .card { padding:22px 20px; }
+    .row { grid-template-columns:1fr; gap:4px; }
+    .tablewrap { overflow-x:auto; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section class="hero">
+  <div class="eyebrow">26 Nov assignment &middot; Week 1</div>
+  <h1>Shareability marketplace &mdash; demand/supply worksheet</h1>
+  <p>Twelve share categories, one owner each, filled against the six questions: demand persona, supply persona, motivation, frequency, incentive, friction and alternatives. Input for Friday, when we pick 1&ndash;2 segments and write problem statements.</p>
+  <a class="btn" href="/">&larr; Back to class notes</a>
+</section>
+
+<article class="card">
+  <h2>What this sheet is actually asking</h2>
+  <p class="lede">The columns are not admin. Each one kills a bad idea in a different way &mdash; which is the whole reason to fill them before Friday rather than after.</p>
+
+  <div class="q"><b>Demand persona &mdash; who pays, specifically?</b><span>Not &ldquo;residents&rdquo;. An age, a life stage, a situation. If the persona is everyone, the need is nobody&rsquo;s. Test: can you name three real people from our 23 interviews who fit?</span></div>
+
+  <div class="q"><b>Supply persona &mdash; who owns the idle thing, and will they part with it?</b><span>Marketplaces die on supply, not demand. Demand for a cheap PS5 is infinite; the question is whether a stranger two towers away hands one over. Note where supply and demand are the <em>same person</em> (sports, carpool) &mdash; that removes the cold-start problem entirely.</span></div>
+
+  <div class="q"><b>Motivation &mdash; why would either side bother at all?</b><span>The job to be done, not the feature. Nobody wants &ldquo;a sharing app&rdquo;. They want to not spend &#8377;3,000 on a drill, or to not face a two-week gap with no cook. Write it as a sentence a real person would say out loud.</span></div>
+
+  <div class="q"><b>Frequency &mdash; how often does this repeat?</b><span>Decides habit versus event. Daily gives retention and a reason for software to exist; twice-a-year means people Google it when they need it and never remember us. High value &times; low frequency is the classic trap.</span></div>
+
+  <div class="q"><b>Incentive &mdash; what makes each side show up, and is it enough?</b><span>Money, status, reciprocity or convenience. The real test is incentive <em>versus</em> friction: if the hassle exceeds the gain for either side, reach and impact do not matter. This is where Deepak&rsquo;s challenge bites &mdash; several of these have obvious reach and no ROI.</span></div>
+
+  <div class="q"><b>Friction &mdash; what stops it today?</b><span>And crucially, <em>what kind</em>. Three different things with three different answers: a missing feature (solvable), a trust gap (slow but solvable), or a structural conflict of interest or legal block (not solvable by us). Most of these twelve fail in this column.</span></div>
+
+  <div class="q"><b>Alternatives &mdash; what do they do right now?</b><span>The competitor is the status quo, not another startup. For most of these the honest answer is &ldquo;ask the society WhatsApp group&rdquo; or &ldquo;ask the maid&rdquo; &mdash; and those are excellent products: free, instant, already trusted. If we cannot say why ours beats a WhatsApp message, there is no opportunity.</span></div>
+</article>
+
+<article class="card">
+  <h2>What we are trying to achieve</h2>
+  <ul>
+    <li><b>Narrow twelve to one or two with evidence, not with a vote.</b> The Reach / Impact / Frequency / Economic Value scoring told us where attention is. This sheet tells us whether a transaction can actually close.</li>
+    <li><b>Find the binding constraint per category.</b> Every one of these has a single thing that decides it &mdash; the bye-law, the deposit, the child-safety check, the FSSAI licence. Name it and the problem statement writes itself.</li>
+    <li><b>Separate solvable friction from structural friction.</b> This is Deepak&rsquo;s open question in operational form: is the distrust <em>information asymmetry</em> (nobody knows who is at the other end &mdash; a product can fix that) or <em>conflict of interest</em> (someone profits from the ambiguity &mdash; a product cannot)? The answer differs per category and is recorded in each card below.</li>
+    <li><b>Check for disintermediation before building.</b> If the platform&rsquo;s only job is the first introduction, it earns one transaction and the pair moves to WhatsApp forever. That is the documented Uber Pool failure in India, and it applies to at least four categories here.</li>
+    <li><b>Stay in observation.</b> Every row below is a hypothesis to falsify in the next round of interviews, not a conclusion. Where we are inferring rather than quoting evidence, that is marked.</li>
+  </ul>
+</article>
+
+<article class="card">
+  <h2>Owners at a glance</h2>
+  <div class="tablewrap">
+  <table>
+    <tr><th>Category</th><th>Owner</th><th>Frequency</th><th>Binding constraint</th></tr>
+    <tr><td>1. Equipment</td><td>Abhinav</td><td>Low</td><td>Transaction too small to pay for trust-building</td></tr>
+    <tr><td>2. Gadgets</td><td>Keerthi</td><td>Medium</td><td>No deposit or damage rail on a &#8377;50k asset</td></tr>
+    <tr><td>3. Tuition &amp; babysitting</td><td>Sonam</td><td>High</td><td>Child-safety verification; off-app drift after match #1</td></tr>
+    <tr><td>4. Cars &mdash; office commute</td><td>Anil</td><td>Very high</td><td>Schedule rigidity; Quick Ride already owns this</td></tr>
+    <tr><td>5. Parking space</td><td>Sarin</td><td>Low, long duration</td><td>Bye-laws: slots are RWA-allotted common area</td></tr>
+    <tr><td>6. Rent your flat</td><td>Osho</td><td>Low, seasonal</td><td>Short-let bans and the gate security premise</td></tr>
+    <tr><td>7. Food</td><td>Himanshi</td><td>Very high</td><td>FSSAI and hygiene liability; kitchen capacity ceiling</td></tr>
+    <tr><td>8. Hobby groups</td><td>Vikas</td><td>Decays to zero</td><td>Organiser burnout; no revenue on either side</td></tr>
+    <tr><td>9. Workshops</td><td>Sohan</td><td>Episodic</td><td>Clubhouse booking and committee approval</td></tr>
+    <tr><td>10. Coaches &amp; mentors</td><td>Sarin</td><td>Very low</td><td>Status asymmetry sits on the supply side</td></tr>
+    <tr><td>11. Sports</td><td>Sarin</td><td>High</td><td>Court supply, controlled by the committee</td></tr>
+    <tr><td>12. Jobs &amp; referrals</td><td>Keerthi</td><td>High (blue collar)</td><td>Gatekeepers profit from the information gap</td></tr>
+  </table>
+  </div>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">1</span><h3>Equipment</h3><span class="chip owner">Abhinav</span><span class="chip">Frequency: low</span><span class="chip">Friction type: economic</span></div>
+  <p class="lede">Drills, ladders, power tools, suitcases, camping and trekking gear, baby gear.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>A 30&ndash;45 resident with a one-off job: mounting a TV, fixing a curtain rod, a weekend trek, a flight with oversized luggage. Needs the object for two hours, not forever. Strongest sub-segment is the new mover in a recently-possessed tower who hits twenty small jobs in one month.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>A 40&ndash;60 long-tenure owner-resident &mdash; the DIY type, or anyone who bought a &#8377;3,000 drill once and used it twice. Secondary: the storage-constrained 2BHK household that resents the cupboard space more than it values the tool.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> &ldquo;I am not spending &#8377;3,000 and waiting two days for thirty minutes of drilling.&rdquo;</p><p><b>Supply:</b> recover a sunk cost, clear the clutter, and be known on the floor as the person who helps. Cash is almost beside the point.</dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Low per household &mdash; two to five times a year, and event-driven (move-in, festival prep, monsoon repairs). Moderate in aggregate across 400+ flats, but lumpy and unpredictable, so no habit forms.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd><b>Demand:</b> &#8377;50&ndash;150 against &#8377;3,000, available in ten minutes rather than two days. <b>Supply:</b> a token rent that is not worth the trouble on its own &mdash; the actual incentive is reciprocity and standing, which means this works as a favour economy and breaks as a cash one.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Damage and non-return anxiety on a tool the owner still wants back. Nobody wants to invoice a neighbour &#8377;100 &mdash; charging converts a favour into a transaction and feels petty. Pickup and drop across towers at 9pm. Above all: the per-transaction value is too small to fund any trust mechanism, so the economics cannot pay for the thing the category needs most.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Amazon or Blinkit same-day purchase, the society handyman who arrives with his own drill, the maintenance team&rsquo;s ladder, and the dominant one: &ldquo;anyone has a drill?&rdquo; in the society WhatsApp group, answered in four minutes for free.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> highest trust, lowest money. The behaviour already happens informally, so the real question for Abhinav is whether anything beyond a searchable list of who-owns-what adds value &mdash; and whether a list is a business.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">2</span><h3>Gadgets</h3><span class="chip owner">Keerthi</span><span class="chip">Frequency: medium</span><span class="chip">Friction type: trust / conflict of interest</span></div>
+  <p class="lede">PS5 and consoles, projectors, GoPro and DSLR, drones, iPads, premium appliances.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>25&ndash;38 bachelor, young couple or DINK household wanting a console for a long weekend or a projector for a match night. Second: the parent staging a child&rsquo;s birthday. Third: the pre-purchase trialist deciding whether a &#8377;50k gadget is worth it.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>A 28&ndash;40 earner with a &#8377;50k+ gadget idle 90% of the year. Buyer&rsquo;s remorse is the single biggest supply driver here &mdash; the asset was bought on impulse, is already written off mentally, and now any yield is upside.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> consume an experience that does not justify owning it, or try before buying.</p><p><b>Supply:</b> actual money &mdash; &#8377;500&ndash;1,500 a weekend against an asset doing nothing. This is the one category in the twelve where rental income is materially interesting to the supplier.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Weekend-clustered and seasonal: IPL and World Cup, school holidays, vacation season, exam-free weeks. Medium, but with sharp peaks where demand massively exceeds in-society supply.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Genuinely cash-aligned on both sides: the supplier earns real rent, the renter pays 2&ndash;3% of ownership cost. Better unit economics than anything else on this list.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Theft and damage on a high-value item with no deposit, escrow or insurance rail. Hygiene and wear on controllers, lenses, headsets. And the one residents actually say out loud: &ldquo;what if he doesn&rsquo;t return it and I see him at the gym every morning?&rdquo; &mdash; the social cost of escalating against a neighbour is <em>higher</em> than against a stranger, not lower. No dispute mechanism exists; the committee will not arbitrate a private rental, and small-claims is not real in practice.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>RentoMojo, Furlenco, Rentickle for appliances and furniture; local camera and drone rental shops with deposits and contracts; borrowing from a cousin or a colleague; or just buying it on EMI.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> best economics, worst trust exposure. Nothing else matters until deposit, damage policy and dispute resolution exist. For Deepak&rsquo;s question, this category is <em>conflict of interest</em>, not information asymmetry &mdash; everyone knows exactly who the borrower is, and that is precisely the problem.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">3</span><h3>Tuition &amp; babysitting</h3><span class="chip owner">Sonam</span><span class="chip">Frequency: high</span><span class="chip">Friction type: verification + disintermediation</span></div>
+  <p class="lede">Academic tuition, homework help, exam coaching, and ad-hoc or recurring childcare.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>Dual-income parents of 3&ndash;12 year olds needing either exam-season academic help or three hours of coverage on a Saturday evening. Sharpest version: the parent of an under-five whose entire childcare plan is one maid, with zero backup when she does not turn up.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>Two distinct groups that must not be merged. <b>(i)</b> Educated non-working or work-from-home women inside the society &mdash; ex-teachers, graduates, final-year students. <b>(ii)</b> The existing domestic-worker network already inside the gate: maids, nannies, cooks looking for top-up hours.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> safety and proximity above all. A tutor inside the gate means no commute for the child, no stranger entering the society, and a parent who can be there in five minutes.</p><p><b>Supply (i):</b> income earned from home without a commute &mdash; and, from our own interviews, income that is harder for a husband to intercept than a bank transfer. Plus identity and respect.</p><p><b>Supply (ii):</b> top-up on a &#8377;15&ndash;20k wage, from inside a gate she can already pass.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>High and recurring &mdash; weekly to daily through term and exam season. The strongest retention profile of all twelve: once a tutor is engaged, the relationship runs for months.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd><b>Demand:</b> &#8377;300&ndash;600 an hour against agency rates, with no transit either way. <b>Supply:</b> &#8377;8&ndash;15k a month incremental, and referrals that compound fast inside a closed community of parents who all talk to each other.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Child-safety screening with no verification rail &mdash; no parent accepts &ldquo;trust me, I live in B-704&rdquo; for their five-year-old, and we have no way to offer more. Price-setting between neighbours is socially awkward, and the favour-versus-fee ambiguity means raising a rate or ending an arrangement becomes a relationship event, not a business one. One-way ratings: parents rate helpers, helpers never rate parents &mdash; the same asymmetry we found across the worker interviews. And disintermediation is near-certain: after two sessions the pair settles on cash and WhatsApp, exactly the off-app drift that killed Uber Pool here.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>The society WhatsApp group, the existing maid&rsquo;s sister or cousin (by far the dominant channel), Urban Company, Vedantu and BYJU&rsquo;s for academics, the in-society cr&egrave;che where one exists, and grandparents.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> highest frequency and highest willingness to pay in the set, but the platform&rsquo;s value evaporates after match #1. Only defensible if it owns verification, scheduling and <em>backup supply</em> &mdash; the thing no WhatsApp group can do &mdash; rather than discovery.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">4</span><h3>Cars &mdash; office commute</h3><span class="chip owner">Anil</span><span class="chip">Frequency: very high</span><span class="chip">Friction type: coordination + incumbent</span></div>
+  <p class="lede">Carpooling between residents heading to the same office hub; idle second cars and daytime drivers.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>A 26&ndash;40 salaried commuter to the same hub &mdash; Cyber City, Hinjewadi, ORR or Whitefield &mdash; 10&ndash;25km each way, who either does not own a car or does not want to drive daily. The pain is &#8377;400&ndash;700 a day on cabs, surge pricing, and cancellations in the rain.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>The resident already driving that exact route alone with three empty seats, paying for fuel and office parking regardless. Sub-segment: the household with a second car and a salaried driver, both idle between 9am and 6pm.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> cheaper, predictable, no cancellation, and a known face instead of a stranger &mdash; which matters most to women commuting late.</p><p><b>Supply:</b> split fuel, toll and parking (&#8377;5&ndash;8k a month recovered), plus company on a 70-minute crawl.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Very high &mdash; ten trips a week in the same two time windows, every week. The highest raw frequency of all twelve categories.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Hard rupee incentives on both sides. But note what the incentive does <em>not</em> cover: there is essentially zero incentive to stay on a platform once a stable pair has formed.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Schedule rigidity is the killer &mdash; one late meeting breaks the arrangement and the trust in it, and nobody wants to be the person who made someone wait twenty minutes. Who waits for whom, and who bears the cost when a rider skips a day. The legal grey area of commercial use of a white-plate private car and what that does to insurance in an accident. Social hierarchy inside the car when one party is senior, or a boss&rsquo;s neighbour. And after week one it moves to a four-person WhatsApp group permanently.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Uber, Ola, Rapido; the employer&rsquo;s own shuttle; metro plus last mile; owning and driving a car; and critically <b>Quick Ride and sRide</b>, which already do exactly this and are already installed by this exact persona.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> the highest frequency on the list, but someone has already built it and the off-app drift is the documented failure mode. Only worth pursuing if Anil can show that <em>society-scoped</em> matching beats city-scoped matching on trust in a way that changes behaviour.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">5</span><h3>Parking space</h3><span class="chip owner">Sarin</span><span class="chip">Frequency: low, long duration</span><span class="chip">Friction type: structural / legal</span></div>
+  <p class="lede">Renting an allotted but unused parking slot to another resident.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>Four variants: the household with two or three cars and one allotted slot; the resident whose visiting relatives park badly and get notes on the windshield; the <b>tenant allotted no slot at all</b> (the most acute and least powerful); and outsiders near a metro or office &mdash; explicitly out of scope while the gate stays closed.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>The owner-resident with an allotted slot and no car, or one car and two slots &mdash; common among 60+ residents and in towers where slots were bundled with the flat at purchase. Also the long-leased investor flat whose owner&rsquo;s slot sits empty for years.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> end the daily fight over the visitor slot, stop parking on the road, stop being the household everyone complains about.</p><p><b>Supply:</b> monetise an asset that was bundled free and costs nothing to hold &mdash; pure margin.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>The transaction happens once, but the usage is daily and the arrangement lasts months or years. This is a monthly tenancy, not a per-use marketplace &mdash; which means low transaction volume and therefore a thin reason for an app to exist between the two parties.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>&#8377;1,000&ndash;3,000 a month to the supplier at zero cost. Demand avoids towing, road parking and neighbour conflict. Clean on both sides.</dd></div>
+    <div class="row"><dt>Friction</dt><dd><b>Legal, and it is the whole story.</b> In most Indian societies a parking slot is common area <em>allotted</em> by the RWA, not property owned by the flat, and the bye-laws forbid sub-letting it. Committees actively police this because the moment slots are tradeable, allocation politics explode. Secondary frictions: tandem slots, car-size mismatch, EV charging-point access, and the renter who parks and never leaves &mdash; with no eviction mechanism.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Informal private arrangements between neighbours (already common, just unspoken), the committee&rsquo;s own reallocation process, road parking, paid parking outside the gate, and simply owning fewer cars.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> real demand and clean economics, but the RWA holds an absolute veto. Worth testing whether the actual product is a <em>committee-side allocation and reassignment tool</em> &mdash; in which case the customer is the RWA, not the neighbour, and this stops being a shareability play at all.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">6</span><h3>Rent your flat &mdash; Airbnb style</h3><span class="chip owner">Osho</span><span class="chip">Frequency: low, seasonal</span><span class="chip">Friction type: structural / adversarial</span></div>
+  <p class="lede">Short-stay letting of an empty or second flat within the same society.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>Visiting parents and in-laws of residents (the clearest case &mdash; they want to be near their children, not in a hotel across town), relatives in for a wedding, a candidate in the city for interviews, a family whose own flat is under renovation, and corporate short-stays near the hub.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>The owner of an empty or second flat in the same society; the investor flat lying vacant between tenants; and the resident travelling for three weeks. Vacancy is a pure loss, so the supplier&rsquo;s reservation price is close to zero.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> stay within walking distance of the person they came to see, with a kitchen, for less than a hotel. Proximity is the product, not price.</p><p><b>Supply:</b> any yield beats an empty flat.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Low and strongly seasonal &mdash; wedding season, summer holidays, festivals, exam results. The lowest-frequency category on this list.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>&#8377;2&ndash;5k a night against zero for the supplier; the guest saves against a &#8377;6k hotel room and gains proximity that no hotel can offer.</dd></div>
+    <div class="row"><dt>Friction</dt><dd><b>The heaviest of the twelve, and it is structural.</b> Most RWAs ban short-term letting outright &mdash; and note this was the <em>number one Reddit theme</em> (guests, tenants, access rules) that our interviews completely missed, which tells us residents feel strongly enough to post about it anonymously. A rotating cast of strangers at the gate attacks the exact security premise residents pay maintenance for. Police tenant verification obligations, commercial-use and GST exposure, lift and amenity load, and noise. Existing residents will organise against it, and they will win.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Airbnb, OYO, Treebo and service apartments already serve this at city scale; some societies rent official guest rooms; and most families simply put relatives in the hall on a mattress.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> the one category where the society itself is the adversary rather than the customer. It fights the bye-laws, the gate and the neighbours simultaneously. Worth one honest look at the narrow legal version &mdash; the society-run guest room &mdash; and otherwise worth dropping early.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">7</span><h3>Food</h3><span class="chip owner">Himanshi</span><span class="chip">Frequency: very high</span><span class="chip">Friction type: compliance + capacity</span></div>
+  <p class="lede">Home-cooked meals, tiffins and on-demand dishes sold between flats.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>The bachelor or bachelorette living alone and tired of Swiggy; the resident recovering from illness and the new mother who want ghar-ka-khana; the resident with a regional craving &mdash; Bengali, Malayali, Marwari &mdash; that no restaurant within 5km serves; and the parent who needs one reliable school tiffin.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd><b>The women-run home enterprises our own field research already found</b> &mdash; the same people we recorded facing intense competition and repeat-visit fatigue inside societies. Homemakers with real cooking skill, spare capacity and no distribution. Plus the household cook who can make four extra portions at near-zero marginal cost.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> taste, health, familiarity, and &#8377;80&ndash;120 a meal against &#8377;200&ndash;300 on Swiggy for food that arrives cold.</p><p><b>Supply:</b> real income from inside the home &mdash; no commute, no shopfront, no gate to get through, no supervisor. And the identity shift from homemaker to business owner, which came through strongly in the interviews.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Very high &mdash; daily or near-daily. A tiffin subscription is 20&ndash;26 transactions a month from a single decision, which is the best habit structure of anything here.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd><b>Supply:</b> &#8377;10&ndash;30k a month from kitchen capacity that already exists, which against a household with no other income is transformative. <b>Demand:</b> cheaper, better and delivered in four minutes from the next tower.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>FSSAI licensing and hygiene liability &mdash; one food-poisoning incident ends the business and the neighbourly relationship at once. No standardisation: quality drops the day the cook&rsquo;s child is ill, and there is no substitute. A hard capacity ceiling around 10&ndash;15 tiffins per kitchen, which caps supply-side growth. Packaging and 7pm delivery across towers with no runner. Committee objections to &ldquo;commercial activity&rdquo; from a residential flat. And chasing payment from neighbours who pay late and cannot be dropped as customers.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Swiggy and Zomato, cloud-kitchen tiffin subscriptions, the society canteen, the existing informal WhatsApp tiffin lists that already operate in most large societies, and the household&rsquo;s own cook.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> the strongest two-sided motivation in the set, and the only category whose suppliers we have <em>already met, by name, actively trying and under-served</em>. Frequency, user impact and economic value align. The blocker is compliance and consistency &mdash; operational problems &mdash; not desire. Strong candidate for Friday.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">8</span><h3>Hobby groups</h3><span class="chip owner">Vikas</span><span class="chip">Frequency: decays to zero</span><span class="chip">Friction type: no revenue</span></div>
+  <p class="lede">Chess, book clubs, music, gardening, photography walks, running groups.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>The isolated resident our interviews surfaced and Reddit never mentioned: neighbours are transactional, and ties form only through children or ten years of tenure. Specifically newcomers in their first year, work-from-home professionals who have lost their office social life, residents over 55 post-retirement, and the spouse who moved cities for a partner&rsquo;s job and knows nobody.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>Not an asset &mdash; <em>organiser effort</em>. The one enthusiast per 400 flats who will start the group, book the room, chase attendance and restart it when it dies. Supply here is a person&rsquo;s unpaid evenings.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> belonging, and a low-stakes excuse to talk to a neighbour without having to be the one who initiates.</p><p><b>Supply:</b> status, a visible social role, and an audience for a hobby that has none at home.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Intended weekly; observed decay to zero within three to six weeks is the norm in every society we looked at. Nominally medium, effectively zero.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>No money on either side. Entirely social currency &mdash; which means no revenue model and, more importantly, no forcing function to keep anyone showing up once novelty fades.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Organiser burnout, then collapse when that person gets busy or moves out. Amenity booking through a committee that prioritises festivals. Scheduling twenty adults. The awkwardness of the first meeting. And clique formation, which locks out precisely the newcomers who needed the group in the first place.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>The society&rsquo;s existing WhatsApp groups and festival committee, Meetup, Cult.fit classes, Instagram, and the bench at the kids&rsquo; park where this actually happens.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> a real unmet need &mdash; loneliness showed up only in interviews, never online, which makes it genuinely non-obvious &mdash; attached to zero economic value. Most likely a feature that makes another category sticky, not a business. Vikas should test whether it drives retention for #7, #9 or #11.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">9</span><h3>Workshops</h3><span class="chip owner">Sohan</span><span class="chip">Frequency: episodic</span><span class="chip">Friction type: access / approval</span></div>
+  <p class="lede">Paid short sessions in the clubhouse: pottery, baking, coding for kids, Excel, financial planning, r&eacute;sum&eacute; writing.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>Parents hunting for a school-holiday activity that is not a screen; adults wanting a bounded two-hour skill hit with no multi-week commitment; and residents who want to learn something without travelling 12km on a Sunday.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>The resident professional or serious hobbyist with teachable expertise &mdash; the CA, the designer, the baker, the ex-musician. Plus <em>outside</em> instructors who would love a pre-aggregated audience of 400 families and currently cannot get through the gate to reach them.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> low-commitment, low-travel, kid-occupying, and social by default.</p><p><b>Supply:</b> &#8377;5&ndash;15k a session, lead generation for a side business, and visibility inside a community they live in.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Episodic &mdash; holiday and weekend clustered, a few times a year per resident. No habit, but each event touches many households at once.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Modest cash both ways, plus a third party we keep forgetting: the committee, whose clubhouse sits empty on weekday evenings and who could be paid for it.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Clubhouse booking and committee approval for a <em>paid</em> event in common area &mdash; many bye-laws prohibit it outright. Minimum viable headcount: below twelve attendees it is not worth running, so every event risks cancellation. No-shows after free RSVPs. And for outside instructors, entry permission &mdash; which drops us straight back into the gate friction we documented, including Anil being turned away at Trishul and told to get head-office permission first.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>Cult, Unacademy, BookMyShow events, mall activity centres, school summer camps, and YouTube for free.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> depends entirely on committee cooperation and amenity access, which we do not control. Probably a distribution channel for #8, #10 and #11 rather than a standalone market. Sohan&rsquo;s most useful output is the approval pathway: who says yes, and what do they want in return?</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">10</span><h3>Coaches &amp; mentors</h3><span class="chip owner">Sarin</span><span class="chip">Frequency: very low</span><span class="chip">Friction type: status asymmetry</span></div>
+  <p class="lede">Career guidance, interview prep, college admissions help, professional mentorship between residents.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>Mid-career professionals wanting promotion or switch advice; students needing admissions and placement help; parents seeking career direction for a teenager; and early-stage founders in the society wanting someone who has done it. High value per conversation, very low volume.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>Senior residents &mdash; directors, VPs, doctors, CAs, professors, founders &mdash; who already mentor informally at work and whose expertise is completely invisible inside their own building.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Demand:</b> access to a senior person they could never cold-email, with the credibility of proximity &mdash; &ldquo;he lives in Tower C, I have seen him at the gym, he will actually reply.&rdquo;</p><p><b>Supply:</b> legacy, giving back, standing in the community. Cash is secondary and sometimes insulting to offer.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>Very low &mdash; a handful of conversations a year per pair, and often exactly one. The weakest frequency profile on the list.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Demand gains outsized value per session &mdash; one referral can be worth a year&rsquo;s salary. Supply&rsquo;s incentive is purely reputational, which makes it unreliable, unschedulable, and impossible to guarantee.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Status asymmetry, and it runs the wrong way. Asking a senior neighbour costs the asker face; <em>declining</em> costs the senior face too, so the rational move is to avoid being askable at all &mdash; which is exactly what happens today. He does not want forty juniors in his building knowing he is available. And paying a neighbour for advice converts a relationship into a transaction, which both sides actively resist. There is also no way to bound the ask: &ldquo;can I pick your brain&rdquo; has no defined end.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>LinkedIn, Topmate and ADPList, employer mentorship programmes, alumni networks, and the informal default &mdash; the father of your child&rsquo;s friend, met at the park.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> high value per event, far too infrequent to carry a business, and the social cost sits on the supply side &mdash; precisely the stakeholder-friction trade-off Deepak warned about. Note the systems effect: making mentors discoverable makes them less willing to be mentors.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">11</span><h3>Sports</h3><span class="chip owner">Sarin</span><span class="chip">Frequency: high</span><span class="chip">Friction type: supply of courts, not people</span></div>
+  <p class="lede">Finding partners and teams, splitting coaching, booking courts and slots.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd>The resident who needs an <em>n</em>th player &mdash; a badminton doubles partner, a fourth for tennis, a cricket eleven, a swimming or gym partner. Plus parents wanting coaching for a child, and the 5am walker who wants company for accountability.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd>Other residents with the identical gap. <b>This is the only category where supply and demand are the same person</b> &mdash; it is a matching problem, not an asset problem, so there is no cold-start supply crisis. Secondary supply: slot holders and the coaches who already operate inside many societies.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>Both sides:</b> you cannot play badminton alone, and the court is booked by the hour whether you use it or not. Symmetric and self-evident.</p><p>Plus the commitment device &mdash; someone waiting at the court is the only thing that reliably gets people out of bed.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>High &mdash; three to five times a week, in fixed time slots, and genuinely habitual. Second only to commuting.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Split court fees, shared coaching (&#8377;2k a month each against &#8377;6k solo), and fitness accountability. Small money, strong behavioural pull.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Court and slot booking is already a contested, committee-controlled and sometimes openly gamed process &mdash; the constraint is courts, not willing players. Skill mismatch is the single biggest reason a match does not repeat: a bad game is worse than no game for the stronger player, and nobody will say so out loud. Flaking, with no cost. Amenity capacity caps during peak hours. And age and gender norms around who plays with whom, which quietly shrink the real matching pool.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>The sport-specific WhatsApp groups that already exist in every society, the booking register or the society app, Playo and Hudle for outside courts, the in-society coach&rsquo;s own list, and going alone.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> genuinely high frequency with no cold-start problem, which is rare. But the binding constraint is court supply, which the committee controls &mdash; so, as with parking, the real customer may be the RWA. Worth testing whether skill-matching (not discovery) is the actual unmet need.</p>
+</article>
+
+<article class="card">
+  <div class="head"><span class="num">12</span><h3>Jobs &amp; referrals</h3><span class="chip owner">Keerthi</span><span class="chip">Frequency: high (blue collar)</span><span class="chip">Friction type: conflict of interest</span></div>
+  <p class="lede">White-collar referrals between residents, and the internal labour market for household and site workers.</p>
+  <dl class="rows">
+    <div class="row"><dt>Demand persona</dt><dd><b>Two tiers, and they are different businesses.</b> <b>(a) White collar:</b> the resident job-hunting who wants a referral into a neighbour&rsquo;s company. <b>(b) Blue collar:</b> the guard, maid, cook or driver who wants better-paying work within walking distance &mdash; the &ldquo;walk-to-work lead&rdquo; &mdash; and, facing them, the resident who needs a verified replacement cook within 48 hours.</dd></div>
+    <div class="row"><dt>Supply persona</dt><dd><b>(a)</b> Residents with open roles on their team and a referral bonus waiting. <b>(b)</b> Residents vacating a trusted helper &mdash; moving city, kids grown, downsizing &mdash; plus vendor and agency supervisors who currently control all placement.</dd></div>
+    <div class="row"><dt>Motivation</dt><dd><p><b>(a) Demand:</b> a referral is worth ten cold applications. <b>Supply:</b> the referral bonus is &#8377;20&ndash;50k, so the money is already aligned without us doing anything.</p><p><b>(b) Worker:</b> escape a &#8377;15&ndash;20k wage, a double shift, standing for twelve hours and a supervisor who controls whether you even get through the gate. <b>Resident:</b> the genuine fear of a two-week gap with no cook. <b>Vacating resident:</b> social credit for placing someone trusted.</p></dd></div>
+    <div class="row"><dt>Frequency</dt><dd>White collar: low and lumpy &mdash; a few times in a career. <b>Blue collar: continuous</b>, because churn in this internal labour market is structurally high. This is the dimension on which the group scored this category high across <em>all four</em> axes, including economic value, and the field data supports it.</dd></div>
+    <div class="row"><dt>Incentive</dt><dd>Referral bonuses that already exist as real cash; placement fees that agencies already charge at &#8377;5&ndash;15k, proving willingness to pay; and for the worker a 20&ndash;40% wage jump, which is life-changing at this income level.</dd></div>
+    <div class="row"><dt>Friction</dt><dd>Reputational risk: referring a bad hire costs the referrer at work, and vouching for a maid who then steals costs them on their own floor &mdash; so the safe move is silence. <b>One-way ratings</b> &mdash; residents rate workers, workers cannot rate residents &mdash; so the worker&rsquo;s information problem is never solved and the exploitation we documented simply persists. Supervisors and agencies actively block direct contact; Anil was turned away at Trishul and told to get head-office permission first, which is not an accident but a business model: <b>the gatekeeper&rsquo;s revenue is the information asymmetry</b>. Workers are not on Reddit, often not on English-UI apps, and cannot afford the cost of raising their voice. And wage transparency threatens every resident&rsquo;s own cost base, so the demand side will resist the single feature that would most help the supply side.</dd></div>
+    <div class="row"><dt>Alternatives</dt><dd>White collar: LinkedIn, Naukri, internal ATS. Blue collar: <b>the maid network itself</b>, which is by far the dominant channel and works remarkably well; the guard agency and vendor supervisor; Broomees and BookMyBai; the society WhatsApp group; and the vegetable vendor, who functions as a genuine information broker.</dd></div>
+  </dl>
+  <p class="read"><b>Read:</b> scored highest in the room on all four dimensions and the field evidence backs it. It is also the only category where the friction is a <em>deliberate</em> conflict of interest rather than a missing feature &mdash; which answers Deepak&rsquo;s open question for this segment: here, distrust is conflict of interest, not information asymmetry. That makes it the most valuable and the most dangerous thing on the list.</p>
+</article>
+
+<article class="card">
+  <h2>What the sheet suggests (hypothesis, not conclusion)</h2>
+  <p class="lede">We are still in observation. These are claims to go and falsify, not a decision.</p>
+  <ul>
+    <li><b>Three survive the frequency &times; incentive &times; solvable-friction filter:</b> <b>Food</b> (#7) &mdash; suppliers we have already met and who are already trying; <b>Jobs &amp; referrals, blue-collar tier</b> (#12) &mdash; highest scores and real willingness to pay on both sides; and <b>Tuition &amp; childcare</b> (#3) &mdash; highest retention, if verification can be owned.</li>
+    <li><b>Two have good economics and an RWA veto:</b> Parking (#5) and Sports (#11). If we pursue either, the customer is the committee, not the resident. That is a different company.</li>
+    <li><b>Two are already solved by incumbents:</b> Carpooling (#4) by Quick Ride, and short-let (#6) by Airbnb &mdash; with the society actively fighting the latter.</li>
+    <li><b>Three are features, not businesses:</b> Equipment (#1), Hobby groups (#8), Workshops (#9) &mdash; real behaviour, no revenue, and WhatsApp already does the job adequately.</li>
+    <li><b>One has an inverted supply incentive:</b> Coaches (#10) &mdash; making mentors discoverable makes them less willing to be mentors. A good illustration of the systems-thinking point.</li>
+  </ul>
+  <h2 style="margin-top:22px">Open questions to take back to the field</h2>
+  <ul>
+    <li>In which categories does an actual <em>payment</em> between neighbours feel acceptable, and where does it insult the relationship? We have not tested this and most of the twelve depend on the answer.</li>
+    <li>Does anyone currently pay a fee to discover someone inside their own society? If nobody pays today, which of our assumed incentives are we inventing?</li>
+    <li>For #12, will any resident accept worker-side ratings of residents? Our whole read on worker welfare turns on whether the demand side tolerates symmetric information.</li>
+    <li>What exactly does an RWA need in exchange for approving commercial activity in common area? This gates #5, #7, #9 and #11 at once.</li>
+    <li>Per Deepak&rsquo;s guardrail: all of the above is interpretation. Before Friday, each row should be tied to the raw, word-for-word quote that supports it &mdash; or marked as inference.</li>
+  </ul>
+  <a class="back" href="/">&larr; Back to class notes</a>
+</article>
+
+</div>
+</body>
+</html>

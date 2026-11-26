@@ -543,6 +543,21 @@ The group voted each space on four dimensions: **Reach · User Impact · Frequen
 - **Open question:** is that distrust **information asymmetry** (nobody knows who is at the gate) or **conflict of interest** (someone benefits from the ambiguity)? The answer changes what gets built.
 - **AI guardrail:** always keep raw data word for word. AI loses context and hallucinates when paraphrasing user conversations.
 
+## Assignment: shareability worksheet
+
+Twelve categories, one owner each, each filled against demand persona, supply persona, motivation, frequency, incentive, friction and alternatives.
+
+| Category | Owner | Category | Owner |
+|---|---|---|---|
+| Equipment | Abhinav | Food | Himanshi |
+| Gadgets | Keerthi | Hobby groups | Vikas |
+| Tuition, babysitting | Sonam | Workshops | Sohan |
+| Cars — office commute | Anil | Coaches, mentors | Sarin |
+| Parking space | Sarin | Sports | Sarin |
+| Rent your flat (Airbnb-style) | Osho | Jobs and referrals | Keerthi |
+
+👉 **[Open the full worksheet](/assignment)** — what each question is for, all twelve filled in, and the shortlist hypothesis for Friday.
+
 ## Next steps
 
 - [ ] **Fill the shareability homework sheet before tomorrow's session**

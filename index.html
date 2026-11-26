@@ -145,6 +145,7 @@
       <div class="bar"><div style="width:${(done / keys.length) * 100}%"></div></div>
       ${done ? `<button class="btn full" onclick="downloadAll()">⬇ Download all notes</button>` : ""}
       <a class="btn full ghost" href="/discovery">🎤 Discovery interview</a>
+      <a class="btn full ghost" href="/assignment">📋 26 Nov assignment</a>
       ${weeks.map((days, w) => {
         const wk = days.map(key);
         return `<details style="--hue:${HUES[w % HUES.length]}" ${wk.includes(cur) ? "open" : ""}>
