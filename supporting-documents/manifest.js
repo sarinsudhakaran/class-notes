@@ -28,6 +28,17 @@ const SUPPORTING = {
    ]
   },
   {
+   "id": "case-study",
+   "label": "Case study brief",
+   "files": [
+    {
+     "name": "C9 Case Study 1 - Discovering India's Apartment Economy.pdf",
+     "path": "supporting-documents/week-1/case-study/C9 Case Study 1 - Discovering India's Apartment Economy.pdf",
+     "kb": 109
+    }
+   ]
+  },
+  {
    "id": "competitors",
    "label": "Competitors",
    "files": [

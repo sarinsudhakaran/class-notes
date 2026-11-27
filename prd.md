@@ -30,7 +30,7 @@ Our broad opportunity space is the shared economy in residential communities. Sh
 
 ### Case Summary
 
-**What is the case about?** India's growing apartment ecosystem as a complex economic and social system. The goal set on 23 Nov was to discover unmet needs and emerging opportunities from first principles, not to improve MyGate or NoBrokerHood **\[D\]**.
+**What is the case about?** The case brief, "Discovering India's Apartment Economy", asks us to act as a product manager in an emerging-opportunities team and study India's apartment ecosystem from first principles before the team decides where to build. It rules out designing a better MyGate, creating another residential marketplace, or assuming residents are the customers. Its central observation is that "density does not automatically create value": a community with enormous collective purchasing power "may still behave like hundreds of independent households". Its one requirement is that an opportunity "emerges from evidence gathered in the field, not assumptions made at your desk".
 
 On 24 Nov the group compared an independent house with a society on nine dimensions (demand, infrastructure, resources, consumption, information, trust, governance, identity, labour) and concluded that the residential community is emerging as an economic unit. Infrastructure has become collective while consumption, commerce and behaviour remain mostly individual. Deepak's instruction: "wherever you see a mismatch, that is the most compelling place to do discovery" **\[D\]**. The one-line objective became to map the **unrealised collective value** in residential societies — the gap between what collective infrastructure makes possible and what individual behaviour captures.
 
@@ -241,7 +241,7 @@ Shareability was split into twelve categories with one owner each. The workbook 
 
 ### Why this?
 
-Because it is the most literal case of the 24 Nov mismatch (shared infrastructure, individual consumption) **\[D\]**, the spend is recurring, and the space already exists **\[A\]**. Those are reasons to look, not evidence of a problem.
+Because it is the most literal case of the 24 Nov mismatch (shared infrastructure, individual consumption) **\[D\]**, the spend is recurring, and the space already exists **\[A\]**. Those are reasons to look, not evidence of a problem. Measured against the brief's requirement of evidence gathered in the field, this direction is not yet earned.
 
 ### Is there a credible path from the research to this direction?
 
@@ -438,6 +438,6 @@ Sizing needs three numbers from primary research: households per society that bu
 
 ## Sources
 
-Team folder, 23–27 Nov 2026. **Sessions:** G4 Daily Building Sessions 23–26 Nov; raw transcripts 24 and 25 Nov. **Interviews:** P01–P21 and T1–T4 as coded in the Gated Society Evidence Review; plus uncoded files (two Bengaluru residents, CCTV vendor, STP operator). **Secondary:** Evidence Review; Opportunity Map; Clubhouses, Shared Activities and Shared Spaces (Anil); Who Controls the Apartment Ecosystem (Sonam); evidence logs; top-10 cities workbook; Gurgaon reviews; summary decks. **Competitors:** "What is in the market". **Opportunity space:** workbook with group scores, category sheets and persona sheet.
+Team folder, 23–27 Nov 2026. Case brief: "Discovering India's Apartment Economy" (C9 case study 1). **Sessions:** G4 Daily Building Sessions 23–26 Nov; raw transcripts 24 and 25 Nov. **Interviews:** P01–P21 and T1–T4 as coded in the Gated Society Evidence Review; plus uncoded files (two Bengaluru residents, CCTV vendor, STP operator). **Secondary:** Evidence Review; Opportunity Map; Clubhouses, Shared Activities and Shared Spaces (Anil); Who Controls the Apartment Ecosystem (Sonam); evidence logs; top-10 cities workbook; Gurgaon reviews; summary decks. **Competitors:** "What is in the market". **Opportunity space:** workbook with group scores, category sheets and persona sheet.
 
 **Not in the folder.** The 27 Nov discussion in which Anil's challenge and Sonam's counterpoint were raised, and Deepak's instruction to keep competitors light and omit success criteria. They are recorded here as reported by the team.
