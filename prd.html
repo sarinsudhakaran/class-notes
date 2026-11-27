@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discovery PRD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<style>
+  :root {
+    --bg:#f4f2ff; --card:#ffffff; --text:#1e1b3a; --muted:#6b6890; --line:#e4e0fa; --soft:#f1effe; --accent:#7c3aed;
+    --shadow:0 12px 32px -14px rgba(91,63,211,.35);
+    --grad:linear-gradient(135deg,#7c3aed 0%,#db2777 50%,#f97316 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --accent:#a78bfa; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  }
+  :root[data-theme="dark"] { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --accent:#a78bfa; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font:16px/1.65 "Plus Jakarta Sans", system-ui, sans-serif; color:var(--text); background:var(--bg);
+    background-image:radial-gradient(circle at 10% 0%, rgba(124,58,237,.18), transparent 40%),
+                     radial-gradient(circle at 90% 10%, rgba(249,115,22,.14), transparent 40%),
+                     radial-gradient(circle at 50% 100%, rgba(219,39,119,.12), transparent 45%);
+    background-attachment:fixed; min-height:100vh;
+  }
+  @media (hover:none) { body { background-attachment:scroll; } }
+  .wrap { max-width:960px; margin:0 auto; padding:24px 16px 64px; }
+  .hero { background:var(--grad); color:#fff; border-radius:24px; padding:28px 32px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
+  .hero::after { content:""; position:absolute; right:-60px; top:-60px; width:220px; height:220px; border-radius:50%; background:rgba(255,255,255,.12); }
+  .hero .eyebrow { font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; opacity:.85; }
+  .hero h1 { margin:4px 0 10px; font-size:clamp(1.5rem,4vw,2.1rem); line-height:1.2; font-weight:800; }
+  .hero p { margin:0; opacity:.92; max-width:62ch; position:relative; z-index:1; }
+  .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; position:relative; z-index:1; }
+  .btn {
+    display:inline-flex; align-items:center; justify-content:center; gap:6px; padding:11px 16px; min-height:44px; border-radius:12px;
+    border:1px solid rgba(255,255,255,.35); cursor:pointer; font:600 .85rem "Plus Jakarta Sans", system-ui, sans-serif;
+    text-decoration:none; color:#fff; background:rgba(255,255,255,.2);
+  }
+  .btn:hover { background:rgba(255,255,255,.3); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:26px 30px; margin-top:20px; box-shadow:var(--shadow); }
+  .doc h1 { display:none; }
+  .doc h2 { font-size:1.25rem; margin:1.8em 0 .6em; scroll-margin-top:16px; }
+  .doc h2:first-of-type { margin-top:0; }
+  .doc h2::before { content:""; display:inline-block; width:6px; height:1em; border-radius:3px; background:var(--grad); margin-right:10px; vertical-align:-2px; }
+  .doc h3 { font-size:1.05rem; margin:1.4em 0 .4em; }
+  .doc p, .doc li, .doc td, .doc th { overflow-wrap:break-word; }
+  .doc ul, .doc ol { padding-left:20px; }
+  .doc li { margin-bottom:6px; }
+  .doc table { border-collapse:collapse; display:block; width:max-content; max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; font-size:.9rem; margin:12px 0; }
+  .doc th, .doc td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  .doc th { background:var(--soft); font-size:.78rem; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); }
+  .doc blockquote { margin:1em 0; padding:12px 18px; border-radius:12px; background:color-mix(in srgb, #7c3aed 10%, transparent); border-left:4px solid var(--accent); }
+  .doc em { color:var(--muted); }
+  .fig { margin:18px 0; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .fig svg { min-width:660px; width:100%; height:auto; display:block; }
+  .fig figcaption { color:var(--muted); font-size:.82rem; margin-top:6px; }
+  .toc { background:var(--soft); border:1px solid var(--line); border-radius:14px; padding:14px 18px; margin:0 0 18px; }
+  .toc b { display:block; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:6px; }
+  .toc a { color:var(--text); text-decoration:none; font-size:.88rem; }
+  .toc a:hover { text-decoration:underline; }
+  .toc span { color:var(--line); margin:0 6px; }
+  .back { display:inline-flex; align-items:center; min-height:44px; margin-top:14px; color:var(--muted); text-decoration:none; font-weight:600; font-size:.9rem; }
+  .back:hover { color:var(--text); }
+  @media (max-width:700px) {
+    .hero, .card { padding:22px 20px; }
+    .hero::after { display:none; }
+  }
+  @media (max-width:430px) {
+    .wrap { padding:16px 14px 52px; }
+    .hero, .card { padding:18px 16px; border-radius:16px; }
+    .doc h2 { font-size:1.12rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section class="hero">
+  <div class="eyebrow">Case study &middot; Discovery doc</div>
+  <h1>Discovery PRD &mdash; shared subscription in residential communities</h1>
+  <p>The broad space is the shared economy inside gated societies. This scopes it down to shared subscription &mdash; households collectively accessing professional activities and services in space the society already owns &mdash; and stays in the problem space: no app, no features, no solution.</p>
+  <div class="actions">
+    <a class="btn" href="/">&larr; Class notes</a>
+    <a class="btn" href="/prd.md" download="discovery-prd.md">&darr; Download .md</a>
+  </div>
+</section>
+
+<article class="card">
+  <nav class="toc" id="toc"></nav>
+  <div class="doc" id="doc">Loading the PRD&hellip;</div>
+  <a class="back" href="/">&larr; Back to class notes</a>
+</article>
+
+</div>
+
+<template id="fig-ecosystem">
+  <figure class="fig">
+    <svg viewBox="0 0 760 388" role="img" aria-label="Nothing in the hiring path is written down, so it breaks three ways" font-size="13" font-family="Plus Jakarta Sans, system-ui, sans-serif">
+      <defs><marker id="eco-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker></defs>
+      <text x="24" y="32" font-size="15" font-weight="700" fill="var(--text)">Nothing in the path is written down, so it breaks three ways</text>
+      <text x="24" y="54" font-size="11.5" fill="var(--muted)">How a class or service gets hired inside a society today</text>
+      <g fill="none" stroke="var(--line)" stroke-width="1.5">
+        <path d="M240 112H272" marker-end="url(#eco-arrow)"/>
+        <path d="M488 112H520" marker-end="url(#eco-arrow)"/>
+        <path d="M628 140V168H132V196" marker-end="url(#eco-arrow)"/>
+        <path d="M240 224H272" marker-end="url(#eco-arrow)"/>
+        <path d="M488 224H520" marker-end="url(#eco-arrow)"/>
+        <path d="M132 252V308" marker-end="url(#eco-arrow)"/>
+        <path d="M380 252V308" marker-end="url(#eco-arrow)"/>
+        <path d="M628 252V308" marker-end="url(#eco-arrow)"/>
+      </g>
+      <g stroke="var(--line)" stroke-width="1.5" fill="none">
+        <rect x="24" y="84" width="216" height="56" rx="8"/><rect x="272" y="84" width="216" height="56" rx="8"/><rect x="520" y="84" width="216" height="56" rx="8"/>
+        <rect x="24" y="196" width="216" height="56" rx="8"/><rect x="272" y="196" width="216" height="56" rx="8"/><rect x="520" y="196" width="216" height="56" rx="8"/>
+      </g>
+      <g stroke="var(--accent)" stroke-width="2" fill="var(--accent)" fill-opacity=".12">
+        <rect x="24" y="308" width="216" height="56" rx="8"/><rect x="272" y="308" width="216" height="56" rx="8"/><rect x="520" y="308" width="216" height="56" rx="8"/>
+      </g>
+      <g text-anchor="middle" fill="var(--text)" font-weight="700">
+        <text x="132" y="108">A need arises</text><text x="380" y="108">Asks the group</text><text x="628" y="108">A provider is found</text>
+        <text x="132" y="220">Committee approves</text><text x="380" y="220">Gate approval</text><text x="628" y="220">Sessions run</text>
+        <text x="132" y="332">Nothing is recorded</text><text x="380" y="332">No approval, no entry</text><text x="628" y="332">Provider stops coming</text>
+      </g>
+      <g text-anchor="middle" fill="var(--muted)" font-size="11.5">
+        <text x="132" y="126">a parent wants swim coaching</text><text x="380" y="126">tower WhatsApp, or the guard</text><text x="628" y="126">or cold-approaches the gate</text>
+        <text x="132" y="238">verbal, plus a slot if needed</text><text x="380" y="238">re-approved on every visit</text><text x="628" y="238">paid in cash or UPI</text>
+        <text x="132" y="350">the next committee reopens it</text><text x="380" y="350">the visit is cancelled</text><text x="628" y="350">no cover, no replacement</text>
+      </g>
+    </svg>
+    <figcaption>Hiring a class inside a society &middot; 6 steps, 3 break points. Purple marks where it breaks.</figcaption>
+  </figure>
+</template>
+
+<template id="fig-scores">
+  <figure class="fig">
+    <svg viewBox="0 0 760 396" role="img" aria-label="Shared subscription spans one top-scored category and two mid-scored ones" font-size="12.5" font-family="Plus Jakarta Sans, system-ui, sans-serif">
+      <text x="24" y="32" font-size="15" font-weight="700" fill="var(--text)">Shared subscription spans one top-scored category and two mid ones</text>
+      <text x="24" y="54" font-size="11.5" fill="var(--muted)">Team scoring of seven shareability categories, out of 15</text>
+      <g text-anchor="end">
+        <text x="212" y="113" font-weight="700" fill="var(--text)">Childcare and tuition</text>
+        <text x="212" y="147" fill="var(--muted)">Food</text>
+        <text x="212" y="181" fill="var(--muted)">Jobs and referrals</text>
+        <text x="212" y="215" font-weight="700" fill="var(--text)">Learning and coaching</text>
+        <text x="212" y="249" font-weight="700" fill="var(--text)">Hobbies and sports</text>
+        <text x="212" y="283" fill="var(--muted)">Vehicles and spaces</text>
+        <text x="212" y="317" fill="var(--muted)">Things to lend and rent</text>
+      </g>
+      <g>
+        <rect x="232" y="98" width="350" height="20" rx="4" fill="var(--accent)" fill-opacity=".9"/>
+        <rect x="232" y="132" width="323" height="20" rx="4" fill="var(--muted)" fill-opacity=".35"/>
+        <rect x="232" y="166" width="269" height="20" rx="4" fill="var(--muted)" fill-opacity=".35"/>
+        <rect x="232" y="200" width="242" height="20" rx="4" fill="var(--accent)" fill-opacity=".9"/>
+        <rect x="232" y="234" width="242" height="20" rx="4" fill="var(--accent)" fill-opacity=".9"/>
+        <rect x="232" y="268" width="215" height="20" rx="4" fill="var(--muted)" fill-opacity=".35"/>
+        <rect x="232" y="302" width="188" height="20" rx="4" fill="var(--muted)" fill-opacity=".35"/>
+      </g>
+      <g font-weight="700" fill="var(--text)">
+        <text x="592" y="113">13</text><text x="484" y="215">9</text><text x="484" y="249">9</text>
+      </g>
+      <g fill="var(--muted)">
+        <text x="565" y="147">12</text><text x="511" y="181">10</text><text x="457" y="283">8</text><text x="430" y="317">7</text>
+      </g>
+      <text x="24" y="352" font-size="11.5" fill="var(--muted)">Purple marks the categories shared subscription spans. Scores are the team&rsquo;s own judgement, not measurement.</text>
+      <text x="24" y="372" font-size="11.5" fill="var(--muted)">Factors scored: interview evidence, outside evidence, frequency, money already spent, ease and trust.</text>
+    </svg>
+    <figcaption>Team scoring workbook, Opportunity Space activity &middot; 7 categories, 5 factors, max 15.</figcaption>
+  </figure>
+</template>
+
+<script>
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  fetch("/prd.md")
+    .then(r => r.ok ? r.text() : Promise.reject(r.status))
+    .then(md => {
+      const doc = document.getElementById("doc");
+      doc.innerHTML = marked.parse(md);
+
+      // swap the doc's embed placeholders for the static figures
+      const figs = { "6 steps, 3 break points": "fig-ecosystem", "5 factors, max 15": "fig-scores" };
+      doc.querySelectorAll("p").forEach(p => {
+        const txt = p.textContent || "";
+        if (!txt.includes("embedded content")) return;
+        const hit = Object.keys(figs).find(k => txt.includes(k));
+        if (hit) p.replaceWith(document.getElementById(figs[hit]).content.cloneNode(true));
+        else p.remove();
+      });
+
+      const heads = [...doc.querySelectorAll("h2")];
+      heads.forEach(h => (h.id = slug(h.textContent)));
+      document.getElementById("toc").innerHTML =
+        "<b>Sections</b>" +
+        heads.map(h => `<a href="#${h.id}">${h.textContent.replace(/^(\d+)\.\s*/, "$1. ")}</a>`).join("<span>&middot;</span>");
+    })
+    .catch(e => {
+      document.getElementById("doc").innerHTML =
+        `<p>Couldn't load <code>prd.md</code> (${e}). <a href="/prd.md">Open it directly</a>.</p>`;
+    });
+</script>
+</body>
+</html>
