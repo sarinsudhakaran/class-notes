@@ -1,6 +1,6 @@
-// Run: node test-discovery.mjs
+// Run: node dev/test-discovery.mjs
 import assert from 'node:assert/strict';
-import { toCsv } from './api/discovery.js';
+import { toCsv } from '../api/discovery.js';
 
 const csv = toCsv([
   { id: 2, created_at: '2026-11-26T10:00:00.000Z', participant: 'Resident, Flat 302', role: 'Owner',
