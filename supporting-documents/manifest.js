@@ -156,6 +156,11 @@ const SUPPORTING = {
      "kb": 4225
     },
     {
+     "name": "Discovery-PRD-filled.pdf",
+     "path": "supporting-documents/week-1/template/Discovery-PRD-filled.pdf",
+     "kb": 4339
+    },
+    {
      "name": "PRD.docx",
      "path": "supporting-documents/week-1/template/PRD.docx",
      "kb": 3976
