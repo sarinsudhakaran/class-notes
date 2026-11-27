@@ -58,6 +58,7 @@
     .file .kb { display:none; }
   }
 </style>
+<link rel="stylesheet" href="theme.css">
 </head>
 <body>
 <div class="wrap">
@@ -68,19 +69,19 @@
     <a class="btn" href="/">&larr; Class notes</a>
   </section>
 
-  <h2 style="--hue:#7c3aed"><span class="chip">&#9733;</span>Working documents</h2>
+  <h2 style="--hue:#0071e3"><span class="chip">&#9733;</span>Working documents</h2>
   <div class="tiles">
-    <a class="tile" style="--hue:#7c3aed" href="/discovery"><b>&#127908; Discovery questionnaire</b><span>The interview form used in the field</span></a>
-    <a class="tile" style="--hue:#db2777" href="/assignment"><b>&#128203; 26 Nov assignment</b><span>Shareability demand/supply worksheet</span></a>
-    <a class="tile" style="--hue:#f97316" href="/prd"><b>&#129517; Discovery PRD</b><span>Shared subscription, on the template</span></a>
+    <a class="tile" style="--hue:#0071e3" href="/discovery"><b>&#127908; Discovery questionnaire</b><span>The interview form used in the field</span></a>
+    <a class="tile" style="--hue:#5856d6" href="/assignment"><b>&#128203; 26 Nov assignment</b><span>Shareability demand/supply worksheet</span></a>
+    <a class="tile" style="--hue:#248a3d" href="/prd"><b>&#129517; Discovery PRD</b><span>Shared subscription, on the template</span></a>
   </div>
 
-  <h2 style="--hue:#0891b2"><span class="chip">&#128193;</span>Research folders<span class="count" id="total"></span></h2>
+  <h2 style="--hue:#5856d6"><span class="chip">&#128193;</span>Research folders<span class="count" id="total"></span></h2>
   <div id="folders"></div>
   <p class="note">User interviews are not published here yet &mdash; the raw files name interviewees.</p>
 </div>
 <script>
-  const HUES = ["#7c3aed", "#db2777", "#f97316", "#16a34a", "#0891b2", "#2563eb"];
+  const HUES = ["#0071e3","#5856d6","#8944ab","#d30f45","#c93400","#248a3d","#0e7a8d","#0071a4","#7f6545"];
   const folders = (typeof SUPPORTING !== "undefined" && SUPPORTING["week-1"]) || [];
   const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   document.getElementById("total").textContent = folders.reduce((n, f) => n + f.files.length, 0) + " files";

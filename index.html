@@ -105,6 +105,7 @@
     .note h2 { font-size:1.15rem; }
   }
 </style>
+<link rel="stylesheet" href="theme.css">
 </head>
 <body>
 <div class="app">
@@ -118,7 +119,7 @@
     1: [["🎤 Discovery questionnaire", "/discovery"], ["📋 26 Nov assignment", "/assignment"],
         ["🧭 Discovery PRD", "/prd"], ["🗂 Interviews & research", "/supporting"]]
   };
-  const HUES = ["#7c3aed","#db2777","#f97316","#eab308","#16a34a","#0891b2","#2563eb","#9333ea","#e11d48"];
+  const HUES = ["#0071e3","#5856d6","#8944ab","#d30f45","#c93400","#248a3d","#0e7a8d","#0071a4","#7f6545"];
   const pad = n => String(n).padStart(2, "0");
   const key = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   const [y, m, d] = CONFIG.start.split("-").map(Number);
@@ -181,7 +182,7 @@
     const w = weeks.findIndex(ds => ds.includes(dt));
     const prev = keys[i - 1], next = keys[i + 1];
     document.querySelector("main").innerHTML = `
-      <section class="hero" style="background:linear-gradient(135deg, ${HUES[w % HUES.length]}, #db2777 60%, #f97316)">
+      <section class="hero" style="--hue:${HUES[w % HUES.length]}">
         <div class="eyebrow">Week ${w + 1} · ${fmt(dt, { weekday: "long", month: "long", day: "numeric", year: "numeric" })}</div>
         <h2>${has(cur) ? (titleOf(cur) || "Class notes") : "No notes yet"}</h2>
         <div class="actions">
