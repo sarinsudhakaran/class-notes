@@ -83,6 +83,9 @@
   .placeholder { color:var(--muted); text-align:center; padding:40px 0; }
   .placeholder b { display:block; font-size:2.5rem; }
   nav.pager { display:flex; justify-content:space-between; gap:12px; margin-top:20px; }
+  .docs { margin:8px 0 4px; padding-top:8px; border-top:1px dashed var(--line); }
+  .docs-h { font-size:.72rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); padding:0 10px 4px; }
+  .day.doc { font-weight:600; }
   .menu { display:none; }
   @media (max-width:820px) {
     .app { grid-template-columns:1fr; padding:16px; gap:16px; }
@@ -90,6 +93,16 @@
     aside.open { display:block; }
     .menu { display:flex; width:100%; justify-content:center; }
     .hero, .card { padding:22px 20px; }
+    .day { padding:11px 10px; min-height:44px; }
+    .btn { min-height:44px; }
+    summary { padding:12px; }
+    nav.pager .btn { flex:1; justify-content:center; }
+  }
+  @media (hover:none) { body { background-attachment:scroll; } }
+  @media (max-width:430px) {
+    .app { padding:12px; }
+    .hero, .card { padding:18px 16px; border-radius:16px; }
+    .note h2 { font-size:1.15rem; }
   }
 </style>
 </head>
@@ -100,6 +113,11 @@
   <main></main>
 </div>
 <script>
+  // Per-week links shown under that week's days. Add a week number to list its documents.
+  const WEEK_DOCS = {
+    1: [["🎤 Discovery questionnaire", "/discovery"], ["📋 26 Nov assignment", "/assignment"],
+        ["🧭 Discovery PRD", "/prd"], ["🗂 Interviews & research", "/supporting"]]
+  };
   const HUES = ["#7c3aed","#db2777","#f97316","#eab308","#16a34a","#0891b2","#2563eb","#9333ea","#e11d48"];
   const pad = n => String(n).padStart(2, "0");
   const key = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
@@ -144,9 +162,6 @@
       <div class="progress">${done} of ${keys.length} days have notes</div>
       <div class="bar"><div style="width:${(done / keys.length) * 100}%"></div></div>
       ${done ? `<button class="btn full" onclick="downloadAll()">⬇ Download all notes</button>` : ""}
-      <a class="btn full ghost" href="/discovery">🎤 Discovery interview</a>
-      <a class="btn full ghost" href="/assignment">📋 26 Nov assignment</a>
-      <a class="btn full ghost" href="/prd">🧭 Discovery PRD</a>
       ${weeks.map((days, w) => {
         const wk = days.map(key);
         return `<details style="--hue:${HUES[w % HUES.length]}" ${wk.includes(cur) ? "open" : ""}>
@@ -156,7 +171,8 @@
             return `<a class="day ${has(k) ? "" : "empty"} ${k === cur ? "active" : ""}" href="#${k}">
               <span class="dot"></span>${fmt(dt, { weekday: "short", month: "short", day: "numeric" })}
               ${k === todayKey ? '<span class="tag">today</span>' : ""}</a>`;
-          }).join("")}</div>
+          }).join("")}${(WEEK_DOCS[w + 1] || []).length ? `<div class="docs"><div class="docs-h">📁 Supporting documents</div>${
+            WEEK_DOCS[w + 1].map(([label, href]) => `<a class="day doc" href="${href}">${label}</a>`).join("")}</div>` : ""}</div>
         </details>`;
       }).join("")}`;
 

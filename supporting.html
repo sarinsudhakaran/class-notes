@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Supporting documents</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="supporting-documents/manifest.js"></script>
+<style>
+  :root {
+    --bg:#f4f2ff; --card:#ffffff; --text:#1e1b3a; --muted:#6b6890; --line:#e4e0fa; --soft:#f1effe;
+    --shadow:0 12px 32px -14px rgba(91,63,211,.35);
+    --grad:linear-gradient(135deg,#7c3aed 0%,#db2777 50%,#f97316 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f0c1f; --card:#1c1835; --text:#efedff; --muted:#a29fc4; --line:#2d2850; --soft:#25203f; --shadow:0 12px 32px -14px rgba(0,0,0,.6); }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font:16px/1.6 "Plus Jakarta Sans", system-ui, sans-serif; color:var(--text); background:var(--bg);
+    background-image:radial-gradient(circle at 10% 0%, rgba(124,58,237,.18), transparent 40%),
+                     radial-gradient(circle at 90% 10%, rgba(249,115,22,.14), transparent 40%),
+                     radial-gradient(circle at 50% 100%, rgba(219,39,119,.12), transparent 45%);
+    background-attachment:fixed; min-height:100vh;
+  }
+  @media (hover:none) { body { background-attachment:scroll; } }
+  .wrap { max-width:960px; margin:0 auto; padding:24px 16px 64px; }
+  .hero { background:var(--grad); color:#fff; border-radius:24px; padding:28px 32px; box-shadow:var(--shadow); }
+  .hero .eyebrow { font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; opacity:.85; }
+  .hero h1 { margin:4px 0 10px; font-size:clamp(1.5rem,4vw,2.1rem); line-height:1.2; font-weight:800; }
+  .hero p { margin:0 0 16px; opacity:.92; max-width:60ch; }
+  .btn { display:inline-flex; align-items:center; min-height:44px; padding:10px 16px; border-radius:12px; border:1px solid rgba(255,255,255,.35);
+         font-weight:600; font-size:.85rem; text-decoration:none; color:#fff; background:rgba(255,255,255,.2); }
+  h2 { font-size:1.15rem; margin:28px 0 12px; display:flex; align-items:center; gap:10px; }
+  h2 .chip { width:28px; height:28px; border-radius:9px; display:grid; place-items:center; color:#fff; font-size:.85rem; background:var(--hue); flex:none; }
+  h2 .count { margin-left:auto; color:var(--muted); font-weight:500; font-size:.8rem; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px; }
+  .tile { display:block; background:var(--card); border:1px solid var(--line); border-left:5px solid var(--hue); border-radius:16px; padding:14px 16px;
+          text-decoration:none; color:inherit; box-shadow:var(--shadow); min-height:44px; }
+  .tile:hover { transform:translateY(-1px); }
+  .tile b { display:block; }
+  .tile span { color:var(--muted); font-size:.85rem; }
+  details { background:var(--card); border:1px solid var(--line); border-radius:16px; margin-bottom:10px; box-shadow:var(--shadow); overflow:hidden; }
+  summary { list-style:none; cursor:pointer; font-weight:700; padding:14px 16px; min-height:48px; display:flex; align-items:center; gap:10px;
+            background:color-mix(in srgb, var(--hue) 12%, transparent); }
+  summary::-webkit-details-marker { display:none; }
+  summary .n { margin-left:auto; color:var(--muted); font-weight:500; font-size:.8rem; }
+  .file { display:flex; align-items:center; gap:10px; padding:11px 16px; min-height:44px; border-top:1px solid var(--line); text-decoration:none; color:inherit; font-size:.92rem; }
+  .file:hover { background:var(--soft); }
+  .file .name { flex:1; min-width:0; overflow-wrap:anywhere; }
+  .file .ext { flex:none; font-size:.68rem; font-weight:700; text-transform:uppercase; padding:2px 7px; border-radius:99px; color:#fff; background:var(--hue); }
+  .file .kb { flex:none; color:var(--muted); font-size:.78rem; }
+  .note { color:var(--muted); font-size:.88rem; margin:8px 2px 0; }
+  @media (max-width:520px) {
+    .wrap { padding:16px 14px 52px; }
+    .hero { padding:20px 18px; border-radius:18px; }
+    .file .kb { display:none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="eyebrow">Week 1 &middot; Apartment ecosystem case study</div>
+    <h1>Supporting documents</h1>
+    <p>Everything the week's work rests on: the questionnaire, the assignment and the PRD, plus the research the team gathered.</p>
+    <a class="btn" href="/">&larr; Class notes</a>
+  </section>
+
+  <h2 style="--hue:#7c3aed"><span class="chip">&#9733;</span>Working documents</h2>
+  <div class="tiles">
+    <a class="tile" style="--hue:#7c3aed" href="/discovery"><b>&#127908; Discovery questionnaire</b><span>The interview form used in the field</span></a>
+    <a class="tile" style="--hue:#db2777" href="/assignment"><b>&#128203; 26 Nov assignment</b><span>Shareability demand/supply worksheet</span></a>
+    <a class="tile" style="--hue:#f97316" href="/prd"><b>&#129517; Discovery PRD</b><span>Shared subscription, on the template</span></a>
+  </div>
+
+  <h2 style="--hue:#0891b2"><span class="chip">&#128193;</span>Research folders<span class="count" id="total"></span></h2>
+  <div id="folders"></div>
+  <p class="note">User interviews are not published here yet &mdash; the raw files name interviewees.</p>
+</div>
+<script>
+  const HUES = ["#7c3aed", "#db2777", "#f97316", "#16a34a", "#0891b2", "#2563eb"];
+  const folders = (typeof SUPPORTING !== "undefined" && SUPPORTING["week-1"]) || [];
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  document.getElementById("total").textContent = folders.reduce((n, f) => n + f.files.length, 0) + " files";
+  document.getElementById("folders").innerHTML = folders.map((f, i) => `
+    <details style="--hue:${HUES[i % HUES.length]}" ${i === 0 ? "open" : ""}>
+      <summary>&#128193; ${esc(f.label)}<span class="n">${f.files.length}</span></summary>
+      ${f.files.map(x => `<a class="file" href="/${encodeURI(x.path)}" download>
+        <span class="ext">${esc(x.name.split(".").pop())}</span><span class="name">${esc(x.name.replace(/\.[^.]+$/, ""))}</span>
+        <span class="kb">${x.kb > 1024 ? (x.kb / 1024).toFixed(1) + " MB" : x.kb + " KB"}</span></a>`).join("")}
+    </details>`).join("") || "<p class='note'>No documents listed.</p>";
+</script>
+</body>
+</html>
