@@ -700,6 +700,60 @@ Not settled. Sohan argued for premium and ultra-premium societies; Abhinav point
   - The reason for choosing this space was not explained
   - The effort / impact / ROI discussion was missing, because it was not in any file yet
   - The 26 Nov and 27 Nov session transcripts had not been added
+- Cut one version down to 12 pages and agreed to pick a single version and edit it by hand
+- One file is submitted on the LMS for the whole group. Deepak confirmed it is a **discovery doc**, not a PRD
+
+## Late session: Deepak reviews the draft
+
+### Make two models argue
+
+- **Models skim long input the way people do** — the start and end get read, the middle gets missed
+- **One model carries its own bias.** Passing one model's draft to a second model can amplify that bias instead of removing it
+- Better: give the **raw data** to two models from **different companies**. One writes the plan and defends it; the other attacks every assumption, bias and failure point. Ask for a final version with second-order effects considered, then check it yourself
+- Treat the agent as **a very smart intern with no judgment**. His examples: one quietly shrank a video to get under an upload limit; another used a real stranger's photo as the "waiter" in an explainer
+
+### What the review found
+
+- Deepak's run said twice that there is a **fundamental gap in the data**, so regenerating the doc would not produce new insight
+- The doc does not converge cleanly on the chosen space
+- Sonam, reading a draft: the space with the highest score (25 points) was **dropped with no recorded reason**, and the team never voted for the chosen one
+- The interviews are about 23–24 people, mostly workers and guards. Deepak: a new insight needs **at least 50–60 primary interviews**, spread across the stakeholder groups
+- The order he recommended: talk to people to find the opportunity space, talk again to the narrowed persona, then go back once more with a product
+
+### A possible link from the evidence
+
+Sonam's argument, which Deepak agreed is what the shared-economy idea is doing:
+
+- Interviews show residents pay maintenance for amenities they do not use
+- Bringing professionals into those spaces makes them worth something to residents
+- The society earns from it, which could ease maintenance costs
+
+Other reasons offered in the room: low capital cost, no new behaviour needed (Sohan), and demand that exists but is fragmented (Sonam, who added that this does not show up in the transcripts).
+
+Deepak's cautions:
+
+- Amenities are a **status selling point**; societies keep them whether or not anyone uses them
+- A society is **centralised**, and anything involving its money is hard to change. In his telling, earlier startups failed because the real user is the society manager, who has no reason to adopt it
+- His own case: roughly ₹25–30k a month in maintenance and he uses none of the amenities
+
+### Other directions floated
+
+| Idea | Raised by | What was said |
+|---|---|---|
+| **Shared internet for the society** | Deepak | Back-of-envelope from one teammate's office bill came to roughly ₹500–550 per flat a month. Home broadband already costs ₹300–400 with OTT bundled. No evidence behind it — a hypothesis only |
+| **Worker finances** — savings, insurance, children's education | Sonam; Sarin noted the interviews mostly point to workers | Deepak: doable, and it would come from what the interviews recorded. But money multiplies scrutiny. Think through the edge cases: a household moves out, commitments run 10–15 years, a governing body is needed, banks and NBFCs have rigid processes |
+
+- **The case study asks for new behaviours, not fixes to existing ones.** Deepak warned that the current problem and solution drift back to old behaviours and will be called out
+- Osho put the choice plainly: submit weak work or redo the opportunity space. Deepak's answer was that there is no time to redo it, so **the team carries on with shared economy** for now
+
+### Plan for the weekend
+
+- **Saturday:** class from 12 to 4 PM, team meets at 7–7:15 PM to clean the doc and write the skit script
+- The script must carry the discovery data, the problem statements and the storyline
+- **Presentation: about 4 minutes**, everyone takes part, rehearse at least 7–8 times, aim for about 80% English
+- **Sunday:** presentations at 12; groups usually start rehearsing at 7–8 AM
+- A discovery doc can be improved next week; a presentation cannot
+- A financial or system-level solution will draw questions from Shravan. If they go unanswered, the verdict is "more discovery needed"
 
 👉 The documents are under **[Interviews & research](/supporting)**, and the current write-up is the **[Discovery PRD](/prd)**. The team's direction changed after this session, so the PRD no longer argues for shared subscription.
 
