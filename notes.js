@@ -564,4 +564,150 @@ Twelve categories, one owner each, each filled against demand persona, supply pe
 - [ ] Consolidate all primary transcripts, notes and secondary data into one folder
 - [ ] Finalise 1–2 shareability segments and write problem statements (Friday session)
 `,
+
+  "2026-11-27": `
+# Choosing One Opportunity Space
+
+> **Objective:** narrow the twelve shareability categories down to **one sub-opportunity space**, judged on effort, impact and ROI, and name the stakeholders in it.
+
+> **Deliverable:** the discovery doc on Deepak's template (everything up to the solution, no success criteria), personas with their pain points and how they connect, at most one page on why this opportunity and what a solution could look like, and the skit for Sunday.
+
+## Key learnings
+
+1. **Judge every opportunity on three things: ROI, impact, effort.** A space can promise huge impact and huge return and still be wrong if it takes 25 years to build.
+2. **"Not another marketplace" limits the solution, not the problem.** Two products can attack the same problem and look nothing alike. Comparing yourself to an existing app means you have already decided what to build.
+3. **You cannot judge a problem until you know exactly who has it.** Carrying groceries upstairs is a problem for one resident and irrelevant to another who pays for house help.
+4. **Look for problems that scale.** A very specific problem with few people behind it will not make money; Deepak's phrase was that it becomes "like running an NGO".
+5. **Follow your gut, but only with a signal behind it.** When the signal is weak, the answer is better user interviews, not a faster solution.
+6. **The purpose of an MVP is to fail cheaply.** It exists to get a better signal, so going to a solution early means spending all your time on something you have not sized.
+7. **Connect the dots when you write.** A discovery doc has to show how the research led to the choice; that is the storytelling.
+
+## Deepak's answers before the exercise
+
+### ROI, impact, effort
+
+- Use all three to choose an opportunity space, and balance them against each other
+- As an operator, prefer spaces that could reach a very large user base (he used 100 million as the illustration)
+- Ask **"what are you actually replacing?"** and **"what is your edge?"** — technology, distribution, simplicity, or a burning pain point nobody else solves
+
+### Persona, in extreme detail
+
+A persona is not "a resident". Deepak's example of the level needed:
+
+- City tier and the size of the society
+- Typical flat value and monthly income
+- Phone, network, education, workplace, age, marital status
+
+Until that is fixed, "is this a real problem?" has no answer.
+
+### Gut versus data
+
+| Market | What the user knows | What it means |
+|---|---|---|
+| **Least aware** | Does not know they have a problem | Hardest to see, and where Deepak says most scalable opportunities are built |
+| **Problem aware** | Knows the problem, not that a solution exists | Second largest |
+| **Solution aware** | Knows both | Crowded and competitive |
+
+- Users in a least-aware market give **weak signals**, so interviews have to be very good
+- Example raised from the interviews: a car cleaner collects keys from each flat, cleans the car, then returns them. Real friction, but **a scheduling app is already a solution** — first ask how big the opportunity is
+
+## The exercise: pick one space in 17 minutes
+
+The team went through the 26 Nov categories and voted.
+
+| Category | What was said | Result |
+|---|---|---|
+| **Things to lend** (equipment, gadgets) | Items are personal and costly; damage and deposits cause disputes; societies avoid owning assets. Rated high effort, low impact, low ROI | 2 votes |
+| **Vehicles and spaces** (carpool, parking) | One teammate quoted that 71% of office commuters drive alone or with one passenger (source not stated in the session). Renting out a flat was dropped | 6 votes |
+| **Childcare and tuition** | Babysitting between neighbours is a favour, so asking for money is awkward. Tuition competes with coaching centres and online classes, though informal in-society tuition is long established | Not chosen |
+| **Workshops and professionals** | From Sohan's 4–5 conversations with gym trainers and music teachers: professionals get one client and no continuity; premium societies have amenity space sitting idle; existing apps cover one service each, with no single verified place for several | **Chosen** |
+
+- Services were preferred over products because lending goods brings wear, tear and trust problems
+- Sohan flagged his own evidence as thin: four or five people
+
+### What the space is called
+
+- Team wording: **workshops and professionals training residential communities** — fitness, music, yoga, sport — open to outside professionals and to residents who teach
+- Deepak's summary: this is **structuring an unstructured market inside the society**
+- He named the first slice **shared subscription**, inside the wider space of the **shared economy** (cabs, cars, parking and more could follow)
+
+### Stakeholders named
+
+- Residents
+- Service providers — outside professionals, and residents who offer a service
+- Association / building management (controls the common spaces)
+- Housekeeping and maintenance staff
+- Security
+- Treasury / finance (who collects the money)
+- The app or interface that connects them
+
+## Challenges raised by the team
+
+### Why would anyone stay on the platform?
+
+Sarin and Anil asked the same thing: once residents have met a good trainer, why not pay them directly and drop the app?
+
+| Counterpoint | Who | Status |
+|---|---|---|
+| Professionals using a clubhouse or room must register with the society and usually pay it a fee, so off-platform classes get noticed | Abhinav | Team view, not tested |
+| Premium societies will want contracts and a GST-registered company, not a solo person | Sohan | Team view, not tested |
+| With many services running at once, managing each vendor is the hassle the platform removes | Sonam | Team view, not tested |
+| A replacement pool for trainers residents do not like | Sohan | Team view, not tested |
+
+Sohan's own guess was that about four in ten cases would still be lost. That is an estimate made in the room, not data.
+
+### Group sessions or private ones?
+
+Anil's doubt: the saving comes from sharing a trainer, but wealthy residents want personal trainers and privacy. Sonam's reply was the swimming-pool case — the society has the pool, the child needs a coach, and a coach on site saves the trip to an academy.
+
+### Which segment?
+
+Not settled. Sohan argued for premium and ultra-premium societies; Abhinav pointed back to the ₹1.25–1.5 crore flats discussed earlier, which is the middle class, not high net worth.
+
+### Did the research lead here?
+
+- **Anil:** the move to shareability was suggested in the room; he could not see it coming out of the research
+- **Deepak:** it did come from the data. The interviews are few and the secondary data is biased, so the team took a common-sense position: people are individualistic, so shareability is the gap. That is a **hypothesis**
+- **After Deepak left:** the team looked again and still could not find it in the secondary slides, which are mostly about workers. The closest links are the "unused shared spaces" item in the opportunity list and one interview that mentioned a shared pool
+
+> This gap matters for the doc: the link from evidence to the chosen space has to be written honestly, as a hypothesis, not as a finding.
+
+## Deepak's instructions for the discovery doc
+
+- **No solutions this week.** Stakeholders and their pain points are the work
+- Write the **personas**, their **current pain points**, and **how the personas connect**
+- Add **one or two paragraphs, a page at most**: why this opportunity makes sense and what kind of solution is proposed, at a very high level
+- Use the **template headers**, up to just before the solution
+- **Competitor analysis can be light** — it is a new space, so list indirect competitors
+- **Existing solution gaps** means what people face today and what they need
+- **Leave out success criteria**
+- Include the whole discovery, not only the chosen slice, and say that the first journey to test is this one
+- Possible pain points he offered for group subscription: a group gives you an accountability partner; families want a safe space for children and elderly parents; it may also ease loneliness
+- **Use AI for thinking, do not outsource your thinking to it**
+
+## How to work
+
+- **Work in sprints.** About 25 minutes on one clear objective, then a break. Nobody works two hours straight at night after a full day
+- If the group drifts, bring it back politely
+- **Change your physiology first.** Move, get energetic, and the thinking follows — Deepak's example was Dilip Kumar acting with his body before his face
+
+## What the team did after
+
+- Created a shared Drive folder with **user interviews, secondary research, competitors, opportunity space and call transcripts**
+- Generated draft discovery docs with AI from that folder and compared versions
+- Problems spotted in the drafts:
+  - One ran to about **25 pages** against a 15-page limit
+  - The reason for choosing this space was not explained
+  - The effort / impact / ROI discussion was missing, because it was not in any file yet
+  - The 26 Nov and 27 Nov session transcripts had not been added
+
+👉 The documents are under **[Interviews & research](/supporting)**, and the current write-up is the **[Discovery PRD](/prd)**. The team's direction changed after this session, so the PRD no longer argues for shared subscription.
+
+## Next steps
+
+- [ ] Write personas with pain points and the connections between them
+- [ ] Finish the discovery doc on the template, within 15 pages, without success criteria
+- [ ] Add the page on why this opportunity and the high-level solution
+- [ ] Prepare the skit and decide who presents on Sunday
+`,
 };
