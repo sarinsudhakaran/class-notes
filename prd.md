@@ -1,424 +1,424 @@
-# Discovery PRD — Shared subscription in residential communities
+# Discovery PRD — Worker welfare in residential communities
 
 Nov 27, 2026 · @Sarin
 
-Our broad opportunity space is the shared economy in residential communities. Shared subscription — residents collectively accessing professional activities and services — is the first area we are exploring, not a validated solution. The research does not yet lead cleanly to it: the supporting evidence is one household's account, and this document flags that gap rather than bridging it. Case submission due Nov 28, 2026.
+When a domestic worker falls ill, the household loses its help and the worker loses her pay; many households share one worker, and none of them shares her risk. This document follows the Discovery PRD template to set out that problem, the evidence for it from our interviews, and what is still unvalidated — above all, who would pay to fix it. Case submission due Nov 28, 2026.
 
 ## 0. Scope the Problem Space
 
-**Evidence tags used throughout.** **\[I\]** interview finding · **\[S\]** secondary research · **\[A\]** team assumption or hypothesis · **\[D\]** Deepak's guidance. Interview codes P01–P21 and T1–T4 follow the team's Evidence Review; "Needs validation" marks anything the files do not support.
+**Evidence tags.** **\[I\]** interview finding · **\[S\]** secondary research · **\[A\]** team assumption · **\[D\]** Deepak's guidance. Interview codes (P01–P21, T1–T4) follow the team's Evidence Review. "Needs validation" marks what the files do not support.
 
-**What exactly are we trying to understand?** Whether households in a gated society have a real, recurring problem that collective access to professional activities and services would address — and whether the research supports looking there at all.
+**What exactly are we trying to understand?** How the people who work inside a residential society — first, domestic workers hired by individual households — carry risk on illness, pay and job security, how that reaches the households they serve, and whether the society as a collective could change it.
 
-**What is inside our scope?** Gated societies of 150–500 homes in Tier 1 cities, the interview target set on 25 Nov **\[D\]**; recurring activities and services delivered by outside professionals (the 25 Nov session grouped gym trainers, karate and yoga teachers, swimming and tutors under "small business"); shared spaces such as clubhouse, hall, courts, pool and gym; the people who would have to take part.
+**What is inside our scope?** Gated societies of 150–500 homes in Tier 1 cities **\[D\]**; maids and cooks employed household by household; the households that employ them; the committee, gate and society app that govern their entry. Guards and housekeeping staff are included as comparison: they are employed through agencies, not by residents.
 
-**What is outside our scope?** Designing a product or its features; the other shareability categories except as background; worker welfare, gate friction and society finances as problems in their own right, although they are better evidenced than this space (§7).
+**What is outside our scope?** Designing the product in detail; gig delivery workers; changing labour law; the earlier shared-subscription direction, which our own review found thinly evidenced.
 
-**Which stakeholders might be involved?** The team's workbook lists the "ecosystem for collective professional services" as service providers, residents, security, maintenance, society administration, housekeeping and treasury **\[A\]**. Mapped in §2.
+**Which stakeholders might be involved?** Domestic workers and their families, employing households, the managing committee, security, society apps, agencies and facility firms, insurers.
 
-**What are the different directions this problem could go?** Who organises (a resident, the committee, an outside party, nobody); who pays (each household or the society — undecided); what is shared (a provider's time, the space, the cost, the coordination).
+**What are the different directions this problem could go?** Protection (sick pay, health cover); continuity (a stand-in when she is absent); a record the worker owns (days worked, pay, references); financial control (pay reaching her, not someone else); longer-term support (children's schooling, mentoring).
 
 **What do we already know?**
 
-- One household pays outside the society for daycare and music classes, and has itself used the clubhouse hall for functions twice in four years (P05) **\[I\]**.
-- Asked whether residents had ever bought, hired or arranged something as a group, that resident answered "na" (P05) **\[I\]**.
-- One former committee member split a ₹7,000-a-month pool-cleaning contract with the neighbouring complex (P02) **\[I\]**.
+- "Medical leave is max 2 days else start getting job threats or no payments"; "employers go on long vacations but don't pay" (maid, P06) **\[I\]**.
+- Three workers were recorded as lacking medical or insurance cover (P14, P16, P17) **\[I\]**.
+- A resident suggested insurance be built into domestic help's pay (P04) **\[I\]**.
+- The group scored worker risk and conditions 19 and the household-help market 25, its two highest **\[A\]**.
 
-**What do we not know yet?** Whether residents want this; how much shared space is used; what providers or serving committees think. None of the three was asked in the first round.
+**What do we not know yet?** Who would pay; whether households see a worker's absence as their problem; what workers themselves would choose.
 
 ## 1. Problem Space
 
 ### Case Summary
 
-**What is the case about?** The case brief, "Discovering India's Apartment Economy", asks us to act as a product manager in an emerging-opportunities team and study India's apartment ecosystem from first principles before the team decides where to build. It rules out designing a better MyGate, creating another residential marketplace, or assuming residents are the customers. Its central observation is that "density does not automatically create value": a community with enormous collective purchasing power "may still behave like hundreds of independent households". Its one requirement is that an opportunity "emerges from evidence gathered in the field, not assumptions made at your desk".
+**What is the case about?** The case brief, "Discovering India's Apartment Economy", asks us to study the apartment ecosystem from first principles before the team decides where to build. It rules out designing a better MyGate or assuming residents are the customers, and says opportunities may "emerge from the people who work within these communities". It warns that "convenience for one stakeholder may create additional work for another" and that "security measures may influence livelihoods". Its one requirement is that an opportunity "emerges from evidence gathered in the field".
 
-On 24 Nov the group compared an independent house with a society on nine dimensions (demand, infrastructure, resources, consumption, information, trust, governance, identity, labour) and concluded that the residential community is emerging as an economic unit. Infrastructure has become collective while consumption, commerce and behaviour remain mostly individual. Deepak's instruction: "wherever you see a mismatch, that is the most compelling place to do discovery" **\[D\]**. The one-line objective became to map the **unrealised collective value** in residential societies — the gap between what collective infrastructure makes possible and what individual behaviour captures.
+On 24 Nov the group concluded that infrastructure has become collective while consumption, commerce and behaviour stay individual, and that labour is "shared across households" **\[D\]**. Domestic workers are the clearest case: one worker serves several flats, yet each household hires, pays and manages her alone. The team's secondary research calls them "the largest piece of shared infrastructure with no system behind it" **\[S\]**.
 
-**What are we trying to understand?** Three things, none yet answered:
+**What are we trying to understand?**
 
-1. Do households buy professional activities and services individually that they could access collectively?
-2. What stops the collective version — nobody coordinating, a trust gap, or a conflict nobody can remove?
-3. If professionals and residents meet through a shared arrangement, what keeps the arrangement shared afterwards? (§7 and §10)
+1. What risks do society workers carry alone, and how often do those risks turn into lost pay or lost work?
+2. How does a worker's absence or insecurity reach the households she serves?
+3. Could the society, as a collective, hold some of that risk — and would anyone pay for it to?
 
 ## 2. Stakeholder Mapping
 
-Actors were listed on 25 Nov by walking from gate to flat to common areas. The table keeps those a shared arrangement would touch.
-
 | Stakeholder | Role | Why are they important? | Evidence |
 | --- | --- | --- | --- |
-| Resident owner | Pays maintenance, votes, consumes services | Source of demand; only group with a vote | \[I\] P04, P05 |
-| Tenant | Pays rent, consumes, usually no vote | 40–45 of about 90 occupied flats in one complex; some societies give tenants different gym or pool hours | \[I\] P03, T2 |
-| Professional (trainer, coach, tutor) | Delivers the activity or service | The supply side. **Not interviewed** | \[A\]; listed on 25 Nov |
-| Upkeep vendor (pool, lift, CCTV, STP) | Maintains shared infrastructure on contract | The only service the collective already buys | \[I\] P02, P03, CCTV vendor |
-| Managing committee and office staff | Sets rules, approves vendors, controls common space and funds | Gatekeeper for any shared use of space | \[I\] P02, P03; \[S\] governance note |
-| Security | Approves non-resident entry | Every outside professional passes the gate | \[I\] T4, P08 |
-| Domestic staff | Serve several households, hired separately by each | Already shared informally, "managed by no one" | \[I\] P06, P07; \[S\] |
-| Society app and WhatsApp group | Contacts, notices, bookings | Where residents look first | \[I\] P04, P05, T2 |
+| Domestic worker (maid, cook) | Serves several households, hired by each separately | Carries illness, leave and job risk alone | \[I\] P06, P07, P16, P17 |
+| Employing household | Pays a monthly sum; sets timing and tasks | Loses help when she is absent; competes with neighbours for her | \[I\] P04, T1 |
+| Other households | Employ the same worker, separately | Together they are her whole income, but act alone | \[I\] T1; \[S\] |
+| Worker's family | Depends on her pay | Wages may go to the husband's account | \[I\] 26 Nov field recap |
+| Managing committee | Sets entry, lift and verification rules for staff | Can coordinate for or against workers | \[I\] P02; \[S\] rate cards, wage caps |
+| Gate and society app | Approves entry; holds attendance and ratings | A negative rating cost one maid her clients | \[I\] P16, P04, T4 |
+| Agency or facility firm | Employs guards and housekeeping staff | Stands between those workers and the society | \[I\] T3, P02, P14 |
+| Insurer | Would underwrite any cover | Not approached. **Needs validation** | — |
 
 &#91;embedded content: stakeholder connections today · evidence for each link in the table below\]
 
 | Connection | What passes | Evidence |
 | --- | --- | --- |
-| Household → professional | Finds, vets and pays alone | \[I\] P05 pays outside for daycare and music; T2 would pay a trainer |
-| Household ↔ chat group | Asks for contacts and recommendations | \[I\] P04, P05 |
-| Household ↔ committee | Dues, rules, vote at the AGM or by poll | \[I\] P02, P04 |
-| Committee → professional | Permission to use common space; a 10% cut in one society | \[S\] two Reddit threads. **Needs validation** |
-| Committee → upkeep vendor | Monthly contract | \[I\] P02, P03 |
-| Security → professional | Fresh approval each visit | \[I\] for service workers (T4); assumed for trainers |
-| Household ↔ other households | **No joint purchase** | \[I\] one answer, "na" (P05) |
+| Household → worker | Monthly pay; timings, menus and extra work that change daily | \[I\] P06, P07, P16 |
+| Other households → worker | The same arrangement, repeated flat by flat | \[I\] T1 |
+| Gate and app → worker | Entry approval; ratings that run one way | \[I\] T4, P16; \[S\] |
+| Committee → worker | Rules on entry and lifts; in some societies a wage "rate card" | \[S\] Reddit, ThePrint. **Needs validation** in our societies |
+| Committee → agency | Contract for guards and housekeeping | \[I\] P02, T3 |
+| Worker → her own household | Illness, unpaid leave and job loss are absorbed at home | \[I\] P06, P07 |
 
 ## 3. Current Ecosystem
 
-**Current workflow.** No interview describes a class or coach being arranged in a society. The journey below is assembled from accounts of domestic help, repairs and vendors, so the class-specific steps are assumptions.
+**Current workflow.** A domestic worker's month in a society, as the interviews describe it.
 
 | Journey step | What happens today | Evidence |
 | --- | --- | --- |
-| Need | A household wants daycare, a music class, a tennis coach | \[I\] P05, T2 |
-| Search | Asks the community WhatsApp group; MyGate lists domestic help "with reviews, attendance, with available free slot" | \[I\] P05, P04 |
-| Choice | Recommendation from neighbours; a professional living in the society is found by word of mouth | \[I\] T1 |
-| Access | Committee rules on common space; guard approves each entry | \[S\] for classes; \[I\] T4 for service workers |
-| Delivery and payment | Household pays the professional directly | \[A\] for classes. **Needs validation** |
-| When it fails | No account for classes. For other services: "He never comes on time. So I have to follow up" | \[I\] STP operator on his vendors |
+| Finding work | "I ask someone and they tell me"; work comes through trust and referral. Residents also pick help from MyGate listings "with reviews, attendance, with available free slot" | \[I\] housemaid transcript, P04 |
+| Agreeing terms | A monthly sum per home, fixed time slots; nothing written | \[I\] P16, P17 |
+| Entering | Approved at the gate; an app-booked worker is refused without fresh approval "even when the guard knows her" | \[I\] T4 |
+| Daily work | Timings shift ("weekend come late… I'm going out you come early"); ingredients ordered after the cook arrives; guests mean extra work, "no extra pay" | \[I\] P06, P07 |
+| Falling ill | "Medical leave is max 2 days else start getting job threats or no payments" | \[I\] P06 |
+| Employer away | "Employers go on long vacations but don't pay" | \[I\] P06 |
+| Being rated | One housemaid struggled to find new homes after a negative MyGate rating; workers cannot rate households | \[I\] P16; \[S\] |
+| Getting paid | Per household, monthly. Wages often go into the husband's account; one maid's gold savings were sold by her husband | \[I\] 26 Nov field recap |
 
-**Current process.** There is no shared process. The only formal one is the society's vendor contract for upkeep: monthly lift servicing (P03), pool cleaning at ₹7,000 a month (P02), CCTV annual maintenance contracts **\[I\]**. Arrangements depend on individuals: the former committee member restored the pool and "handed it over to the next people asking them to preserve it, but they don't maintain it" (P02) **\[I\]**.
+**Current process.** There is none at society level. Each household runs its own arrangement; the society's only formal processes for workers are entry approval and, for guards and housekeeping, an agency contract. Housekeeping staff said they "can't raise problems with anyone in the society" and must go through their company supervisor (T3) **\[I\]**.
 
-**Stakeholder interactions.** See the map in §2. Households deal with professionals one to one; with each other on festivals and pujas but not purchases (P05); with the committee on dues and rules. Complaints go to WhatsApp because "complaints raised on MyGate get no action" (T2) **\[I\]**.
+**Stakeholder interactions.** Households bid against each other for the same helpers: "others pay slightly more or offer more convenient timings, so helpers keep moving" (T1) **\[I\]**. Committees can pull the other way; online accounts describe boards fixing wages and threatening bans for paying more **\[S\]**. The worker deals with each household alone.
 
-**Insights.** For a third person: households share infrastructure and information but buy each recurring service alone. The society buys collectively only for upkeep. How a class is actually arranged inside a society, and where it breaks, is **Needs validation** — no professional and no serving committee member has been interviewed.
+**Insights.** For a third person: the worker is shared, but nothing about her employment is. Pay, leave, illness and references are settled flat by flat, by word of mouth. When something goes wrong the cost stays with her, and the household finds out only as an absence.
 
 ## 4. Secondary Research
 
-Desk research ran from 24 to 27 Nov, much of it AI-assisted. Deepak's rule on 24 Nov: treat AI-sourced numbers as leads and cross-check them **\[D\]**. Everything in this section is **\[S\]** unless tagged otherwise.
+Desk research ran from 24 to 27 Nov, much of it AI-assisted. Deepak's rule: treat AI-sourced numbers as leads and cross-check them **\[D\]**. Everything here is **\[S\]** unless tagged; none was independently re-checked.
 
 ### 4.1 Industry Trends
 
 **What are the major trends in this industry?**
 
-- Gated living is spreading: 16M households in the top 50 cities in 2021, projected 24M in 2026 and 32M in 2031 (Redseer; consultancy projections).
-- Societies now run utilities. Sewage treatment, bulk-waste processing, rooftop solar and shared EV charging are expected or mandated at society level (government and news sources in the team's evidence logs).
-- Platforms sit at the gate. Redseer puts platform penetration at about 25% of gated communities. MyGate's footprint appears as 25,000+ communities and 4M households in two team documents and as 27,000 communities and 5.7M homes in the 25 Nov session. **Needs validation.**
+- Gated living is spreading: 16M households in the top 50 cities in 2021, projected 32M by 2031 (Redseer; projection).
+- Household work is outsourced daily. Nuclear families are about 70% of urban households (NFHS-5).
+- Hiring is moving into apps. NoBrokerHood claims 9 in 10 househelps in gated communities are found through its app (company claim).
+- App-booked home help is growing alongside. A domestic workers' union quoted by ThePrint says it has weakened relationships and increased discrimination.
 
-**What is changing?** These households are about 32% of top-50-city households but about 45% of consumer spending (Redseer, 2021). Newer state laws (Tamil Nadu 2022, Karnataka 2026) require one registered association per project. Chores are increasingly outsourced; nuclear families are about 70% of urban households (NFHS-5).
+**What is changing?** Density puts many employers in one place. A worker can serve several homes with no commute, but gate apps also rate her, and societies can set rate cards or blacklist. Gurugram's administration asked RWAs in 2023 to register and counter-verify domestic help.
 
-**What is driving this change?** The 24 Nov session named the mechanisms **\[D\]**: economics of density, economics of scale ("you'd never pay for a lift alone"), lower transaction cost, social proof, network effects and social norms. It also noted that purchasing power comes from moving to the city, not from living in a society.
+**What is driving this change?** Dual-income households buying back time; societies taking on security and verification; platforms seeking the household-services market. Labour protection has not followed: one academic source cited in the team's research puts labour-law coverage at about 7% of India's workforce.
 
-**Insights.** For a third person: collective *obligation* is growing fast; collective *choice* is not. One desk source says collective buying in societies "mostly stalls" on kickback fears, staggered purchases and brand loyalty, and works only for standard or synchronised spend. That cuts against shared subscription unless a recurring class counts as synchronised spend, which is an assumption **\[A\]**.
+**Insights.** For a third person: demand for household help is concentrating and being formalised from the employer's side — verification, attendance, ratings. Nothing comparable is being built from the worker's side.
 
 ### 4.2 Stakeholder Understanding
 
-Mostly from interviews **\[I\]**; cells marked \[A\] come from the team's hypothesised persona sheet, not from anyone interviewed.
+From interviews **\[I\]** unless marked.
 
 | Stakeholder | Goals | Motivations | Pain points | Behaviours | Existing challenges |
 | --- | --- | --- | --- | --- | --- |
-| Resident with a child | Care and activities for the child | Security, open space "for kids to play" (P05) | Pays outside for daycare and music classes (P05); every household "competes for the same helpers" (T1) | Asks the WhatsApp group; ties form "through mutual interests or kids" | Has never arranged anything with other residents as a group |
-| Resident without children | Value from what is already paid for | Convenience without social obligation (T2) | Away 12+ hours a day; "amenities… I thought I would use, though I'm not actually using them" (tenant, Bengaluru) | Would "rather pay for a trainer than make friends with other residents to play" (T2) | Friendship seen as "risky: once you get close, it's hard to step back" |
-| Tenant | Use what the rent covers | Short horizon | Different gym or pool hours in some societies (T2); bans and surcharges reported online \[S\] | Does not attend meetings | No vote; evidence is contradictory ("people don't treat you differently") |
-| Professional | Fuller batches in fewer societies \[A\] | Income per trip \[A\] | Getting past the committee; under-filled batches \[A\] | **Not observed** | **Needs validation** — none interviewed |
-| Managing committee | Keep the society running | Unpaid; quality vendors on commission-free rates (P02) | 3–4 hours a day; reserve spent on a ₹5 lakh septic tank; ideas undermined by others (P02) | Splits costs per head; shared the pool contract with a neighbouring complex | Successors "don't maintain it"; office work is manual (P03) |
-| Upkeep vendor | Keep annual contracts | Recurring income from 10–12 societies | Cannot keep trained staff; late builder payments (CCTV vendor) | Sends replacements who "don't know anything" (STP operator) | No-shows are handled by repeated phone calls |
-| Domestic worker | Steady work near home | Fit slots across homes (P16, P17) | "Medical leave is max 2 days"; unpaid when employers travel (P06) | Finds work through trust and referral | No cover; ratings run one way |
+| Maid | Steady work that fits around home | Works near home because of her child; trust with employers | "Job security missing"; two days' sick leave; unpaid when employers travel; timings changed at will (P06) | Finds homes by referral; leaves a household that treats her badly | No cover; a bad rating limits new work (P16) |
+| Cook | Stable homes, clear instructions | Fit time slots across homes (P17) | "More unstable than maid"; ingredients not ready; guests add work with "no extra pay" (P07) | Waits while groceries are ordered | Unpaid idle time and extra work |
+| Guard | Earn and save more | One bus fare for a 24-hour duty (P02); double shifts (P11, P14) | Fined if caught asleep; no medical cover; exposed to weather | Chooses long shifts | Employed by an agency; changes monthly |
+| Housekeeping staff | Keep the job | Fixed shift, attendance | No place for tea, water or rest; dust swept into their food (T3) | Complain only through the company supervisor | No voice on site |
+| Employing household | Reliable help | Time; a household that runs without supervision \[A\] | "Finding house help is the hardest part… every household competes for the same helpers" (T1) | Pays slightly more or offers better timings to keep help | Help leaves; no stand-in when she is absent \[A\] |
+| Managing committee | A society that runs without conflict | Unpaid; security and order | 3–4 hours a day; little capacity (P02) | Accepts 24-hour guard duty though "it's wrong" (P02) | No mandate over household employment |
 
-**Insights.** For a third person: residents trust people, not listings, and at least some want a service without a relationship. Supply fails by absence across the roles we did interview. What an activity professional wants is unknown — the whole row is assumption.
+**Insights.** For a third person: workers want stability and say so plainly. Households want reliability and describe the same churn from the other side. Neither party's wish is the other's loss — which is unusual in this ecosystem. Counter-evidence to keep in view: one housemaid said "I don't have any tension about money or food", guards were described as preferring long shifts, a car cleaner reported earning ₹50,000 or more a month, and an app-booked worker has a fixed salary even on days with no jobs.
 
 ### 4.3 Current Solutions
 
-**How is this problem solved today?** Each household buys alone, usually outside the society: daycare and music classes (P05) **\[I\]**. Inside societies, independent yoga, dance and fitness instructors already teach; some committees take a cut, others allow them freely (Anil's clubhouse research; two Reddit threads) **\[S\]**.
+**How is this problem solved today?** Mostly it is not. Illness and unpaid days are absorbed by the worker. Some employers act individually: one online account describes an employer arranging the maid's ABHA health insurance and bonuses, while treating her ten-day absences as the problem.
 
-**What products/services already exist?** MyGate, NoBrokerHood and ADDA all include amenity booking with slots, capacity, per-flat caps and tenant rates; NoBrokerHood lets a committee set up coaching classes. This is vendor documentation — it shows what is possible, not what societies use **\[S\]**.
+**What products/services already exist?**
 
-**What workarounds do people use?** The community WhatsApp group for contacts (P04, P05) **\[I\]**; neighbour referral (T1) **\[I\]**; paying a personal trainer rather than relying on neighbours (T2) **\[I\]**; and, online, residents and instructors discussing how to avoid a society's 10% cut by under-quoting the fee or registering the trainer as a guest **\[S\]**.
+- Society apps (MyGate, NoBrokerHood): daily-help directory, attendance and household-to-worker ratings. Built for the employer.
+- App-booked home services: the one worker we met on this model has a fixed monthly salary and is reassigned when a job is cancelled (T4) **\[I\]**.
+- Agencies: one online account describes ₹2,000 to interview candidates and a ₹20,000 advance.
+- Government: the e-Shram registry lists about 2.8–2.9 crore domestic workers (two team documents give 2.81 and 2.89 crore). Whether our interviewees are registered or use any public health scheme was not asked. **Needs validation.**
 
-**Insights.** For a third person: booking a shared space is already solved and draws no complaints — 0 of 90 critical App Store reviews mention it. Where apps sell services, 10 of 30 critical NoBrokerHood reviews are about providers not turning up, damage or overcharging. The same research cautions that zero complaints may mean booking works, is rarely used, or does not matter.
+**What workarounds do people use?** Workers stack homes and shifts; a maid's own stand-in or relative covers for her \[A\]; households ask the WhatsApp group; guards take 24-hour duty to save a bus fare **\[I\]**.
+
+**Insights.** For a third person: what exists either serves the household (find, verify, rate) or replaces the informal worker with a company employee. Nothing serves the worker who stays informal and works across several flats in one society.
 
 ### 4.4 Competitor Analysis
 
-*Kept light for now, as instructed.* From the team's "What is in the market" note; company figures are self-reported **\[S\]**.
+*Kept light for now, as instructed.* Our folder holds no dedicated competitor research on worker welfare; the team's competitor note covers coaching operators. **Needs validation.**
 
 | Competitor | Problem they solve | Target user | How | Gaps |
 | --- | --- | --- | --- | --- |
-| Managed clubhouse operators (Athlio: 14 societies, 85+ coaches) | Coach dropouts and vetting | RWA or facility manager | Monthly fee or revenue share; substitute bench | Labour-heavy; large townships |
-| Resident-locked academies (Sporthood) | Coaching near home | Parents | Direct subscription, centre locked to one complex | Core sports only |
-| Informal instructors with an RWA cut | Classes with no organiser | Individual residents | Trainer uses common space; society takes about 10% | No backup; fees under-reported |
-| Society apps | Access, billing, booking | Committee | Class and amenity booking as a feature | Record-keeping, not accountability |
+| MyGate, NoBrokerHood | Finding and verifying household help | Residents and committees | Directory, attendance, ratings | One-way ratings; no leave, cover or pay record for the worker |
+| App-booked home-service companies | Reliable cleaning on demand | Households | Salaried workers dispatched per job | Worker sent across societies; household loses the known person |
+| Agencies | Placement | Households | Fee and advance | Cost; no continuing protection |
+| Public schemes (e-Shram, ABHA) | Registration, health cover | Workers | Government enrolment | Reach among our interviewees unknown |
 
-**Insights.** For a third person: collective access to coaching inside societies already exists commercially, so this is not white space. Enrolment, renewal and profitability of these operators are **Needs validation**.
+**Insights.** For a third person: the hiring side is crowded; the protection side is not visibly served. That is a hypothesis until someone looks properly.
 
 ### 4.5 Facts & Data
 
-Figures as they appear in the team's files, with the file's own source and a reliability note. None was independently re-checked.
+Figures as they appear in the team's files, with a reliability note.
 
 | Type | Fact | Figure | Source in the folder | Reliability |
 | --- | --- | --- | --- | --- |
-| Market size | Gated households, top 50 cities | 16M (2021) | Redseer, via evidence logs | Consultancy estimate |
-| Growth | Projection | 24M (2026), 32M (2031) | Redseer | Projection |
-| Market size | Typical gated society | 200–250 flats | NoBrokerHood statement, top-10 cities workbook | Company statement |
-| Market size | Bengaluru complex size | About 212 households | 2.5 lakh households ÷ 1,180 federation members | Skews high: members are larger complexes |
-| Adoption | Society-platform penetration | About 25% | Redseer 2026, as reported | Consultancy estimate |
-| Adoption | MyGate amenity bookings | 2.4M+ a year | Competitor note | Company claim |
-| Statistics | Buyers prioritising full clubhouse facilities | 60%+ | Knight Frank / JLL, money-flows deck | Preference survey |
-| Statistics | Critical app reviews mentioning amenity booking | 0 of 90 | Clubhouse research | 1-star, iOS only, one coder |
-| Statistics | Secondary students in private tutoring | 38% (2025), 30% (2018) | Workbook scoring note | Second-hand citation. **Needs validation** |
-| Reports | Committee spending cap | ₹3 lakh without a general body vote (Maharashtra draft rules) | Governance note | News report of draft rules |
-| Reports | Committee liability | Karnataka HC, Aug 2024: negligence charges against six committee members after a pool drowning | Competitor note | **Needs validation** against the judgment |
-| Benchmarks | Coaching fees, metro | Football ₹2,250–4,666; swimming about ₹4,000; yoga or Zumba ₹1,582–2,000 a month | Competitor note | Operator price lists |
-| Benchmarks | Pool-cleaning contract | ₹7,000 a month, shared to ₹3,500 | P02 | \[I\] one account |
-| Benchmarks | Society cut on instructors | About 10% | Clubhouse research | One Reddit thread |
+| Market size | Domestic workers registered on e-Shram | 2.81 crore in one team file, 2.89 crore in another | Consolidated sheet; money-flows deck (Labour Ministry) | Official registry; the two figures differ. **Needs validation** |
+| Market size | Private security personnel | 89 lakh (2022) | Money-flows deck | Industry estimate |
+| Market size | Gated households, top 50 cities | 16M (2021), 32M projected for 2031 | Redseer | Consultancy projection |
+| Statistics | Women domestic workers surveyed in 2026 | 469; insurance, paid leave and pensions "nearly non-existent" | Consolidated sheet (academic survey) | Not verified by the Evidence Review |
+| Statistics | Labour-law coverage of India's workforce | About 7% | Governance note (journal article, 2025) | Academic source |
+| Statistics | Residents who rate their maids | 4 of 12 in one study | Consolidated sheet (student design study) | Very small sample |
+| Adoption | Househelp found through NoBrokerHood | "9 of 10" in gated communities | Press release | Company claim |
+| Benchmarks | Guard pay | ₹16,000–20,000 a month | One Reddit thread; 26 Nov recap cites ₹15–20k | Anecdotal |
+| Benchmarks | Per-task rates in Bengaluru | Cook ₹9,000, maid ₹3,000 a month | Reddit threads | Anecdotal |
+| Benchmarks | Wage cap set by one society board | ₹1,500 a month, with threatened bans | One Reddit thread | Single case |
+| Reports | Guard shifts | 12 hours against 8 promised | Union survey, via news | Not verified |
 
-**Insights.** For a third person: market numbers are large but soft. No source measures amenity use, class enrolment inside societies or instructor earnings; the clubhouse research states that "under-use and low demand cannot be separated with these sources".
+**Insights.** For a third person: the population is very large and largely unprotected on paper, but almost every number specific to society workers is anecdotal. We have no figure for how often a domestic worker loses pay to illness, or how often a household goes without help. Both are **Needs validation**.
 
 ### 4.6 Observations
 
 Patterns only. Counts are interview entries out of 21, from the Evidence Review.
 
-- Trust, complaints and trade run on WhatsApp, phone and paper; apps handle logging (8 of 21).
-- Known visitors are re-approved at the gate on every visit (8 of 21).
-- Workers and vendors serve several households or societies from one place (6 of 21).
-- Households compete for the same helpers (4 of 21).
-- Governance rests on a few people; upkeep lapses after a handover (4 of 21).
-- Neighbour ties are selective: weak in 4 of 21 entries, strong in 2, formed through children.
-- Shared amenities are used lightly by some residents while similar services are bought outside (2–3 entries).
-- Residents and instructors discuss going around a society's cut (one online thread).
-- In Gurgaon reviews the amenity complaint is uptime, not absence.
+- Workers stack shifts and jobs (6 of 21, five roles).
+- Domestic workers and guards carry illness and income risk alone (6 of 21, but only two interviewers).
+- Workers lack water, rest space and a voice where they work (5 of 21).
+- Households change scope and timing without extra pay (4 of 21).
+- Hiring and keeping help is contested between households (4 of 21).
+- Ratings and reviews gate a worker's access to new homes (3 of 21).
+- Workers first say there is "no problem", then describe problems (4 interviews, team's consolidated sheet).
+- Online, employers suspect frequent absences; workers do not post at all.
 
 ### 4.7 Insights
 
 | What did we discover? | Why do we think this is happening? \[A\] | What evidence supports it? | Confidence |
 | --- | --- | --- | --- |
-| Apps record; people negotiate elsewhere | Accountability does not move into the app | 8 of 21 entries; "complaints raised on MyGate get no action" (T2) | Moderate |
-| Once a resident and a professional know each other, the intermediary is bypassed | The introduction is used once; the relationship is then direct | Online threads on avoiding a society's 10% cut; the 26 Nov note that carpooling drifts off-app "once people know each other"; competitor note | Low — secondary only |
-| Weak neighbour ties are often chosen | Closeness brings obligation | T2, P04, P05 | Low |
-| A committee shares a fixed cost when the saving is visible | Upkeep is easy to split and carries no personal preference | Pool contract shared with a neighbour (P02) | Very low — one account |
-| Some residents use shared amenities little and buy similar services outside | The space exists; nobody runs an activity in it | P05, T2 | Very low — 2–3 entries, no usage data |
+| Workers carry illness and employer-absence risk alone | Each household is a small, informal employer; none sees itself as responsible for the whole worker | P06, P07, P14, P16, P17; a resident suggesting insurance (P04) | Low — two interviewers; one phrase repeats word for word in three notes |
+| Long hours are partly chosen, and still harm | Worker and society incentives align: one bus fare, one guard | P02, P11, P14 | Low |
+| Workers employed through intermediaries have no voice on site | The employer is not on site and the society is not the employer | T3, T4, P01 | Low |
+| Density can raise or suppress a worker's bargaining power | It depends on whether households compete or the committee coordinates | Bidding for helpers (T1) against a wage cap (Reddit) | Very low — one source each |
+| Ratings run one way | Systems were built to protect residents | P16, P04, P21 | Low |
+| The status quo holds because everyone but the worker benefits | Vendors save on labour, residents get cheap service, and raising a voice is costly for the worker | Deepak, 26 Nov \[D\] | Guidance, not evidence |
 
 ### 4.8 Research Gaps
 
-**What questions are still unanswered?** How much shared spaces are used; what instructors earn and how classes fill; why committees set the rules they do; how often app class features are switched on.
+**What questions are still unanswered?** How often illness costs a worker pay or a job; what cover workers already have; how often households go without help and what it costs them; how common committee wage-setting is.
 
-**What assumptions are we making?** That a household buying outside would prefer inside; that upkeep contracting would extend to services residents choose; that online complaint volume reflects prevalence (the Reddit sample was gathered with complaint-loaded searches).
+**What assumptions are we making?** That a worker's absence matters enough to households to pay to prevent it; that workers want formal cover more than flexibility; that a society can act as a pool.
 
-**What can only be answered through primary research?** Whether residents want activities in the society; a serving committee member's reasoning; a professional's side.
+**What can only be answered through primary research?** What workers would choose, asked away from employers and supervisors; what a serving committee would agree to; what an insurer would underwrite.
 
 ## 5. Key Insights
 
-1. **We observed** societies acting collectively on utilities **because** regulation and missing city services force them to, **which means** the collective buys where it must, not yet where it could.
-2. **We observed** households buying each recurring service alone through personal networks **because** nobody coordinates a joint purchase \[A\], **which means** any unrealised value would lie in coordination, not in space or discovery.
-3. **We observed** no complaints about amenity booking but frequent complaints about booked providers **because** software schedules a slot but cannot make a person arrive \[A\], **which means** booking is not the unsolved part.
-4. **We observed** residents choosing paid, low-obligation arrangements **because** closeness in a society is hard to step back from \[A\], **which means** sharing with neighbours is not automatically welcome.
-5. **We observed** people routing around an intermediary's cut **because** the introduction has value once \[A\], **which means** a shared arrangement must offer something that continues after residents and professionals have met.
+1. **We observed** one worker serving several households that each hire and pay her separately, **because** household help has always been a private arrangement \[A\], **which means** a society concentrates her employers without combining their responsibility.
+2. **We observed** workers losing pay or facing threats after two days of illness, **because** no single household carries the cost of her absence \[A\], **which means** the risk can only be pooled at a level above the household.
+3. **We observed** households competing for the same helpers and losing them, **because** a few rupees or a better time slot is the only thing a household can offer \[A\], **which means** households also pay for insecurity, as churn.
+4. **We observed** attendance and ratings recorded about workers but not for them, **because** society apps were built for residents, **which means** more tracking, on its own, would deepen the imbalance.
+5. **We observed** workers saying "no problem" and then describing problems, **because** speaking up is costly and interviews happen at work \[A\], **which means** stated satisfaction understates the need — and stated need may also be shaped by our prompts.
 
-**One interesting thing we discovered is** that the best-evidenced findings (gate approvals, WhatsApp over apps, shift-stacking: 6–8 of 21 entries each) are not the ones our chosen direction rests on (2–3 entries).
+**One interesting thing we discovered is** that the most severe findings in our interviews barely exist online. Workers do not post reviews; residents who do post complain about rules and charges.
 
 ## 6. Opportunity Areas
 
-The wider discovery. The Evidence Review clustered 17 findings into ten opportunity spaces; on 26 Nov the group scored six of them on reach, user impact, frequency and economic value. A space is where time, money, trust or access is visibly lost — not a product idea.
+The team's Evidence Review clustered 17 findings into ten opportunity spaces. On 26 Nov the group scored six of them.
 
-| # | For | Through | Because | Evidence | Group score |
-| --- | --- | --- | --- | --- | --- |
-| S1 | Service workers, sellers, guards | Fewer repeat approvals at the gate | Known people are re-approved on every visit | Moderate | 15 |
-| S2 | Residents, office staff | Accountability where apps stop | Complaints and trade move to WhatsApp | Moderate | 8 |
-| S3 | Committees, owners | Smoothing lumpy society costs | Large bills hit volunteer bodies without reserves | Low–moderate | 14 |
-| S4 | Guards, maids, cooks | Cover for risk and site conditions | Workers carry illness and absence risk alone | Low–moderate | 19 |
-| S5 | Maids, cooks, households | Pricing variation in household work | Pay is fixed while scope changes daily | Low | 16 |
-| S6 | Households, helpers | A fairer internal market for help | Households bid for the same helpers; ratings run one way | Low | 25 |
-| S7–S9 | Committees; sellers; neighbours | Governance capacity; sellers' reach; coordination without obligation | Volunteers overloaded; entry runs through the gate; ties avoided on purpose | Low | Not scored |
-| S10 | Residents, committees | Use of under-used shared assets | Amenities paid for by all, used by few | **Very low** | Not scored |
+&#91;embedded content: group scores in the Opportunity Space workbook, 26 Nov · six of ten spaces scored\]
 
-A second list of broader directions was voted the same day. In the workbook: shareability marketplace 5, sustainability 5, childcare and elderly care 5, specialised service marketplace 4, household management 4, hyperlocal 3, and **"utilise unused shared infra like clubhouse" 2** — the lowest. The session notes record shareability as the highest-voted; the workbook shows a three-way tie. **Needs validation.**
+| # | For | Through | Because | Evidence |
+| --- | --- | --- | --- | --- |
+| S6 | Households and helpers | A fairer internal market for household help | Households compete for the same helpers; ratings run one way | Low |
+| S4 | Guards, maids, cooks, housekeeping staff | Cover for illness, absence and site conditions | Workers carry these risks alone and have no voice on site | Low–moderate |
+| S5 | Maids, cooks, households | Agreed terms for work that changes daily | Pay is a monthly lump sum while scope varies | Low |
+| S1 | Service workers, sellers, guards | Fewer repeat approvals at the gate | Known people are re-approved every visit | Moderate |
+| S3 | Committees, owners | Smoothing lumpy society costs | Large bills hit volunteer bodies without reserves | Low–moderate |
+| S2 | Residents, office staff | Accountability where apps stop | Complaints and trade move to WhatsApp | Moderate |
 
-Shareability was split into twelve categories with one owner each. The workbook then contains a persona sheet titled "SME Workshops Opportunity Space" (demand, supply, gatekeeper) and a list headed "ecosystem for collective professional services". That is the trace of shared subscription in the files **\[A\]**.
+Not scored: governance capacity, sellers' reach, neighbour coordination, under-used shared assets. The team also explored a shareability marketplace and a shared-subscription idea; our own review found the research did not lead to it.
 
-**The shared-subscription opportunity, in the template's form**
+The team's consolidated sheet already lists, as its first "hidden opportunity", micro-insurance and paid leave for domestic workers bought through the society, and as its second a verified work history owned by the worker **\[A\]**.
 
-- **For** households that individually buy recurring professional activities or services,
-- **Through** accessing them collectively, possibly in the society's shared spaces,
-- **Because** infrastructure is shared while consumption is individual — the mismatch named on 24 Nov **\[D\]**. Whether residents feel this as a problem is **Needs validation**.
+**The opportunity in the template's form**
 
-**High-level possibilities (not a solution).** Mentioned in discussion only, none evaluated: residents sharing a professional as a group; the society arranging one as it arranges upkeep; neighbouring societies sharing one, as P02 did for pool cleaning.
+- **For** domestic workers in a gated society and the households that depend on them,
+- **Through** the society holding, as a pool, the risks no single household carries — sick pay, health cover, a stand-in — with a record the worker owns,
+- **Because** she is already shared across households while her risk is not, and both sides lose when she is absent.
+
+### Solution thinking (brief, not a specification)
+
+The brief asks for a focused approach once an opportunity looks worth pursuing. This is a direction to validate, not a design.
+
+- **Possible approach.** A society-level worker record and welfare pool: days worked and pay due, kept for the worker; a small monthly contribution per employing flat that funds sick pay and group health cover; a named stand-in when she is absent. Described in team discussion as "an HR system for the people who work in a society".
+- **Who benefits and why.** The worker keeps pay through illness and holds her own record. The household gets continuity. The committee gets verified staff and fewer disputes.
+- **Key assumptions.** Households will pay a little more for reliability; workers want a record rather than fear one; a committee will administer or permit the pool.
+- **Dependencies.** An insurer willing to write group cover for informal workers; committee approval; legal advice on whether a pooled arrangement creates employer obligations. **Needs validation.**
+- **Trade-offs.** Attendance data can protect a worker or police her. The same record that proves her days worked could be used to dock pay. Workers who serve several societies may not fit one society's pool. Guards and housekeeping staff are employed by agencies, so a different route is needed for them.
+- **Later, if the core holds.** Pay into the worker's own account; help with children's school fees; mentoring. Linking individual workers' children to individual resident families was raised and is not proposed: no interview supports it and it raises dignity and child-safety questions.
+- **What we would validate first.** §11.
 
 ## 7. Scope Down
 
-**Which direction?** Shared subscription for professional activities and services — as the first area to explore, not a chosen solution.
+**Which direction?** Welfare and continuity for domestic workers in a society, starting with maids and cooks employed household by household.
 
 ### Why this?
 
-Because it is the most literal case of the 24 Nov mismatch (shared infrastructure, individual consumption) **\[D\]**, the spend is recurring, and the space already exists **\[A\]**. Those are reasons to look, not evidence of a problem. Measured against the brief's requirement of evidence gathered in the field, this direction is not yet earned.
+- **It is where our field evidence is strongest among problems that are not already well served.** Worker risk appears in 6 of 21 interviews and worker conditions in 5; the group scored the three worker-related spaces highest (25, 19, 16).
+- **Both sides lose from the same event.** An absence is lost pay for the worker and lost help for the household.
+- **Only a collective can pool it.** No single household will insure a worker it shares with several others. This is the brief's test of what density makes possible.
+- **The brief points here.** Opportunities may "emerge from the people who work within these communities", and residents need not be the customer.
 
-### Is there a credible path from the research to this direction?
-
-Anil questioned this link in team discussion. Checked against the files, the path holds for the first two steps and not beyond.
+### Does the research lead here?
 
 | Step in the reasoning | What the files show | Status |
 | --- | --- | --- |
-| 1. Infrastructure is collective, consumption individual | 24 Nov session; evidence logs on shared utilities | Supported as framing \[D\]\[S\] |
-| 2. Shareability is the direction to pursue | 26 Nov vote; workbook shows a tie at 5 with two other directions | Partly supported |
-| 3. Activities and services are the right part of shareability | A scoring note in the workbook: childcare and tuition 13/15, learning and coaching 9, hobbies and sports 9 | Weak — see below |
-| 4. Residents want to access these collectively | Nothing. No interview asked; the one question on group purchases got "na" (P05) | **Gap** |
-| 5. Shared spaces are available and under-used | One household's own use of the hall (P05); one tenant's use (T2); no usage data; "utilise unused shared infra" got the lowest group vote | **Gap** |
-| 6. Households or a society will buy together | One committee shared an upkeep contract (P02); a desk source says collective buying "mostly stalls" | Weak, with counter-evidence |
-| 7. The shared arrangement survives after people meet | Nothing in support; evidence against (below) | **Gap** |
-
-&#91;embedded content: scoring note in the Opportunity Space workbook · 7 categories, max 15 · not a team vote\]
-
-The scoring note is one unsigned judgement, not a vote; its wording ("I can add this scoring as columns… if you want") suggests an AI assistant wrote it. It says its strongest support "comes from one interview" and asks for 2–3 more parents and a resident tutor before childcare is presented as the top pick. It also says of hobbies and sports that "people won't pay much for it".
-
-### The direct-transaction risk (Anil)
-
-Anil's concern: once residents and a professional have met, they can transact directly, and whatever sat in between has no further role. The files support taking this seriously **\[S\]**:
-
-- Where a Bengaluru society takes 10% from instructors, residents and trainers discuss under-quoting the fee or paying directly (clubhouse research; competitor note).
-- The 26 Nov session recorded the same caveat for carpooling: "off-app drift once people know each other".
-- The competitor note concludes that discovery plus commission "leaks rapidly" unless something harder to bypass is owned.
-
-No interview speaks to this either way **\[I: none\]**.
-
-**Sonam's counterpoint — a hypothesis \[A\].** Coordinating several services and the shared spaces they use may provide value that continues after the first introduction, because the coordination is needed again each time. This was proposed in discussion; nothing in the files tests it. It would be weakened if households mostly want one service from one professional, or if a resident volunteer or the committee already coordinates at no cost. **Needs validation.**
+| 1. Workers carry illness and income risk alone | P06, P07, P14, P16, P17; survey of 469 workers cited by the team | Supported \[I\]\[S\], with a caveat on prompting |
+| 2. The same insecurity costs households | T1 on competing for and losing helpers; no interview on what an absence costs a household | Partly supported |
+| 3. A society can pool the risk | One resident's suggestion (P04); the team's "hidden opportunity" note | Assumption \[A\] |
+| 4. Someone will pay | Nothing. Deepak: no clear return for vendors or societies | **Gap** |
+| 5. Workers want formal cover and a record | Not asked; one housemaid reports no worry about money; a rating has already hurt one worker | **Gap** |
 
 ### Why not the others?
 
 | Direction | Why not first |
 | --- | --- |
-| Internal market for household help (S6, score 25) | Highest group score, but crowded; NoBrokerHood claims most househelp in gated communities is found through its app \[S\] |
-| Worker conditions (S4, 19) | Strong need; Deepak's challenge that there is no clear return for vendors or societies \[D\] |
-| Gate approvals (S1, 15) | Best evidenced; scored zero on economic value; partly addressed by MyGate |
-| Food, jobs, vehicles, lending | Food-safety liability; crowded; bye-laws; small infrequent deals (workbook) |
-
-These reasons are the team's judgement **\[A\]**. On evidence alone, S1, S2 and S6 are stronger candidates than the one we chose.
+| Household-help labour market (S6, 25) | Hiring and verification are crowded; we take its insight (churn, one-way ratings) into this direction |
+| Gate approvals (S1, 15) | Best evidenced, but scored zero on economic value and partly addressed by MyGate |
+| Society running costs (S3, 14) | Real, and scalable; evidence comes from two interviews. A strong second candidate |
+| Shared subscription | Our review found one household's account and no resident asked |
 
 ### What evidence supports this?
 
-P05 (outside spend; group purchase "na"), T2 (pays for a trainer; light amenity use), the Bengaluru tenant (pays for amenities he does not use), P02 (shared pool contract) **\[I\]**; existing operators and app features **\[S\]**. Deepak's 26 Nov guidance was to zoom out and not lock onto a persona or solution early **\[D\]**, so this scope-down is provisional.
+First-hand accounts from a maid, a cook, a housemaid, guards, housekeeping staff and an app-booked worker **\[I\]**; a resident's suggestion of insurance **\[I\]**; survey and news evidence on the absence of leave and cover **\[S\]**.
+
+### What argues against it?
+
+- **Deepak's challenge \[D\].** On 26 Nov he rated worker welfare high on reach and impact but low on economic value, and said the status quo persists because everyone else benefits from it.
+- **Prompting.** The phrase "lack of medical, insurance facilities" appears word for word in three of one interviewer's notes, and the template asked what people "would change".
+- **Mixed worker accounts.** Some workers report no money worries, choose long shifts, or earn well.
+- **Risk of harm.** Formal attendance and ratings have already cost one worker her clients.
 
 ## 8. Existing Solutions gaps
 
 | Solution | Type | Who uses it? | What's good? | What's missing? |
 | --- | --- | --- | --- | --- |
-| Community WhatsApp group | Manual | Residents (P04, P05) \[I\] | Free, instant, trusted | No record; nothing arranged jointly |
-| Neighbour referral | Manual | Residents with ties (T1) \[I\] | Real reputation | Reaches only who you know |
-| Buying outside the society | Workaround | P05 household \[I\] | Professional, structured | Travel; done alone |
-| Paying a personal trainer | Workaround | T2 \[I\] | No dependence on neighbours | Costlier than sharing \[A\] |
-| Instructor teaching in common space | Direct | Individual residents \[S\] | Already inside the gate | No organiser; cut is avoided |
-| Society app booking and classes | Indirect | Committees that enable it \[S\] | Slots, caps, payments | Schedules space, not people; adoption unknown |
-| Managed operators and academies | Direct | RWAs, parents \[S\] | Substitute coaches, curriculum | Scale; outcomes unknown |
-| Society upkeep contract | Indirect | Committees (P02, P03) \[I\] | Formal and collectively paid | Not used for services residents choose |
-| Doing nothing | Default | Everyone | Free | — |
+| Informal arrangement per household | Manual | Almost everyone \[I\] | Flexible, personal, no cost | No leave, no cover, no record; terms change at will |
+| Worker's own stand-in or relative | Workaround | Some workers \[A\] | Keeps the household served | Depends on her network; she may lose the home |
+| Stacking homes and shifts | Workaround | Maids, cooks, guards \[I\] | Raises income | Exhaustion; no margin for illness |
+| Individual employer generosity | Workaround | Some employers \[S\] | Real cover for one worker | Not portable; depends on one household |
+| Society app directory, attendance, ratings | Indirect | Residents, committees \[I\] | Verification; easier hiring | Serves the employer; ratings can cost work |
+| App-booked home-service company | Direct | Households \[I\] | Salary and reassignment for the worker | Worker sent across societies; not the informal majority |
+| Agency placement | Indirect | Households \[S\] | Replacement on request | Fee and advance; no worker protection |
+| Public registration and health schemes | Indirect | Workers \[S\] | Scale; free or subsidised | Reach among society workers unknown |
+| Committee rate cards | Manual | Some societies \[S\] | Predictable cost for residents | Caps wages; removes bargaining |
 
-What appears to be missing across these — someone who coordinates households, and someone answerable when a professional does not come — is our reading **\[A\]**. No interviewee described it. **Needs validation.**
+None of these makes the households that share a worker jointly responsible for anything. That reading is ours **\[A\]**.
 
 ## 9. Research Gaps
 
-- We don't know whether residents want professional activities or services inside the society.
-- We don't know what households spend on them now, how often, or whether they would share a professional with neighbours.
-- We don't know how much clubhouses, halls, courts and pools are used.
-- We don't know how a serving committee decides on use of common space, or whether it would organise, permit or fund anything shared.
-- We don't know how professionals enter a society, what they earn there, or why they leave. None was interviewed.
-- We don't know whether residents and professionals would keep a shared arrangement or deal directly once they have met.
-- We don't know whether coordinating several services has value to anyone (Sonam's hypothesis).
-- We don't know how tenants would be treated.
+- We don't know how often a domestic worker loses pay or a job to illness, or what it costs her.
+- We don't know what cover workers already have through public schemes or family.
+- We don't know whether workers care more about income, security or flexibility.
+- We don't know whether workers would welcome a record of attendance or fear it.
+- We don't know how often a household goes without help, or what it does then.
+- We don't know whether households would pay more for reliability, or how much.
+- We don't know whether a serving committee would administer or allow a pool.
+- We don't know whether an insurer would cover informal, multi-employer workers.
+- We don't know how many societies a typical worker serves.
+- We don't know who controls a worker's pay at home; the one account we have is second-hand.
 
-**Limits of what we have** (Evidence Review bias audit): one interviewer wrote 8 of 21 entries; 12 of 21 are workers and only 4 are residents; most evidence is paraphrase, not verbatim; the template used by interviewers asked "what would you change", which records wishes as needs; nobody who had left a society was reached. The review coded 21 entries; the folder also holds interviews it did not code (two Bengaluru residents, a CCTV vendor, an STP operator).
+**Limits of what we have** (Evidence Review bias audit): one interviewer wrote 8 of 21 entries and the risk finding rests on two; workers were interviewed at work, one guard was "scared of their supervisor"; most evidence is paraphrase; only workers still employed were reached; the interview template invited wishes.
 
 ## 10. Assumptions
 
 | # | We believe… | Confidence | Evidence | Needs validation? |
 | --- | --- | --- | --- | --- |
-| A1 | Households buy recurring activities and services individually that could be accessed collectively | ⭐⭐ | Primary: one household (P05). Secondary: coaching statistics, existing operators | Yes |
-| A2 | Residents would want to access them collectively | ⭐ | None. Not asked in any interview | Yes |
-| A3 | Shared spaces are under-used and available | ⭐ | Primary: two residents' own use. No usage data; lowest group vote | Yes |
-| A4 | Households do not buy together because nobody coordinates it | ⭐ | Team reading of P05's "na"; a desk source gives other reasons (kickback fears, brand loyalty) | Yes |
-| A5 | Residents and professionals will keep a shared arrangement rather than deal directly once they have met | ⭐ | None in support; secondary evidence against (Anil's risk, §7) | Yes — highest risk |
-| A6 | Coordinating several services and shared spaces gives continuing value | ⭐ | None; proposed by Sonam in discussion | Yes |
-| A7 | A committee would allow or arrange shared use of common space | ⭐ | Primary: one former member shared an upkeep contract (P02) | Yes |
-| A8 | Professionals would prefer a shared group in one society | ⭐ | Analogy only: fixed-site workers do better than those sent across societies (P10, T4) | Yes |
-| A9 | Reliability matters more to households than discovery | ⭐⭐ | Primary: absence named by several roles. Secondary: app-review complaints | Yes |
+| A1 | Domestic workers in societies lose pay or work when ill or when employers travel | ⭐⭐ | Primary: P06, P07; Secondary: survey of 469 workers | Yes — frequency unknown |
+| A2 | A worker's absence is a real cost to the household | ⭐ | Primary: T1 on churn only | Yes |
+| A3 | Households would contribute a small monthly amount for sick pay, cover and a stand-in | ⭐ | Primary: one resident's suggestion (P04) | Yes — highest risk |
+| A4 | Workers want formal cover and a record of their work | ⭐ | None direct; mixed worker accounts | Yes |
+| A5 | An attendance record helps the worker more than it exposes her | ⭐ | Against: a negative rating cost one maid clients (P16) | Yes |
+| A6 | A committee will administer or permit a society-level pool | ⭐ | None; our one committee interview is a former member | Yes |
+| A7 | An insurer will write group cover for informal workers with several employers | ⭐ | None | Yes |
+| A8 | The society is the right unit, although workers may serve several | ⭐ | Primary: app worker wants a single society (T4) | Yes |
+| A9 | Paying a worker directly into her own account improves her control of it | ⭐ | Primary: second-hand account in the 26 Nov recap | Yes |
 
-No assumption reaches ⭐⭐⭐. A2, A3 and A5 carry the scope-down; none has primary evidence.
+No assumption reaches ⭐⭐⭐. A3 decides whether this is an opportunity or only a need.
 
 ## 11. Primary Research Plan
 
-**Whose problem we would test first: residents with children**, because the only first-hand account of the behaviour comes from one (P05). The persona is **not validated**; one interview could simply be one household. Serving committee members and professionals are interviewed in the same round because the direction fails without either.
+**Whose problem we would test first: the domestic worker's, together with the household that employs her.** The worker has the pain; the household would have to pay. Neither side is validated as a persona: our worker evidence is mostly paraphrase, and no household has been asked about absence.
 
 | Persona | Why? | What we are validating | Questions |
 | --- | --- | --- | --- |
-| Parent of a school-age child (6–8) | Only persona with a first-hand account | A1, A2, A5 | What do your children do after school, and where? What do you pay for outside the society? Have you arranged anything with another family here — what happened next? If you met a tutor or coach through the society, how would you deal with them afterwards? |
-| Resident without children (4) | May pay for space they do not use | A2, A3 | Which shared spaces did you use last month? What do you pay for elsewhere that you could do here? |
-| Tenant (4) | Under-heard; access may differ | A3 | What are you allowed to use, and on what terms? |
-| Serving committee member (4–5) | Controls common space; only a former member interviewed | A3, A7 | Tell me about the last request to run an activity here. Who uses the clubhouse now? What happened to arrangements after the last committee change? |
-| Professional teaching in a society (5) | Supply side is unobserved | A5, A6, A8 | How did you start here? How do clients pay you? What happened with clients you met through a society or an app? Would anything make you keep working through an organiser? |
-| Resident who coordinates something today (2–3) | Tests Sonam's hypothesis | A4, A6 | What do you organise, how much effort is it, and why do you keep doing it? |
+| Maid or cook working in several flats (8–10), interviewed away from employers | Holds the problem; current accounts are few and partly prompted | A1, A4, A5, A8, A9 | Tell me about the last time you were ill. What happened to your pay and your homes? Who keeps the money you earn? How many homes and societies do you work in? Has a rating or a complaint ever affected your work? |
+| Employing household (6–8) | Would fund any pool | A2, A3 | When did your help last not come, and what did you do? What did it cost you? Have you paid during her leave or illness? What would you pay monthly so that help always came? |
+| Serving committee member (4) | Controls staff rules; would host the pool | A6 | What rules do you set for domestic staff, and why? Has the society ever done anything collectively for workers? What would stop you? |
+| Agency supervisor or facility manager (2–3) | Employer of guards and housekeeping | A8 | What leave and cover do your staff get? Who decides shifts? |
+| Insurer or broker (1–2) | Tests feasibility | A7 | Can informal workers with several employers be covered as a group, and at what cost? |
 
-**How.** Open conversations, not forms **\[D\]**. Ask about the last time something happened, not what people would like. Keep raw words; the 26 Nov guardrail is that AI paraphrase loses context **\[D\]**. Also request one month of booking records for a clubhouse or hall.
+**How.** Open conversations, not forms **\[D\]**. Ask about specific recent incidents, not "any problems?" — the team found workers answer "no problem" first. Keep raw words **\[D\]**. Speak to workers outside the society where possible.
 
 ## 12. Primary Research Findings
 
-All **\[I\]**. The first round (about 23 interviews, 21 in India) was broad discovery and was not designed around shared subscription. No conclusions here.
+All **\[I\]**, from about 23 interviews (21 in India); 12 of the 21 coded entries are workers. No conclusions here.
 
 **Quotes**
 
-- "What do you pay for outside the society that could happen inside it?" — "daycare facility, music classes." (P05)
-- "Which shared facilities… do you actually use? How often?" — "gym (often), clubhouse hall for any functions (have used twice in 4 years), guest rooms (often)." (P05)
-- "Have residents here ever bought, hired or arranged something as a group?" — "na." (P05)
-- "Neighbour — we just know who are neighbours are, no bonding." Asked what to change: "More bonding. More events to collab." (P04)
-- "There were a few amenities — like the swimming pool and gym — that I thought I would use, though I'm not actually using them." (tenant, Bengaluru)
-- "I immediately talked to the neighbouring flats, like Diamond, and asked them to pay half, so it came down to ₹3,500." (P02)
-- "He never comes on time. So I have to follow up." (STP operator, on his vendors)
+- "Job security missing." "Employers don't stick to the time agreed… weekend come late… I'm going out you come early." "Employers go on long vacations but don't pay." "Medical leave is max 2 days else start getting job threats or no payments." (maid, P06)
+- "Job security missing… more unstable than maid." "Ingredients aren't there, order placed right after cook comes." "Guests come and the burden falls on the cook, no extra pay." (cook, P07)
+- "For all domestic help, need insurance packages in their pay." (resident, P04)
+- "Finding house help is the hardest part… every household competes for the same helpers." (owner, Mumbai, T1)
+- "A human being can't work 24 hours straight… So he will automatically fall asleep." (former committee member on guards, P02)
+- "I ask someone and they tell me… Trust." On money: "I don't have any tension." (housemaid transcript)
 
 **Observations**
 
-- A Pune tenant uses the gym regularly and the pool once or twice a week, and other facilities only when family visits. He would pay a tennis trainer rather than befriend other players (T2).
-- A Mumbai owner says a society usually has someone in the needed profession living in it, such as a makeup artist found through neighbours (T1).
-- An app-booked worker would prefer to work in a single society, because jobs across societies do not line up (T4).
+- Housekeeping staff start chores at home around 4 AM, work a shift, then return to more chores. They have no fixed place for tea or water, and dust was swept into their food while they ate (T3).
+- An app-booked worker has a stable monthly salary but is refused entry without fresh approval, and would choose to work in a single society (T4).
+- Guards stand through summer and winter, light wood fires and carry their own water because the cooler is far (P11).
+- One person cleans cars in the morning, stairs in the afternoon and walks dogs in the evening; a car cleaner earning ₹50,000 or more employs others (P10).
+- From the 26 Nov field recap: wages often go into the husband's account, and one maid's gold savings were sold by her husband.
 
-**Behaviours.** Asking the WhatsApp group or a neighbour before any app; paying to avoid depending on neighbours; a committee raising a ₹2,000 levy per household for pump automation (P02); workers and vendors serving several households or societies.
+**Behaviours.** Stacking homes, shifts and jobs; choosing 24-hour duty to pay one bus fare; fixing time slots per home; seeking new homes after a bad rating; households offering slightly more pay or better timings to keep help.
 
-**Patterns.** Recurring services bought household by household; ties formed through children or long residence; service failing through absence.
-
-**Caution on the central quote.** P05's first answer responds to a prompt that already contains the idea ("that could happen inside it"). It shows the household buys these services outside; it does not show the household wants them inside.
+**Patterns.** Risk carried by the worker; scope changed by the household; voice routed through a supervisor or not at all; "no problem" as the first answer.
 
 ## 13. Synthesis
 
 **Cluster findings**
 
-| Cluster | Findings | Bearing on shared subscription |
+| Cluster | Findings | What it means for this direction |
 | --- | --- | --- |
-| Individual consumption | Each household finds, hires and pays alone | The mismatch; rests on one direct answer |
-| Trust through people | WhatsApp and referral before apps | A shared arrangement would be judged the same way |
-| Service without obligation | Paying a trainer over befriending players | Sharing with neighbours may be unwelcome |
-| Reliability | No-shows, untrained replacements | What a recurring service is judged on |
-| Thin governance | Few volunteers; lapses after handover | The likely coordinator is already overloaded |
+| Risk without cover | Two-day sick limit, unpaid employer holidays, no insurance | The core problem |
+| Unpriced variation | Changed timings, guest cooking, waiting for groceries | Terms are informal; a record could help or be resisted |
+| Churn | Households compete for and lose helpers | The household's side of the same insecurity |
+| One-way information | Attendance and ratings held about workers, not for them | Design risk: more tracking can harm |
+| Intermediated workers | Guards and housekeeping answer to agencies | A different route is needed for them |
 
-**What repeated?** Reliance on WhatsApp and personal recommendation; absence as the way service fails; a few people carrying collective work.
+**What repeated?** No safety net for illness or absence; workers stacking jobs; households changing terms at will; nobody on site to hear a worker.
 
-**What surprised us?** A resident who reports "no bonding" and asks for "more bonding" beside one who avoids neighbours on purpose. A committee buying across the society boundary. A tenant who considers unused amenities good value. The worst problems in interviews (worker conditions) barely appear online, and the loudest online (rules, charges) are milder in interviews.
+**What surprised us?** Guards choosing 24-hour duty for the bus fare. A car cleaner earning ₹50,000 or more by employing others. Workers eager to learn time and money management. A worker with a secure salary whose real problem was the gate. The worst findings being invisible online.
 
-**Which assumptions were wrong?** That living close creates community (ties are selective). That society apps are how residents find and manage services (apps log; people decide elsewhere). That workers do this work only for lack of options (interviewers recorded deliberate job-stacking and saving).
+**Which assumptions were wrong?** Interviewers recorded that they had assumed workers did this work because they were uneducated and needed a job; they found hustle, saving discipline and self-reliance. We assumed low pay throughout; pay varies widely by role. We assumed long shifts are imposed; some are chosen.
 
-**What the synthesis does not contain.** Any resident describing collective access to activities or services as something they want or miss. Every link from these findings to shared subscription is ours **\[A\]**.
+**What the synthesis does not contain.** A household describing a worker's absence as a cost it would pay to avoid, or a worker asking for a formal record. Both links are ours **\[A\]**.
 
 ## 14. Final Problem Statement
 
-**Status: a hypothesis to test, not final.** The template places this after primary research on the chosen direction, which has not been done. On 26 Nov the problem statement was recorded as "not yet clear" **\[D\]**.
+**Status: a hypothesis to test.** The template places this after primary research on the chosen direction; our first round was broad discovery.
 
-**Who?** Households in gated societies of 150–500 homes in Tier 1 cities; first, those with school-age children. *Persona not validated.*
+**Who?** Maids and cooks who work for several households in a gated society of 150–500 homes, and the households that employ them.
 
-**Problem?** Each household separately finds, vets and pays for recurring professional activities and services, although its neighbours may need the same and the society already shares space and upkeep **\[A\]**.
+**Problem?** A domestic worker is shared by many households, but her risk is not. When she is ill or an employer is away she loses pay and may lose the job, and the household loses its help — yet no household, and no one above the household, is responsible for either.
 
-**Why?** Unknown. Candidate explanations, all **\[A\]**: nobody coordinates; residents avoid arrangements that bring obligation; the committee controls the space and gains nothing by saying yes; and once people meet, dealing directly is simpler than staying in a shared arrangement.
+**Why?** Each household is a small informal employer of a fraction of her time; the society concentrates those employers without combining them; the systems that do exist record the worker for the resident's benefit **\[A\]**.
 
-**Evidence?** For: P05, T2, P02 **\[I\]**; existing operators **\[S\]**. Against or missing: no resident asked; no usage data; collective buying reported to stall **\[S\]**; direct-transaction evidence **\[S\]**; a tenant content with unused amenities **\[I\]**.
+**Evidence?** For: P06, P07, P14, P16, P17, T1, T3, T4 and a resident's suggestion (P04) **\[I\]**; survey and news evidence **\[S\]**; the group's own scoring **\[A\]**. Against or missing: no evidence that households will pay **\[D\]**; partly prompted worker accounts; some workers report no hardship; no committee or insurer consulted.
 
 ## 15. Opportunity Size
 
-**Needs validation throughout.** The files do not support a sizing, and we have not built one from invented multipliers.
+**Needs validation throughout.** We give the bounds the files support and do not multiply them into a number.
 
 | Item | What the files support | Status |
 | --- | --- | --- |
-| TAM | Outer bound only: 16M gated households in the top 50 cities (2021), 32M projected for 2031 (Redseer) \[S\] | Share in scope unknown |
-| Number of users | 200–250 households per gated society (company statement) \[S\]; share that buys such services not in any source | Needs validation |
-| Frequency | Classes are weekly or more often by nature \[A\]; one household confirms recurring spend (P05) \[I\] | Needs validation |
-| Severity | No interviewee described this as a pain; P05 says life there "has been according to expectations" \[I\] | May be low |
-| Business impact | Price references only: coaching ₹2,250–4,666 a month; a ₹7,000-a-month pool contract \[S\]\[I\] | Not a sizing |
+| TAM | 2.8–2.9 crore domestic workers registered on e-Shram, nationally \[S\]; 16M gated households in the top 50 cities (2021) \[S\] | The share who work in gated societies is unknown |
+| Number of users | Per society: workers entering daily and flats each serves were listed by the team as data to collect; not yet collected | Needs validation |
+| Frequency | Work is daily; illness and employer travel recur through the year \[I\] | Frequency of lost pay unknown |
+| Severity | High for the worker when it happens: job threats after two sick days \[I\]. For households, unknown | Needs validation |
+| Business impact | The group scored worker welfare low on economic value; Deepak sees no clear return \[D\] | The central open question |
 
-Sizing needs three numbers from primary research: households per society that buy a recurring activity or service, what they pay, and how many would take it collectively.
+Sizing needs four numbers from primary research: workers per society, days of pay lost per worker per year, days without help per household per year, and what a household would contribute monthly.
 
 ## 16. Success Criteria
 
@@ -426,18 +426,19 @@ Sizing needs three numbers from primary research: households per society that bu
 
 ## 17. Open Questions
 
-- [ ] Does the research lead to shared subscription, or did we arrive at it from the framing? (Anil)
-- [ ] After residents and a professional meet, what stops them dealing directly? (Anil)
-- [ ] Does coordinating several services and shared spaces give value that continues? (Sonam's hypothesis)
-- [ ] Do residents experience buying separately as a problem at all?
-- [ ] Who would coordinate, and why would they keep doing it?
-- [ ] Who pays — each household or the society? Raised in discussion; untested.
+- [ ] Who pays — the employing households, the society, or the worker herself in part?
+- [ ] Where is the return for a society? (Deepak, 26 Nov)
+- [ ] If the status quo suits everyone but the worker, who has a reason to change it? (Deepak, 26 Nov)
+- [ ] Does a record of attendance and pay protect the worker or become a tool against her?
+- [ ] Is the society the right unit when a worker serves more than one?
+- [ ] Does pooling contributions make the society an employer in law?
+- [ ] How should guards and housekeeping staff, who are employed by agencies, be reached?
+- [ ] Would workers choose cover over flexibility and cash in hand?
 - [ ] Is distrust here information asymmetry or conflict of interest? (Deepak, 26 Nov — left open)
-- [ ] Why do current restrictions on outside professionals and common areas exist? (Chesterton's fence, 23 Nov)
-- [ ] Where is the return for a society or a vendor? (Deepak, 26 Nov)
+- [ ] Would support for workers' children be welcome, and on whose terms?
 
 ## Sources
 
-Team folder, 23–27 Nov 2026. Case brief: "Discovering India's Apartment Economy" (C9 case study 1). **Sessions:** G4 Daily Building Sessions 23–26 Nov; raw transcripts 24 and 25 Nov. **Interviews:** P01–P21 and T1–T4 as coded in the Gated Society Evidence Review; plus uncoded files (two Bengaluru residents, CCTV vendor, STP operator). **Secondary:** Evidence Review; Opportunity Map; Clubhouses, Shared Activities and Shared Spaces (Anil); Who Controls the Apartment Ecosystem (Sonam); evidence logs; top-10 cities workbook; Gurgaon reviews; summary decks. **Competitors:** "What is in the market". **Opportunity space:** workbook with group scores, category sheets and persona sheet.
+Team folder, 23–27 Nov 2026. **Case brief:** "Discovering India's Apartment Economy". **Sessions:** G4 Daily Building Sessions 23–26 Nov. **Interviews:** P01–P21 and T1–T4 as coded in the Gated Society Evidence Review; housemaid, CCTV vendor and STP operator transcripts. **Secondary:** Evidence Review; Opportunity Map; consolidated research sheet (patterns and "hidden opportunities"); pain-points deck; Who Controls the Apartment Ecosystem; shared-infrastructure log; money-flows deck. **Opportunity space:** workbook with the 26 Nov group scores.
 
-**Not in the folder.** The 27 Nov discussion in which Anil's challenge and Sonam's counterpoint were raised, and Deepak's instruction to keep competitors light and omit success criteria. They are recorded here as reported by the team.
+**Not in the folder.** The team discussion of 27–28 Nov in which this direction was chosen, and Deepak's instruction to keep competitors light and omit success criteria. Recorded here as reported by the team.

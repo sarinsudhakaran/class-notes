@@ -80,8 +80,8 @@
 
 <section class="hero">
   <div class="eyebrow">Case study &middot; Discovery doc</div>
-  <h1>Discovery PRD &mdash; shared subscription in residential communities</h1>
-  <p>The broad space is the shared economy inside gated societies. This scopes it down to shared subscription &mdash; households collectively accessing professional activities and services in space the society already owns &mdash; and stays in the problem space: no app, no features, no solution.</p>
+  <h1>Discovery PRD &mdash; worker welfare in residential communities</h1>
+  <p>Many households share one domestic worker, and none of them shares her risk. This follows the Discovery PRD template: the problem, the evidence from our interviews, a brief solution direction, and what is still unvalidated &mdash; above all, who pays.</p>
   <div class="actions">
     <a class="btn" href="/">&larr; Class notes</a>
     <a class="btn" href="/supporting-documents/week-1/template/Discovery-PRD-filled.docx" download>&darr; Download .docx (template)</a>
@@ -107,7 +107,7 @@
       doc.innerHTML = marked.parse(md);
 
       // swap the doc's embed placeholders for the static figures
-      const figs = { "stakeholder connections today": ["/prd-fig1.png", "Stakeholders and their connections today"], "not a team vote": ["/prd-fig2.png", "Scoring note on seven shareability categories"] };
+      const figs = { "stakeholder connections today": ["/prd-fig1.png", "Stakeholders and their connections today"], "six of ten spaces scored": ["/prd-fig2.png", "Group scores for six opportunity spaces"] };
       doc.querySelectorAll("p").forEach(p => {
         const txt = p.textContent || "";
         if (!txt.includes("embedded content")) return;
